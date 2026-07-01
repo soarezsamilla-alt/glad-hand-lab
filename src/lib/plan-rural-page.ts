@@ -150,7 +150,7 @@ body{background:var(--navy);overflow-x:hidden}
 .pr .price-old{color:#9aa6b2;text-decoration:line-through;font-size:.92rem;margin-top:6px}
 .pr .price-now{font-family:'Montserrat',sans-serif;font-weight:900;font-size:clamp(2.4rem,6vw,3rem);color:var(--ink);line-height:1;margin:2px 0 4px}
 .pr .price-tagline{font-size:.8rem;color:#6f8a1c;font-weight:800;text-transform:uppercase;letter-spacing:.3px;margin-bottom:16px}
-.pr .price-mock{width:260px;margin:6px auto 16px;border-radius:10px;overflow:hidden}
+.pr .price-mock{width:min(100%,360px);margin:10px auto 18px;border-radius:10px;overflow:hidden}
 .pr .price-mock img{width:100%}
 .pr .price-list{list-style:none;text-align:left;display:flex;flex-direction:column;gap:11px;margin:8px 0 20px}
 .pr .price-list li{display:flex;gap:10px;align-items:flex-start;font-size:.9rem;font-weight:600;color:#34414f}
