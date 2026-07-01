@@ -73,6 +73,9 @@ body{background:var(--navy);overflow-x:hidden}
 .pr .cbtn:hover{background:var(--lime)}
 .pr .cprev{left:-8px}.pr .cnext{right:-8px}
 @media(max-width:600px){.pr .cprev{left:2px}.pr .cnext{right:2px}.pr .cbtn{width:38px;height:38px}}
+.pr .carousel--sample .carousel-track{scroll-snap-type:x mandatory;overflow:hidden}
+.pr .carousel--sample .img-card{flex:0 0 100%;width:100%;background:transparent;border:none;box-shadow:none;border-radius:0;display:flex;align-items:center;justify-content:center;scroll-snap-align:center}
+.pr .carousel--sample .img-card img{width:auto;max-width:100%;height:auto;max-height:80vh;aspect-ratio:auto;object-fit:contain;display:block;margin:0 auto;background:transparent}
 
 .pr .ba{max-width:680px;margin:42px auto 0;position:relative;border-radius:18px;overflow:hidden;aspect-ratio:16/11;box-shadow:var(--shadow-card);user-select:none;touch-action:none}
 .pr .ba-side{position:absolute;inset:0;display:flex;align-items:flex-start;justify-content:flex-start;padding:18px}
