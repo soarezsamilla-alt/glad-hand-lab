@@ -1,4 +1,3 @@
-import semProjetos from "@/assets/sem-projetos.jpg";
 import comProjetos from "@/assets/com-projetos.jpg";
 
 export const pageCss = String.raw`
