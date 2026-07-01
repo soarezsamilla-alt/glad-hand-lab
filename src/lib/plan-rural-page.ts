@@ -1,3 +1,6 @@
+import semProjetos from "@/assets/sem-projetos.jpg";
+import comProjetos from "@/assets/com-projetos.jpg";
+
 export const pageCss = String.raw`
 :root{
   --navy:#0a1a2c; --navy-2:#0c2138; --navy-card:#102339; --navy-border:rgba(255,255,255,.08);
@@ -77,15 +80,13 @@ body{background:var(--navy);overflow-x:hidden}
 .pr .carousel--sample .img-card{flex:0 0 100%;width:100%;background:transparent;border:none;box-shadow:none;border-radius:0;display:flex;align-items:center;justify-content:center;scroll-snap-align:center}
 .pr .carousel--sample .img-card img{width:auto;max-width:min(100%,420px);height:auto;max-height:55vh;aspect-ratio:auto;object-fit:contain;display:block;margin:0 auto;background:transparent}
 
-.pr .ba{max-width:680px;margin:42px auto 0;position:relative;border-radius:18px;overflow:hidden;aspect-ratio:16/11;box-shadow:var(--shadow-card);user-select:none;touch-action:none}
-.pr .ba-side{position:absolute;inset:0;display:flex;align-items:flex-start;justify-content:flex-start;padding:18px}
-.pr .ba-after{background:linear-gradient(160deg,#7bb661,#4e8a3a 60%,#356a28)}
-.pr .ba-before{background:linear-gradient(160deg,#9a9385,#6f6a5e 60%,#54503f);clip-path:inset(0 50% 0 0)}
+.pr .ba{max-width:880px;margin:42px auto 0;position:relative;border-radius:18px;overflow:hidden;display:grid;grid-template-columns:1fr 1fr;aspect-ratio:16/9;box-shadow:var(--shadow-card)}
+.pr .ba-side{position:relative;overflow:hidden;display:flex;align-items:flex-start;justify-content:flex-start;padding:18px}
+.pr .ba-side img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:0}
+.pr .ba-side>.ba-badge{position:relative;z-index:2}
+.pr .ba-after{border-left:4px solid #fff}
 .pr .ba-badge{display:inline-flex;align-items:center;gap:8px;background:#fff;padding:7px 14px;border-radius:999px;font-family:'Montserrat',sans-serif;font-weight:800;font-size:.78rem;color:#1c1c1c;box-shadow:0 6px 16px -8px rgba(0,0,0,.4)}
 .pr .ba-badge.bad{color:#d23030}.pr .ba-badge.good{color:#1f8a36}.pr .ba-after .ba-badge{margin-left:auto}
-.pr .ba-handle{position:absolute;top:0;bottom:0;left:50%;width:4px;background:#fff;transform:translateX(-50%);z-index:3;pointer-events:none}
-.pr .ba-knob{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:44px;height:44px;border-radius:50%;background:#fff;display:grid;place-items:center;z-index:4;box-shadow:0 4px 14px rgba(0,0,0,.35);pointer-events:none;font-weight:900;color:#222}
-.pr .ba-range{position:absolute;inset:0;width:100%;height:100%;opacity:0;cursor:ew-resize;z-index:5;margin:0}
 .pr .cmp-wrap{display:grid;grid-template-columns:1fr 1fr;gap:24px;max-width:880px;margin:36px auto 0}
 .pr .cmp-card{background:#f6f7f9;border-radius:16px;padding:26px 24px;box-shadow:0 10px 26px -18px rgba(0,0,0,.3)}
 .pr .cmp-pill{display:flex;align-items:center;justify-content:center;gap:8px;font-family:'Montserrat',sans-serif;font-weight:800;font-size:.86rem;padding:11px;border-radius:10px;text-transform:uppercase;margin-bottom:18px}
@@ -296,14 +297,14 @@ export const pageHtml = String.raw`<div class="pr">
   <div class="wrap reveal">
     <h2 class="sec-title">Veja a diferença <span class="mark">Sem os Projetos</span> e <span class="mark">Com os Projetos</span></h2>
     <div class="ba" id="ba">
-      <div class="ba-side ba-after">
-        <span class="ba-badge good"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#1f8a36" stroke-width="2.6"><circle cx="12" cy="12" r="10"/><path d="m8 12 3 3 5-6"/></svg> Com +100 Projetos</span>
-      </div>
-      <div class="ba-side ba-before" id="baBefore">
+      <div class="ba-side ba-before">
+        <img src="${semProjetos}" alt="Propriedade sem os projetos" loading="lazy">
         <span class="ba-badge bad"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#d23030" stroke-width="2.6"><circle cx="12" cy="12" r="10"/><path d="m15 9-6 6M9 9l6 6"/></svg> Sem os Projetos</span>
       </div>
-      <div class="ba-handle" id="baHandle"><div class="ba-knob">⇄</div></div>
-      <input type="range" class="ba-range" id="baRange" min="0" max="100" value="50" aria-label="Comparar antes e depois">
+      <div class="ba-side ba-after">
+        <img src="${comProjetos}" alt="Propriedade com os projetos" loading="lazy">
+        <span class="ba-badge good"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#1f8a36" stroke-width="2.6"><circle cx="12" cy="12" r="10"/><path d="m8 12 3 3 5-6"/></svg> Com +100 Projetos</span>
+      </div>
     </div>
     <div class="cmp-wrap">
       <div class="cmp-card">
@@ -553,19 +554,6 @@ export function initPage(root: HTMLElement): () => void {
   root.querySelectorAll(".reveal").forEach((el) => io.observe(el));
   observers.push(io);
 
-  const range = root.querySelector<HTMLInputElement>("#baRange");
-  const before = root.querySelector<HTMLElement>("#baBefore");
-  const handle = root.querySelector<HTMLElement>("#baHandle");
-  const setBA = (v: number) => {
-    if (before) before.style.clipPath = `inset(0 ${100 - v}% 0 0)`;
-    if (handle) handle.style.left = v + "%";
-  };
-  if (range) {
-    range.addEventListener("input", function () {
-      setBA(Number(this.value));
-    });
-    setBA(50);
-  }
 
   root.querySelectorAll<HTMLElement>("[data-carousel]").forEach((c) => {
     const track = c.querySelector<HTMLElement>("[data-track]");
