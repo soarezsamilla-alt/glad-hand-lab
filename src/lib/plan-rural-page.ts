@@ -1,5 +1,3 @@
-import resultadoNaHoraImg from "@/assets/resultado-na-hora.jpg";
-
 export const pageCss = String.raw`
 :root{
   --navy:#0a1a2c; --navy-2:#0c2138; --navy-card:#102339; --navy-border:rgba(255,255,255,.08);
@@ -334,7 +332,7 @@ export const pageHtml = String.raw`<div class="pr">
     <h2 class="sec-title" style="margin-top:16px">Você vai <span class="lime-text">ver resultados na hora</span></h2>
     <p class="sec-sub">Imagine olhar seu terreno e <b style="color:#fff">saber exatamente o que fazer</b> em cada parte.</p>
     <div class="split" style="text-align:left">
-      <div class="split-img"><img src="${resultadoNaHoraImg}" alt="Produtor vendo resultados imediatos com o Plan Rural" loading="lazy" width="1024" height="768"></div>
+      <div class="split-img"><img src="https://www.image2url.com/r2/default/images/1782948649831-c8d0ed2e-6149-4bb8-8cf2-a8027feb68f5.jpeg" alt="Produtor vendo resultados imediatos com o Plan Rural" loading="lazy" width="1024" height="768"></div>
       <ul class="check-list">
         <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6"><path d="M20 6 9 17l-5-5"/></svg> Planeja tudo em poucos dias</li>
         <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6"><path d="M20 6 9 17l-5-5"/></svg> Organiza sua propriedade com clareza</li>
