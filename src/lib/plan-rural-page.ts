@@ -1,3 +1,4 @@
+import comparacaoSplit from "@/assets/comparacao-split.jpg.asset.json";
 
 export const pageCss = String.raw`
 :root{
