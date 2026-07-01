@@ -1,4 +1,3 @@
-import semProjetos from "@/assets/sem-projetos.jpg";
 import comProjetos from "@/assets/com-projetos.jpg";
 
 export const pageCss = String.raw`
@@ -298,7 +297,7 @@ export const pageHtml = String.raw`<div class="pr">
     <h2 class="sec-title">Veja a diferença <span class="mark">Sem os Projetos</span> e <span class="mark">Com os Projetos</span></h2>
     <div class="ba" id="ba">
       <div class="ba-side ba-before">
-        <img src="${semProjetos}" alt="Propriedade sem os projetos" loading="lazy">
+        <img src="https://www.image2url.com/r2/default/images/1782950019898-fc48cf38-fc69-48b8-b92d-91a7f288f105.jpg" alt="Propriedade sem os projetos" loading="lazy">
         <span class="ba-badge bad"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#d23030" stroke-width="2.6"><circle cx="12" cy="12" r="10"/><path d="m15 9-6 6M9 9l6 6"/></svg> Sem os Projetos</span>
       </div>
       <div class="ba-side ba-after">
