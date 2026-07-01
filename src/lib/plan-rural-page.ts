@@ -353,7 +353,7 @@ export const pageHtml = String.raw`<div class="pr">
     <div class="kit-card">
       <div class="kit-mock">
         <span class="flag-red">Acesso Imediato</span>
-        <img src="https://www.image2url.com/r2/default/images/1778552394691-76f979f4-92b8-4995-8bce-ef884aa21ada.png" alt="Kit +100 Projetos">
+        <img src="https://www.image2url.com/r2/default/images/1782948795231-bec3f465-9115-4564-9f83-2d9405d6dec1.webp" alt="Kit +100 Projetos">
       </div>
       <div>
         <span class="item-tag">ITEM 01</span>
