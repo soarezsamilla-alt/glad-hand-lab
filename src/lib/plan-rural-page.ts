@@ -269,7 +269,7 @@ export const pageHtml = String.raw`<div class="pr">
   <div class="wrap reveal">
     <h2 class="sec-title">📖 Uma amostra do <span class="mark">material que você vai receber</span></h2>
     <p class="sec-sub">Exemplos reais das páginas que você vai receber. Cada projeto com padrão editorial profissional.</p>
-    <div class="carousel" data-carousel>
+    <div class="carousel carousel--sample" id="sample-carousel" data-carousel data-autoplay="3500">
       <button class="cbtn cprev" data-prev aria-label="Anterior"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="m15 18-6-6 6-6"/></svg></button>
       <div class="carousel-track" data-track>
         <div class="img-card"><img src="https://www.image2url.com/r2/default/images/1779227478825-868e1785-44e5-4fd5-bf0e-aa8791f8a54c.png" alt="Amostra 01"></div>
