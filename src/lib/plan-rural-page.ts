@@ -150,7 +150,7 @@ body{background:var(--navy);overflow-x:hidden}
 .pr .price-old{color:#9aa6b2;text-decoration:line-through;font-size:.92rem;margin-top:6px}
 .pr .price-now{font-family:'Montserrat',sans-serif;font-weight:900;font-size:clamp(2.4rem,6vw,3rem);color:var(--ink);line-height:1;margin:2px 0 4px}
 .pr .price-tagline{font-size:.8rem;color:#6f8a1c;font-weight:800;text-transform:uppercase;letter-spacing:.3px;margin-bottom:16px}
-.pr .price-mock{width:170px;margin:6px auto 16px;border-radius:10px;overflow:hidden}
+.pr .price-mock{width:260px;margin:6px auto 16px;border-radius:10px;overflow:hidden}
 .pr .price-mock img{width:100%}
 .pr .price-list{list-style:none;text-align:left;display:flex;flex-direction:column;gap:11px;margin:8px 0 20px}
 .pr .price-list li{display:flex;gap:10px;align-items:flex-start;font-size:.9rem;font-weight:600;color:#34414f}
@@ -425,17 +425,16 @@ export const pageHtml = String.raw`<div class="pr">
   <div class="wrap reveal">
     <h2 class="sec-title">Garanta agora com um <span class="lime-text" style="-webkit-text-stroke:.5px #9bc52a">preço especial</span></h2>
     <p class="sec-sub">Inclui acesso vitalício, todos os bônus e 7 dias de garantia total.</p>
-    <div class="price-flag"><span class="eyebrow">★ Oferta Limitada ★</span></div>
-    <p style="text-align:center;font-family:'Montserrat',sans-serif;font-weight:800;text-transform:uppercase;letter-spacing:.5px;color:var(--muted-l);font-size:.8rem;margin-bottom:4px">A oferta termina em:</p>
-    <div class="countdown" id="countdown">
-      <div class="cd-box"><b id="cd-h">23</b><span>Horas</span></div>
-      <div class="cd-box"><b id="cd-m">59</b><span>Min</span></div>
-      <div class="cd-box"><b id="cd-s">59</b><span>Seg</span></div>
-    </div>
     <div class="price-single">
       <div class="price-card">
         <span class="best-tag">★ Mais Vendido · Acesso Completo ★</span>
         <h3>Acesso Completo</h3>
+        <p style="text-align:center;font-family:'Montserrat',sans-serif;font-weight:800;text-transform:uppercase;letter-spacing:.5px;color:var(--muted-l);font-size:.8rem;margin:8px 0 4px">A oferta termina em:</p>
+        <div class="countdown" id="countdown">
+          <div class="cd-box"><b id="cd-h">23</b><span>Horas</span></div>
+          <div class="cd-box"><b id="cd-m">59</b><span>Min</span></div>
+          <div class="cd-box"><b id="cd-s">59</b><span>Seg</span></div>
+        </div>
         <p class="price-old">De $137 USD por</p>
         <p class="price-now">$7,90</p>
         <p class="price-tagline">Pagamento único · Acesso vitalício + Bônus</p>
