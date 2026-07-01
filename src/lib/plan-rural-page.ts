@@ -579,6 +579,23 @@ export function initPage(root: HTMLElement): () => void {
     };
     prev?.addEventListener("click", () => track.scrollBy({ left: -step(), behavior: "smooth" }));
     next?.addEventListener("click", () => track.scrollBy({ left: step(), behavior: "smooth" }));
+
+    const autoplayMs = Number(c.getAttribute("data-autoplay") || 0);
+    if (autoplayMs > 0) {
+      let paused = false;
+      c.addEventListener("mouseenter", () => { paused = true; });
+      c.addEventListener("mouseleave", () => { paused = false; });
+      timers.push(window.setInterval(() => {
+        if (paused) return;
+        const s = step();
+        const maxLeft = track.scrollWidth - track.clientWidth - 2;
+        if (track.scrollLeft >= maxLeft) {
+          track.scrollTo({ left: 0, behavior: "smooth" });
+        } else {
+          track.scrollBy({ left: s, behavior: "smooth" });
+        }
+      }, autoplayMs));
+    }
   });
 
   root.querySelectorAll<HTMLElement>("#faq .faq-item").forEach((item) => {
