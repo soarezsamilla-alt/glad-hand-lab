@@ -1,4 +1,3 @@
-import comProjetos from "@/assets/com-projetos.jpg";
 
 export const pageCss = String.raw`
 :root{
