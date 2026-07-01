@@ -427,7 +427,7 @@ export const pageHtml = String.raw`<div class="pr">
     <p class="sec-sub">Inclui acesso vitalício, todos os bônus e 7 dias de garantia total.</p>
     <div class="price-single">
       <div class="price-card">
-        <span class="best-tag">★ Mais Vendido · Acesso Completo ★</span>
+        <span class="best-tag">★ Acesso Completo ★</span>
         <h3>Acesso Completo</h3>
         <p style="text-align:center;font-family:'Montserrat',sans-serif;font-weight:800;text-transform:uppercase;letter-spacing:.5px;color:var(--muted-l);font-size:.8rem;margin:8px 0 4px">A oferta termina em:</p>
         <div class="countdown" id="countdown">
