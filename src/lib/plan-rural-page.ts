@@ -554,19 +554,6 @@ export function initPage(root: HTMLElement): () => void {
   root.querySelectorAll(".reveal").forEach((el) => io.observe(el));
   observers.push(io);
 
-  const range = root.querySelector<HTMLInputElement>("#baRange");
-  const before = root.querySelector<HTMLElement>("#baBefore");
-  const handle = root.querySelector<HTMLElement>("#baHandle");
-  const setBA = (v: number) => {
-    if (before) before.style.clipPath = `inset(0 ${100 - v}% 0 0)`;
-    if (handle) handle.style.left = v + "%";
-  };
-  if (range) {
-    range.addEventListener("input", function () {
-      setBA(Number(this.value));
-    });
-    setBA(50);
-  }
 
   root.querySelectorAll<HTMLElement>("[data-carousel]").forEach((c) => {
     const track = c.querySelector<HTMLElement>("[data-track]");
