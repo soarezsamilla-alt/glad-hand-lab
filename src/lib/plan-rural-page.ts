@@ -334,7 +334,7 @@ export const pageHtml = String.raw`<div class="pr">
     <h2 class="sec-title" style="margin-top:16px">Você vai <span class="lime-text">ver resultados na hora</span></h2>
     <p class="sec-sub">Imagine olhar seu terreno e <b style="color:#fff">saber exatamente o que fazer</b> em cada parte.</p>
     <div class="split" style="text-align:left">
-      <div class="split-img"><img src="https://www.image2url.com/r2/default/images/1779408604249-61d0c563-741b-4a02-abb3-c4c8bc2c0013.png" alt="Propriedade rural organizada"></div>
+      <div class="split-img"><img src="${resultadoNaHoraImg}" alt="Produtor vendo resultados imediatos com o Plan Rural" loading="lazy" width="1024" height="768"></div>
       <ul class="check-list">
         <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6"><path d="M20 6 9 17l-5-5"/></svg> Planeja tudo em poucos dias</li>
         <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6"><path d="M20 6 9 17l-5-5"/></svg> Organiza sua propriedade com clareza</li>
