@@ -1,3 +1,6 @@
+import semProjetos from "@/assets/sem-projetos.jpg";
+import comProjetos from "@/assets/com-projetos.jpg";
+
 export const pageCss = String.raw`
 :root{
   --navy:#0a1a2c; --navy-2:#0c2138; --navy-card:#102339; --navy-border:rgba(255,255,255,.08);
