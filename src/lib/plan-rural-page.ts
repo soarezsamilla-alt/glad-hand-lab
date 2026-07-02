@@ -225,7 +225,7 @@ body{background:var(--navy);overflow-x:hidden}
 export const pageHtml = String.raw`<div class="pr">
 <div class="topbar">
   <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>
-  <span>★ Oferta de lançamento · Edição limitada 2026 ★</span>
+  <span>👀 <span id="pr-viewers">10</span> pessoas estão vendo esta página agora</span>
 </div>
 
 <header class="hero">
@@ -638,6 +638,20 @@ export function initPage(root: HTMLElement): () => void {
   };
   timers.push(window.setTimeout(showToast, 3500));
   timers.push(window.setInterval(showToast, 11000));
+
+  // Contador dinâmico de "pessoas vendo a página"
+  const viewersEl = root.querySelector<HTMLElement>("#pr-viewers");
+  if (viewersEl) {
+    let current = 10;
+    timers.push(
+      window.setInterval(() => {
+        const delta = Math.floor(Math.random() * 3) - 1; // -1, 0, +1
+        current = Math.max(5, Math.min(15, current + delta));
+        viewersEl.textContent = String(current);
+      }, 2500)
+    );
+  }
+
 
   return () => {
     timers.forEach((t) => {
