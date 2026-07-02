@@ -109,6 +109,12 @@ function RootShell({ children }: { children: ReactNode }) {
         <HeadContent />
         <script dangerouslySetInnerHTML={{ __html: pixelSnippet }} />
         <script dangerouslySetInnerHTML={{ __html: utmifyPixelSnippet }} />
+        <script
+          src="https://cdn.utmify.com.br/scripts/utms/latest.js"
+          data-utmify-prevent-subids
+          async
+          defer
+        />
         <noscript>
           <img
             height="1"
