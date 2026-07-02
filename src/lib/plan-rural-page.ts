@@ -32,9 +32,11 @@ body{background:var(--navy);overflow-x:hidden}
 .pr .mark-dark{background:var(--ink);color:#fff;padding:.02em .2em;border-radius:3px;-webkit-box-decoration-break:clone;box-decoration-break:clone}
 .pr .lime-text{color:var(--lime)}
 .pr .lime-ul{color:#fff;border-bottom:4px solid var(--lime);padding-bottom:3px;display:inline-block;line-height:1}
-.pr .btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;font-family:'Montserrat',sans-serif;font-weight:800;text-transform:uppercase;letter-spacing:.4px;font-size:clamp(.92rem,2vw,1.05rem);background:var(--lime);color:#0a1a2c;padding:19px 40px;border-radius:999px;box-shadow:0 14px 30px -10px rgba(169,230,0,.55);transition:transform .18s ease,box-shadow .18s ease,filter .18s ease;text-align:center}
-.pr .btn:hover{transform:translateY(-2px) scale(1.015);filter:brightness(1.04);box-shadow:0 20px 38px -12px rgba(169,230,0,.7)}
-.pr .btn:active{transform:translateY(0) scale(.99)}
+@keyframes prBtnPulse{0%,100%{transform:scale(1);box-shadow:0 14px 30px -10px rgba(169,230,0,.55)}50%{transform:scale(1.03);box-shadow:0 18px 36px -10px rgba(169,230,0,.75)}}
+.pr .btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;font-family:'Montserrat',sans-serif;font-weight:800;text-transform:uppercase;letter-spacing:.4px;font-size:clamp(.92rem,2vw,1.05rem);background:var(--lime);color:#0a1a2c;padding:19px 40px;border-radius:999px;box-shadow:0 14px 30px -10px rgba(169,230,0,.55);transition:transform .18s ease,box-shadow .18s ease,filter .18s ease;text-align:center;animation:prBtnPulse 2.4s ease-in-out infinite;will-change:transform}
+.pr .btn:hover{animation-play-state:paused;transform:translateY(-2px) scale(1.03);filter:brightness(1.04);box-shadow:0 20px 38px -12px rgba(169,230,0,.7)}
+.pr .btn:active{animation-play-state:paused;transform:translateY(0) scale(.99)}
+@media (prefers-reduced-motion:reduce){.pr .btn{animation:none}}
 .pr .btn .arr{font-weight:900}
 .pr .eyebrow{display:inline-flex;align-items:center;gap:8px;font-family:'Montserrat',sans-serif;font-weight:800;font-size:.74rem;letter-spacing:.6px;text-transform:uppercase;padding:8px 16px;border-radius:999px}
 .pr .reveal{opacity:0;transform:translateY(26px);transition:opacity .6s ease,transform .6s ease}
@@ -236,7 +238,7 @@ export const pageHtml = String.raw`<div class="pr">
     <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>
     Acesso imediato no seu e-mail · Pagamento 100% seguro
   </div>
-  <div><a href="#pricing" class="btn">Quero meu Projeto por $7,90</a></div>
+  <div><a href="#pricing" class="btn">Quero meu Projeto por $9,00</a></div>
   <div class="trust-line">★ Acesso imediato · 7 dias de garantia ★</div>
 </header>
 
@@ -384,7 +386,7 @@ export const pageHtml = String.raw`<div class="pr">
       <article class="bonus-card"><div class="bonus-cover"><span class="bonus-num">Bônus 05</span><img src="https://www.image2url.com/r2/default/images/1779889057973-9851ad9e-b9ce-46dd-8e8d-a1e76b788c25.png" alt="Cultivos Alto Valor"></div><div class="bonus-body"><h3>Guia de Cultivos de Alto Valor</h3><p>Descubra as plantas mais rentáveis por m².</p><div class="bonus-price"><span class="old">$17 USD</span><span class="free">GRÁTIS</span></div></div></article>
       <article class="bonus-card"><div class="bonus-cover"><span class="bonus-num">Bônus 06</span><img src="https://www.image2url.com/r2/default/images/1779896748774-3c025729-45f8-4d9f-ab03-ee8c368aa1ee.png" alt="Água e Irrigação"></div><div class="bonus-body"><h3>Manual de Água e Irrigação</h3><p>Capte água da chuva, monte cisternas e irrigação eficiente.</p><div class="bonus-price"><span class="old">$17 USD</span><span class="free">GRÁTIS</span></div></div></article>
     </div>
-    <div class="center-btn" style="margin-top:36px"><a href="#pricing" class="btn">Quero meu Projeto por $7,90 <span class="arr">›</span></a></div>
+    <div class="center-btn" style="margin-top:36px"><a href="#pricing" class="btn">Quero meu Projeto por $9,00 <span class="arr">›</span></a></div>
   </div>
 </section>
 
@@ -435,7 +437,7 @@ export const pageHtml = String.raw`<div class="pr">
           <div class="cd-box"><b id="cd-s">59</b><span>Seg</span></div>
         </div>
         <p class="price-old">De $137 USD por</p>
-        <p class="price-now">$7,90</p>
+        <p class="price-now">$9,00</p>
         <p class="price-tagline">Pagamento único · Acesso vitalício + Bônus</p>
         <div class="price-mock"><img src="https://www.image2url.com/r2/default/images/1778629380417-163aca0b-6a61-4810-bc20-bc6912fb1e2b.png" alt="Acesso Completo"></div>
         <ul class="price-list">
@@ -450,7 +452,7 @@ export const pageHtml = String.raw`<div class="pr">
           <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.8"><path d="M20 6 9 17l-5-5"/></svg> Atualizações gratuitas semanais</li>
           <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.8"><path d="M20 6 9 17l-5-5"/></svg> Garantia de 7 dias</li>
         </ul>
-        <a href="https://pay.hotmart.com/K105902897X?checkoutMode=10" class="btn" target="_blank" rel="noopener">Quero meu Projeto por $7,90 <span class="arr">›</span></a>
+        <a href="https://pay.hotmart.com/K105902897X?checkoutMode=10" class="btn" target="_blank" rel="noopener">Quero meu Projeto por $9,00 <span class="arr">›</span></a>
         <p class="price-warn">🔥 Você não vai encontrar esse preço depois.</p>
         <p class="price-safe">Pagamento 100% seguro · Acesso imediato</p>
       </div>
