@@ -51,7 +51,8 @@ body{background:var(--navy);overflow-x:hidden}
 .pr .hero h1 .sub-line{display:block;color:var(--lime);margin-top:8px}
 .pr .hero-text{max-width:600px;margin:26px auto 0;color:var(--muted-d);font-size:clamp(1rem,2.6vw,1.15rem)}
 .pr .hero-text b{color:#fff}
-.pr .hero-mock{max-width:520px;margin:32px auto 0;border-radius:16px;overflow:hidden;box-shadow:0 30px 60px -28px rgba(0,0,0,.7)}
+.pr .hero-mock{max-width:520px;margin:32px auto 0;border-radius:16px;overflow:hidden;box-shadow:0 30px 60px -28px rgba(0,0,0,.7);animation:prBonusPulse 3s ease-in-out infinite;will-change:transform}
+@media (prefers-reduced-motion: reduce){.pr .hero-mock{animation:none}}
 .pr .notify-pill{display:inline-flex;align-items:center;gap:9px;margin:26px auto 0;background:transparent;border:1px solid var(--navy-border);padding:13px 22px;border-radius:999px;color:#dfe7ef;font-size:.92rem;font-weight:500}
 .pr .hero .btn{margin-top:26px}
 .pr .trust-line{margin-top:16px;color:var(--muted-d);font-size:.8rem;letter-spacing:.5px;text-transform:uppercase;font-weight:600}
