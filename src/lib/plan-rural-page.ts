@@ -248,28 +248,28 @@ export const pageHtml = String.raw`<div class="pr">
 
 <section class="sec sec--navy">
   <div class="wrap reveal">
-    <h2 class="sec-title">O que vai mudar <span class="lime-ul">na sua propriedade</span></h2>
-    <p class="sec-sub" style="font-style:italic">Chega de improvisar — aqui você executa com clareza</p>
+    <h2 class="sec-title">Lo que va a cambiar <span class="lime-ul">en tu propiedad</span></h2>
+    <p class="sec-sub" style="font-style:italic">Basta de improvisar — aquí ejecutas con claridad</p>
     <div class="grid-4">
       <div class="feat-card">
         <div class="feat-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 5s3-1 5 0 5 0 5 0v14s-3-1-5 0-5 0-5 0V5Z"/><path d="M12 5s3-1 5 0 5 0 5 0v14s-3-1-5 0-5 0-5 0"/></svg></div>
-        <h3>Planeje com Visão Profissional</h3>
-        <p>Pare de adivinhar o que fazer com seu terreno. Agora você segue projetos prontos com divisão estratégica.</p>
+        <h3>Planifica con Visión Profesional</h3>
+        <p>Deja de adivinar qué hacer con tu terreno. Ahora sigues proyectos listos con división estratégica.</p>
       </div>
       <div class="feat-card">
         <div class="feat-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M20 6 9 17l-5-5"/></svg></div>
-        <h3>Saiba Onde Vai Cada Coisa</h3>
-        <p>Casa, cultivos, animais, irrigação… tudo já posicionado para o melhor fluxo e aproveitamento.</p>
+        <h3>Sabe Dónde Va Cada Cosa</h3>
+        <p>Casa, cultivos, animales, riego… todo ya posicionado para el mejor flujo y aprovechamiento.</p>
       </div>
       <div class="feat-card">
         <div class="feat-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M13 2 3 14h7l-1 8 10-12h-7l1-8Z"/></svg></div>
-        <h3>Pare de Perder Tempo</h3>
-        <p>Sem erros, sem tentativas, sem desperdício. Projetos com medidas reais para aplicação direta.</p>
+        <h3>Deja de Perder Tiempo</h3>
+        <p>Sin errores, sin intentos, sin desperdicio. Proyectos con medidas reales para aplicación directa.</p>
       </div>
       <div class="feat-card">
         <div class="feat-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg></div>
-        <h3>Comece em Minutos</h3>
-        <p>Abra o projeto e aplique direto no seu terreno. Receba na hora no seu e-mail.</p>
+        <h3>Empieza en Minutos</h3>
+        <p>Abre el proyecto y aplícalo directo en tu terreno. Recíbelo al instante en tu correo.</p>
       </div>
     </div>
   </div>
