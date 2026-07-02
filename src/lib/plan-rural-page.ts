@@ -185,8 +185,6 @@ body{background:var(--navy);overflow-x:hidden}
 .pr .guar-seal b{font-size:1.5rem;display:block}.pr .guar-seal span{font-size:.5rem;letter-spacing:1.5px}
 .pr .guar-text h3{font-family:'Montserrat',sans-serif;font-weight:800;text-transform:uppercase;font-size:clamp(1rem,2.6vw,1.25rem);color:var(--ink);margin-bottom:8px}
 .pr .guar-text p{color:#586572;font-size:.94rem}.pr .guar-text b{color:var(--ink)}
-.pr .guar-badges{display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-top:26px}
-.pr .guar-badges span{font-family:'Montserrat',sans-serif;font-weight:800;font-size:.72rem;letter-spacing:.5px;color:#3f8a1f;background:#eafbe0;padding:8px 16px;border-radius:999px;text-transform:uppercase}
 
 .pr .footer{background:#fff;color:var(--ink);text-align:center;padding:20px 20px 60px}
 .pr .footer .brand{font-family:'Montserrat',sans-serif;font-weight:800;font-style:italic;font-size:1.35rem;color:var(--ink);margin-bottom:6px}
@@ -503,9 +501,6 @@ export const pageHtml = String.raw`<div class="pr">
         <h3>Garantia Incondicional de 7 Dias</h3>
         <p>Temos tanta confiança no valor do <b>Plan Rural</b> que assumimos todo o risco. Se em 7 dias você não estiver 100% satisfeito, devolvemos <b>cada centavo</b>.</p>
       </div>
-    </div>
-    <div class="guar-badges">
-      <span>★ Risco Zero</span><span>★ Acesso Imediato</span><span>★ Suporte Premium</span>
     </div>
   </div>
 </section>
