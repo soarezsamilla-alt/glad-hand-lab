@@ -58,7 +58,7 @@ body{background:var(--navy);overflow-x:hidden}
 .pr .hero .btn{margin-top:26px}
 .pr .trust-line{margin-top:16px;color:var(--muted-d);font-size:.8rem;letter-spacing:.5px;text-transform:uppercase;font-weight:600}
 
-.pr .grid-4{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;margin-top:46px;max-width:min(100%,1400px);margin-left:auto;margin-right:auto}
+.pr .grid-4{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;margin-top:46px;width:min(96vw,1440px);margin-left:50%;transform:translateX(-50%)}
 .pr .feat-card{background:var(--navy-card);border:1px solid var(--navy-border);border-radius:var(--radius);padding:30px 22px;text-align:center;transition:transform .2s ease,border-color .2s ease}
 .pr .feat-card:hover{transform:translateY(-4px);border-color:rgba(194,245,60,.4)}
 .pr .feat-ic{width:52px;height:52px;margin:0 auto 16px;display:grid;place-items:center;color:var(--lime)}
