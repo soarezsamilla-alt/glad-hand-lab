@@ -415,12 +415,12 @@ export const pageHtml = String.raw`<div class="pr">
 
 <section class="sec sec--navy">
   <div class="wrap reveal">
-    <h2 class="sec-title">Comece a organizar <span class="lime-text">em minutos</span></h2>
+    <h2 class="sec-title">Empieza a organizar <span class="lime-text">en minutos</span></h2>
     <div class="steps-grid">
-      <div class="step"><div class="step-num">1</div><h3>Faça o Pagamento</h3><p>Acesso imediato após a confirmação da compra.</p></div>
-      <div class="step"><div class="step-num">2</div><h3>Receba por E-mail</h3><p>Seu usuário e senha chegam em segundos.</p></div>
-      <div class="step"><div class="step-num">3</div><h3>Abra os Projetos</h3><p>Baixe os PDFs pelo celular, tablet ou computador.</p></div>
-      <div class="step"><div class="step-num">4</div><h3>Aplique na sua Terra</h3><p>Siga as plantas e transforme sua propriedade.</p></div>
+      <div class="step"><div class="step-num">1</div><h3>Realiza el Pago</h3><p>Acceso inmediato tras la confirmación de compra.</p></div>
+      <div class="step"><div class="step-num">2</div><h3>Recibe por Correo</h3><p>Tu usuario y contraseña llegan en segundos.</p></div>
+      <div class="step"><div class="step-num">3</div><h3>Abre los Proyectos</h3><p>Descarga los PDFs desde el celular, tablet o computadora.</p></div>
+      <div class="step"><div class="step-num">4</div><h3>Aplica en tu Tierra</h3><p>Sigue los planos y transforma tu propiedad.</p></div>
     </div>
     
   </div>
