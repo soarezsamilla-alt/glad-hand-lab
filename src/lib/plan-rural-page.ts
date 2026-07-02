@@ -301,29 +301,29 @@ export const pageHtml = String.raw`<div class="pr">
 
 <section class="sec sec--navy">
   <div class="wrap reveal">
-    <h2 class="sec-title">Veja a diferença <span class="mark">Sem os Projetos</span> e <span class="mark">Com os Projetos</span></h2>
+    <h2 class="sec-title">Mira la diferencia <span class="mark">Sin los Proyectos</span> y <span class="mark">Con los Proyectos</span></h2>
     <div class="ba" id="ba">
-      <img src="${comparacaoSplit.url}" alt="Comparação: sem os projetos vs com +100 projetos" loading="lazy" width="1024" height="576">
+      <img src="${comparacaoSplit.url}" alt="Comparación: sin los proyectos vs con +100 proyectos" loading="lazy" width="1024" height="576">
       <div class="ba-divider" aria-hidden="true"></div>
       <div class="ba-overlay">
-        <span class="ba-badge bad"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#d23030" stroke-width="2.6"><circle cx="12" cy="12" r="10"/><path d="m15 9-6 6M9 9l6 6"/></svg> Sem os Projetos</span>
-        <span class="ba-badge good"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#1f8a36" stroke-width="2.6"><circle cx="12" cy="12" r="10"/><path d="m8 12 3 3 5-6"/></svg> Com +100 Projetos</span>
+        <span class="ba-badge bad"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#d23030" stroke-width="2.6"><circle cx="12" cy="12" r="10"/><path d="m15 9-6 6M9 9l6 6"/></svg> Sin los Proyectos</span>
+        <span class="ba-badge good"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#1f8a36" stroke-width="2.6"><circle cx="12" cy="12" r="10"/><path d="m8 12 3 3 5-6"/></svg> Con +100 Proyectos</span>
       </div>
     </div>
     <div class="cmp-wrap">
       <div class="cmp-card">
-        <div class="cmp-pill bad"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6"><path d="m6 6 12 12M18 6 6 18"/></svg> Sem os projetos</div>
-        <div class="cmp-li"><svg class="x-ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6"><path d="m6 6 12 12M18 6 6 18"/></svg> Terra parada sem uso</div>
-        <div class="cmp-li"><svg class="x-ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6"><path d="m6 6 12 12M18 6 6 18"/></svg> Não sabe por onde começar</div>
-        <div class="cmp-li"><svg class="x-ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6"><path d="m6 6 12 12M18 6 6 18"/></svg> Mistura tudo sem organização</div>
-        <div class="cmp-li"><svg class="x-ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6"><path d="m6 6 12 12M18 6 6 18"/></svg> Depende de ideias soltas da internet</div>
+        <div class="cmp-pill bad"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6"><path d="m6 6 12 12M18 6 6 18"/></svg> Sin los proyectos</div>
+        <div class="cmp-li"><svg class="x-ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6"><path d="m6 6 12 12M18 6 6 18"/></svg> Tierra parada sin uso</div>
+        <div class="cmp-li"><svg class="x-ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6"><path d="m6 6 12 12M18 6 6 18"/></svg> No sabes por dónde empezar</div>
+        <div class="cmp-li"><svg class="x-ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6"><path d="m6 6 12 12M18 6 6 18"/></svg> Mezclas todo sin organización</div>
+        <div class="cmp-li"><svg class="x-ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6"><path d="m6 6 12 12M18 6 6 18"/></svg> Dependes de ideas sueltas de internet</div>
       </div>
       <div class="cmp-card">
-        <div class="cmp-pill good"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.8"><path d="M20 6 9 17l-5-5"/></svg> Com os projetos</div>
-        <div class="cmp-li"><svg class="v-ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.8"><path d="M20 6 9 17l-5-5"/></svg> Terreno dividido com estratégia</div>
-        <div class="cmp-li"><svg class="v-ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.8"><path d="M20 6 9 17l-5-5"/></svg> Cada área com função clara</div>
-        <div class="cmp-li"><svg class="v-ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.8"><path d="M20 6 9 17l-5-5"/></svg> Mais produtividade e renda</div>
-        <div class="cmp-li"><svg class="v-ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.8"><path d="M20 6 9 17l-5-5"/></svg> Planejamento profissional na sua mão</div>
+        <div class="cmp-pill good"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.8"><path d="M20 6 9 17l-5-5"/></svg> Con los proyectos</div>
+        <div class="cmp-li"><svg class="v-ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.8"><path d="M20 6 9 17l-5-5"/></svg> Terreno dividido con estrategia</div>
+        <div class="cmp-li"><svg class="v-ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.8"><path d="M20 6 9 17l-5-5"/></svg> Cada área con función clara</div>
+        <div class="cmp-li"><svg class="v-ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.8"><path d="M20 6 9 17l-5-5"/></svg> Más productividad y más ingresos</div>
+        <div class="cmp-li"><svg class="v-ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.8"><path d="M20 6 9 17l-5-5"/></svg> Planificación profesional en tu mano</div>
       </div>
     </div>
   </div>
