@@ -502,9 +502,6 @@ export const pageHtml = String.raw`<div class="pr">
         <p>Temos tanta confiança no valor do <b>Plan Rural</b> que assumimos todo o risco. Se em 7 dias você não estiver 100% satisfeito, devolvemos <b>cada centavo</b>.</p>
       </div>
     </div>
-    <div class="guar-badges">
-      <span>★ Risco Zero</span><span>★ Acesso Imediato</span><span>★ Suporte Premium</span>
-    </div>
   </div>
 </section>
 
