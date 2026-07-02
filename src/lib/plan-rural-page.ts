@@ -619,12 +619,12 @@ export function initPage(root: HTMLElement): () => void {
   timers.push(window.setInterval(tick, 1000));
 
   const people: [string, string][] = [
-    ["Juan P., de Bogotá", "Acabou de comprar · agora mesmo"],
-    ["María G., de Lima", "Acabou de comprar · há 2 min"],
-    ["Carlos R., da Cidade do México", "Acabou de comprar · há 4 min"],
-    ["Andrés M., de Quito", "Acabou de comprar · há 7 min"],
-    ["Sofía L., de Medellín", "Acabou de comprar · há 9 min"],
-    ["Diego T., de Guayaquil", "Acabou de comprar · há 12 min"],
+    ["Juan P., de Bogotá", "Acaba de comprar · ahora mismo"],
+    ["María G., de Lima", "Acaba de comprar · hace 2 min"],
+    ["Carlos R., de Ciudad de México", "Acaba de comprar · hace 4 min"],
+    ["Andrés M., de Quito", "Acaba de comprar · hace 7 min"],
+    ["Sofía L., de Medellín", "Acaba de comprar · hace 9 min"],
+    ["Diego T., de Guayaquil", "Acaba de comprar · hace 12 min"],
   ];
   const toast = root.querySelector<HTMLElement>("#toast");
   const tn = root.querySelector<HTMLElement>("#toastName");
