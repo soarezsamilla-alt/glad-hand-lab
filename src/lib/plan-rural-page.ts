@@ -639,6 +639,20 @@ export function initPage(root: HTMLElement): () => void {
   timers.push(window.setTimeout(showToast, 3500));
   timers.push(window.setInterval(showToast, 11000));
 
+  // Contador dinâmico de "pessoas vendo a página"
+  const viewersEl = root.querySelector<HTMLElement>("#pr-viewers");
+  if (viewersEl) {
+    let current = 10;
+    timers.push(
+      window.setInterval(() => {
+        const delta = Math.floor(Math.random() * 3) - 1; // -1, 0, +1
+        current = Math.max(5, Math.min(15, current + delta));
+        viewersEl.textContent = String(current);
+      }, 2500)
+    );
+  }
+
+
   return () => {
     timers.forEach((t) => {
       clearTimeout(t);
