@@ -396,19 +396,19 @@ export const pageHtml = String.raw`<div class="pr">
 
 <section class="sec sec--white">
   <div class="wrap reveal">
-    <h2 class="sec-title">Quem comprou, <span class="mark">recomenda</span></h2>
-    <p class="sec-sub">Resultados reais e comentários de produtores que já usam o Plan Rural.</p>
+    <h2 class="sec-title">Quienes compraron, <span class="mark">recomiendan</span></h2>
+    <p class="sec-sub">Resultados reales y comentarios de productores que ya usan Plan Rural.</p>
     <div class="carousel carousel--sample carousel--testi" data-carousel data-autoplay="4000">
       <button class="cbtn cprev" data-prev aria-label="Anterior"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="m15 18-6-6 6-6"/></svg></button>
       <div class="carousel-track" data-track>
-        <div class="img-card testi-card"><img src="https://www.image2url.com/r2/default/images/1778637463831-fff617a2-1307-4006-b7a7-2b35037e57c7.png" alt="Depoimento 01"></div>
-        <div class="img-card testi-card"><img src="https://www.image2url.com/r2/default/images/1778637789011-de4100ad-82ff-401f-be3d-d381a3f5679e.png" alt="Depoimento 02"></div>
-        <div class="img-card testi-card"><img src="https://www.image2url.com/r2/default/images/1778638049492-5c823441-bc0b-4efb-9a58-f3a4bc8b0bcc.png" alt="Depoimento 03"></div>
-        <div class="img-card testi-card"><img src="https://www.image2url.com/r2/default/images/1778636217662-148f37cc-1c82-403e-b5b2-382b7420f389.png" alt="Depoimento 04"></div>
-        <div class="img-card testi-card"><img src="https://www.image2url.com/r2/default/images/1778636316874-a0464222-93ee-420e-a099-ef453dbea104.png" alt="Depoimento 05"></div>
-        <div class="img-card testi-card"><img src="https://www.image2url.com/r2/default/images/1778636394813-07c11f56-46b7-49a5-9834-4f24846eeb3e.png" alt="Depoimento 06"></div>
+        <div class="img-card testi-card"><img src="https://www.image2url.com/r2/default/images/1778637463831-fff617a2-1307-4006-b7a7-2b35037e57c7.png" alt="Testimonio 01"></div>
+        <div class="img-card testi-card"><img src="https://www.image2url.com/r2/default/images/1778637789011-de4100ad-82ff-401f-be3d-d381a3f5679e.png" alt="Testimonio 02"></div>
+        <div class="img-card testi-card"><img src="https://www.image2url.com/r2/default/images/1778638049492-5c823441-bc0b-4efb-9a58-f3a4bc8b0bcc.png" alt="Testimonio 03"></div>
+        <div class="img-card testi-card"><img src="https://www.image2url.com/r2/default/images/1778636217662-148f37cc-1c82-403e-b5b2-382b7420f389.png" alt="Testimonio 04"></div>
+        <div class="img-card testi-card"><img src="https://www.image2url.com/r2/default/images/1778636316874-a0464222-93ee-420e-a099-ef453dbea104.png" alt="Testimonio 05"></div>
+        <div class="img-card testi-card"><img src="https://www.image2url.com/r2/default/images/1778636394813-07c11f56-46b7-49a5-9834-4f24846eeb3e.png" alt="Testimonio 06"></div>
       </div>
-      <button class="cbtn cnext" data-next aria-label="Próximo"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="m9 18 6-6-6-6"/></svg></button>
+      <button class="cbtn cnext" data-next aria-label="Siguiente"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="m9 18 6-6-6-6"/></svg></button>
     </div>
   </div>
 </section>
