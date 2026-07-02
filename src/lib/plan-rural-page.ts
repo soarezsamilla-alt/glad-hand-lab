@@ -466,18 +466,18 @@ export const pageHtml = String.raw`<div class="pr">
 
 <section class="sec sec--navy">
   <div class="wrap reveal" style="text-align:center">
-    <span class="eyebrow" style="background:rgba(194,245,60,.12);color:var(--lime);border:1px solid rgba(194,245,60,.3)">★ Conheça o Criador ★</span>
-    <h2 class="sec-title" style="margin-top:16px">Quem está por trás do <span class="lime-text">Plan Rural</span></h2>
+    <span class="eyebrow" style="background:rgba(194,245,60,.12);color:var(--lime);border:1px solid rgba(194,245,60,.3)">★ Conoce al Creador ★</span>
+    <h2 class="sec-title" style="margin-top:16px">Quién está detrás de <span class="lime-text">Plan Rural</span></h2>
     <div class="creator" style="text-align:left">
       <div class="creator-photo"><img src="https://www.image2url.com/r2/default/images/1778714848819-60a6bb5e-390a-4372-8731-66d19e3ed55b.png" alt="Alejandro Martínez"></div>
       <div>
         <h3>Alejandro Martínez</h3>
-        <p class="role">Fundador e Criador</p>
-        <p>Engenheiro agrônomo com mais de 15 anos de experiência em planejamento rural em toda a América Latina. Já visitou mais de 3.000 propriedades em 8 países. Sua missão é democratizar o conhecimento rural profissional.</p>
+        <p class="role">Fundador y Creador</p>
+        <p>Ingeniero agrónomo con más de 15 años de experiencia en planificación rural en toda América Latina. Ha visitado más de 3.000 propiedades en 8 países. Su misión es democratizar el conocimiento rural profesional.</p>
         <div class="creator-stats">
-          <div><b>15+</b><span>Anos exp.</span></div>
-          <div><b>3k+</b><span>Propriedades</span></div>
-          <div><b>12 mil</b><span>Produtores</span></div>
+          <div><b>15+</b><span>Años exp.</span></div>
+          <div><b>3k+</b><span>Propiedades</span></div>
+          <div><b>12 mil</b><span>Productores</span></div>
         </div>
       </div>
     </div>
