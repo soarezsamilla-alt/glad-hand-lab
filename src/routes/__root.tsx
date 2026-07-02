@@ -108,6 +108,7 @@ function RootShell({ children }: { children: ReactNode }) {
       <head>
         <HeadContent />
         <script dangerouslySetInnerHTML={{ __html: pixelSnippet }} />
+        <script dangerouslySetInnerHTML={{ __html: utmifyPixelSnippet }} />
         <noscript>
           <img
             height="1"
