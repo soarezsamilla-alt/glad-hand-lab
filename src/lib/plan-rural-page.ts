@@ -418,7 +418,7 @@ export const pageHtml = String.raw`<div class="pr">
       <div class="step"><div class="step-num">3</div><h3>Abra os Projetos</h3><p>Baixe os PDFs pelo celular, tablet ou computador.</p></div>
       <div class="step"><div class="step-num">4</div><h3>Aplique na sua Terra</h3><p>Siga as plantas e transforme sua propriedade.</p></div>
     </div>
-    <div class="center-btn"><a href="#pricing" class="btn">Quero meu Acesso Agora <span class="arr">›</span></a></div>
+    
   </div>
 </section>
 
