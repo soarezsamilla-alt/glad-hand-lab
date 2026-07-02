@@ -277,25 +277,25 @@ export const pageHtml = String.raw`<div class="pr">
 
 <section class="sec sec--white">
   <div class="wrap reveal">
-    <h2 class="sec-title">📖 Uma amostra do <span class="mark">material que você vai receber</span></h2>
-    <p class="sec-sub">Exemplos reais das páginas que você vai receber. Cada projeto com padrão editorial profissional.</p>
+    <h2 class="sec-title">📖 Una muestra del <span class="mark">material que vas a recibir</span></h2>
+    <p class="sec-sub">Ejemplos reales de las páginas que vas a recibir. Cada proyecto con estándar editorial profesional.</p>
     <div class="carousel carousel--sample" id="sample-carousel" data-carousel data-autoplay="3500">
       <button class="cbtn cprev" data-prev aria-label="Anterior"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="m15 18-6-6 6-6"/></svg></button>
       <div class="carousel-track" data-track>
-        <div class="img-card"><img src="https://www.image2url.com/r2/default/images/1779227478825-868e1785-44e5-4fd5-bf0e-aa8791f8a54c.png" alt="Amostra 01"></div>
-        <div class="img-card"><img src="https://www.image2url.com/r2/default/images/1779227527836-7e9d7bb3-c918-41e2-95c0-39e80dee8196.png" alt="Amostra 02"></div>
-        <div class="img-card"><img src="https://www.image2url.com/r2/default/images/1779227580437-27b3966c-241e-418b-bdfd-38e28079f541.png" alt="Amostra 03"></div>
-        <div class="img-card"><img src="https://www.image2url.com/r2/default/images/1779227648888-85c1e9e8-0d02-4d79-89f1-951f7ede0c01.png" alt="Amostra 04"></div>
-        <div class="img-card"><img src="https://www.image2url.com/r2/default/images/1779227686186-73c64665-434b-45e6-92d5-310175b4f083.png" alt="Amostra 05"></div>
-        <div class="img-card"><img src="https://www.image2url.com/r2/default/images/1779227721192-f5bc4948-4530-4b83-b1ff-e3a8a42eff09.png" alt="Amostra 06"></div>
-        <div class="img-card"><img src="https://www.image2url.com/r2/default/images/1779228796729-063bc753-d313-4b18-ad7e-34738b1f2283.png" alt="Amostra 07"></div>
-        <div class="img-card"><img src="https://www.image2url.com/r2/default/images/1779227831149-3f632b9b-e796-4e8f-b5a2-0d7596a49079.png" alt="Amostra 08"></div>
-        <div class="img-card"><img src="https://www.image2url.com/r2/default/images/1779227882622-fd2c3720-9941-487a-9225-813b6be2beec.png" alt="Amostra 09"></div>
-        <div class="img-card"><img src="https://www.image2url.com/r2/default/images/1779227946126-db94f760-60fb-40ca-ba51-3ddbf2c8ff92.png" alt="Amostra 10"></div>
+        <div class="img-card"><img src="https://www.image2url.com/r2/default/images/1779227478825-868e1785-44e5-4fd5-bf0e-aa8791f8a54c.png" alt="Muestra 01"></div>
+        <div class="img-card"><img src="https://www.image2url.com/r2/default/images/1779227527836-7e9d7bb3-c918-41e2-95c0-39e80dee8196.png" alt="Muestra 02"></div>
+        <div class="img-card"><img src="https://www.image2url.com/r2/default/images/1779227580437-27b3966c-241e-418b-bdfd-38e28079f541.png" alt="Muestra 03"></div>
+        <div class="img-card"><img src="https://www.image2url.com/r2/default/images/1779227648888-85c1e9e8-0d02-4d79-89f1-951f7ede0c01.png" alt="Muestra 04"></div>
+        <div class="img-card"><img src="https://www.image2url.com/r2/default/images/1779227686186-73c64665-434b-45e6-92d5-310175b4f083.png" alt="Muestra 05"></div>
+        <div class="img-card"><img src="https://www.image2url.com/r2/default/images/1779227721192-f5bc4948-4530-4b83-b1ff-e3a8a42eff09.png" alt="Muestra 06"></div>
+        <div class="img-card"><img src="https://www.image2url.com/r2/default/images/1779228796729-063bc753-d313-4b18-ad7e-34738b1f2283.png" alt="Muestra 07"></div>
+        <div class="img-card"><img src="https://www.image2url.com/r2/default/images/1779227831149-3f632b9b-e796-4e8f-b5a2-0d7596a49079.png" alt="Muestra 08"></div>
+        <div class="img-card"><img src="https://www.image2url.com/r2/default/images/1779227882622-fd2c3720-9941-487a-9225-813b6be2beec.png" alt="Muestra 09"></div>
+        <div class="img-card"><img src="https://www.image2url.com/r2/default/images/1779227946126-db94f760-60fb-40ca-ba51-3ddbf2c8ff92.png" alt="Muestra 10"></div>
       </div>
-      <button class="cbtn cnext" data-next aria-label="Próximo"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="m9 18 6-6-6-6"/></svg></button>
+      <button class="cbtn cnext" data-next aria-label="Siguiente"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="m9 18 6-6-6-6"/></svg></button>
     </div>
-    <p class="sec-sub" style="margin-top:10px;font-size:.9rem"><b>Observação:</b> os +100 projetos seguem o mesmo padrão editorial premium.</p>
+    <p class="sec-sub" style="margin-top:10px;font-size:.9rem"><b>Nota:</b> los +100 proyectos siguen el mismo estándar editorial premium.</p>
   </div>
 </section>
 
