@@ -428,13 +428,13 @@ export const pageHtml = String.raw`<div class="pr">
 
 <section class="sec sec--white" id="pricing">
   <div class="wrap reveal">
-    <h2 class="sec-title">Garanta agora com um <span class="lime-text" style="-webkit-text-stroke:.5px #9bc52a">preço especial</span></h2>
-    <p class="sec-sub">Inclui acesso vitalício, todos os bônus e 7 dias de garantia total.</p>
+    <h2 class="sec-title">Asegura ahora con un <span class="lime-text" style="-webkit-text-stroke:.5px #9bc52a">precio especial</span></h2>
+    <p class="sec-sub">Incluye acceso vitalicio, todos los bonos y 7 días de garantía total.</p>
     <div class="price-single">
       <div class="price-card">
-        <span class="best-tag">★ Acesso Completo ★</span>
-        <h3>Acesso Completo</h3>
-        <p style="text-align:center;font-family:'Montserrat',sans-serif;font-weight:800;text-transform:uppercase;letter-spacing:.5px;color:var(--muted-l);font-size:.8rem;margin:8px 0 4px">A oferta termina em:</p>
+        <span class="best-tag">★ Acceso Completo ★</span>
+        <h3>Acceso Completo</h3>
+        <p style="text-align:center;font-family:'Montserrat',sans-serif;font-weight:800;text-transform:uppercase;letter-spacing:.5px;color:var(--muted-l);font-size:.8rem;margin:8px 0 4px">La oferta termina en:</p>
         <div class="countdown" id="countdown">
           <div class="cd-box"><b id="cd-h">23</b><span>Horas</span></div>
           <div class="cd-box"><b id="cd-m">59</b><span>Min</span></div>
@@ -442,23 +442,23 @@ export const pageHtml = String.raw`<div class="pr">
         </div>
         <p class="price-old">De $137 USD por</p>
         <p class="price-now">$9,00</p>
-        <p class="price-tagline">Pagamento único · Acesso vitalício + Bônus</p>
-        <div class="price-mock"><img src="https://www.image2url.com/r2/default/images/1778629380417-163aca0b-6a61-4810-bc20-bc6912fb1e2b.png" alt="Acesso Completo"></div>
+        <p class="price-tagline">Pago único · Acceso vitalicio + Bonos</p>
+        <div class="price-mock"><img src="https://www.image2url.com/r2/default/images/1778629380417-163aca0b-6a61-4810-bc20-bc6912fb1e2b.png" alt="Acceso Completo"></div>
         <ul class="price-list">
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.8"><path d="M20 6 9 17l-5-5"/></svg> +100 projetos completos</li>
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.8"><path d="M20 6 9 17l-5-5"/></svg> <b style="font-weight:700">Bônus 1:</b> Construções Rurais</li>
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.8"><path d="M20 6 9 17l-5-5"/></svg> <b style="font-weight:700">Bônus 2:</b> Calculadora ROI</li>
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.8"><path d="M20 6 9 17l-5-5"/></svg> <b style="font-weight:700">Bônus 3:</b> Plantas Companheiras</li>
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.8"><path d="M20 6 9 17l-5-5"/></svg> <b style="font-weight:700">Bônus 4:</b> Energia Solar Rural</li>
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.8"><path d="M20 6 9 17l-5-5"/></svg> <b style="font-weight:700">Bônus 5:</b> Guia de Cultivos Pro</li>
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.8"><path d="M20 6 9 17l-5-5"/></svg> <b style="font-weight:700">Bônus 6:</b> Manual de Água/Irrigação</li>
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.8"><path d="M20 6 9 17l-5-5"/></svg> Acesso prioritário a novos projetos</li>
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.8"><path d="M20 6 9 17l-5-5"/></svg> Atualizações gratuitas semanais</li>
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.8"><path d="M20 6 9 17l-5-5"/></svg> Garantia de 7 dias</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.8"><path d="M20 6 9 17l-5-5"/></svg> +100 proyectos completos</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.8"><path d="M20 6 9 17l-5-5"/></svg> <b style="font-weight:700">Bono 1:</b> Construcciones Rurales</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.8"><path d="M20 6 9 17l-5-5"/></svg> <b style="font-weight:700">Bono 2:</b> Calculadora ROI</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.8"><path d="M20 6 9 17l-5-5"/></svg> <b style="font-weight:700">Bono 3:</b> Plantas Compañeras</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.8"><path d="M20 6 9 17l-5-5"/></svg> <b style="font-weight:700">Bono 4:</b> Energía Solar Rural</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.8"><path d="M20 6 9 17l-5-5"/></svg> <b style="font-weight:700">Bono 5:</b> Guía de Cultivos Pro</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.8"><path d="M20 6 9 17l-5-5"/></svg> <b style="font-weight:700">Bono 6:</b> Manual de Agua/Riego</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.8"><path d="M20 6 9 17l-5-5"/></svg> Acceso prioritario a nuevos proyectos</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.8"><path d="M20 6 9 17l-5-5"/></svg> Actualizaciones gratuitas semanales</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.8"><path d="M20 6 9 17l-5-5"/></svg> Garantía de 7 días</li>
         </ul>
-        <a href="https://pay.hotmart.com/K105902897X?checkoutMode=10" class="btn" target="_blank" rel="noopener">Quero meu Projeto por $9,00 <span class="arr">›</span></a>
-        <p class="price-warn">🔥 Você não vai encontrar esse preço depois.</p>
-        <p class="price-safe">Pagamento 100% seguro · Acesso imediato</p>
+        <a href="https://pay.hotmart.com/K105902897X?checkoutMode=10" class="btn" target="_blank" rel="noopener">Quiero mi Proyecto por $9,00 <span class="arr">›</span></a>
+        <p class="price-warn">🔥 No vas a encontrar este precio después.</p>
+        <p class="price-safe">Pago 100% seguro · Acceso inmediato</p>
       </div>
     </div>
   </div>
