@@ -236,7 +236,7 @@ export const pageHtml = String.raw`<div class="pr">
     <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>
     Acesso imediato no seu e-mail · Pagamento 100% seguro
   </div>
-  <div><a href="#pricing" class="btn">Quero meu Projeto por $7,90</a></div>
+  <div><a href="#pricing" class="btn">Quero meu Projeto por $9,00</a></div>
   <div class="trust-line">★ Acesso imediato · 7 dias de garantia ★</div>
 </header>
 
@@ -384,7 +384,7 @@ export const pageHtml = String.raw`<div class="pr">
       <article class="bonus-card"><div class="bonus-cover"><span class="bonus-num">Bônus 05</span><img src="https://www.image2url.com/r2/default/images/1779889057973-9851ad9e-b9ce-46dd-8e8d-a1e76b788c25.png" alt="Cultivos Alto Valor"></div><div class="bonus-body"><h3>Guia de Cultivos de Alto Valor</h3><p>Descubra as plantas mais rentáveis por m².</p><div class="bonus-price"><span class="old">$17 USD</span><span class="free">GRÁTIS</span></div></div></article>
       <article class="bonus-card"><div class="bonus-cover"><span class="bonus-num">Bônus 06</span><img src="https://www.image2url.com/r2/default/images/1779896748774-3c025729-45f8-4d9f-ab03-ee8c368aa1ee.png" alt="Água e Irrigação"></div><div class="bonus-body"><h3>Manual de Água e Irrigação</h3><p>Capte água da chuva, monte cisternas e irrigação eficiente.</p><div class="bonus-price"><span class="old">$17 USD</span><span class="free">GRÁTIS</span></div></div></article>
     </div>
-    <div class="center-btn" style="margin-top:36px"><a href="#pricing" class="btn">Quero meu Projeto por $7,90 <span class="arr">›</span></a></div>
+    <div class="center-btn" style="margin-top:36px"><a href="#pricing" class="btn">Quero meu Projeto por $9,00 <span class="arr">›</span></a></div>
   </div>
 </section>
 
@@ -435,7 +435,7 @@ export const pageHtml = String.raw`<div class="pr">
           <div class="cd-box"><b id="cd-s">59</b><span>Seg</span></div>
         </div>
         <p class="price-old">De $137 USD por</p>
-        <p class="price-now">$7,90</p>
+        <p class="price-now">$9,00</p>
         <p class="price-tagline">Pagamento único · Acesso vitalício + Bônus</p>
         <div class="price-mock"><img src="https://www.image2url.com/r2/default/images/1778629380417-163aca0b-6a61-4810-bc20-bc6912fb1e2b.png" alt="Acesso Completo"></div>
         <ul class="price-list">
@@ -450,7 +450,7 @@ export const pageHtml = String.raw`<div class="pr">
           <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.8"><path d="M20 6 9 17l-5-5"/></svg> Atualizações gratuitas semanais</li>
           <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.8"><path d="M20 6 9 17l-5-5"/></svg> Garantia de 7 dias</li>
         </ul>
-        <a href="https://pay.hotmart.com/K105902897X?checkoutMode=10" class="btn" target="_blank" rel="noopener">Quero meu Projeto por $7,90 <span class="arr">›</span></a>
+        <a href="https://pay.hotmart.com/K105902897X?checkoutMode=10" class="btn" target="_blank" rel="noopener">Quero meu Projeto por $9,00 <span class="arr">›</span></a>
         <p class="price-warn">🔥 Você não vai encontrar esse preço depois.</p>
         <p class="price-safe">Pagamento 100% seguro · Acesso imediato</p>
       </div>
