@@ -227,23 +227,23 @@ body{background:var(--navy);overflow-x:hidden}
 export const pageHtml = String.raw`<div class="pr">
 <div class="topbar">
   <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>
-  <span>👀 <span id="pr-viewers"><span id="pr-viewers-count">10</span> pessoas</span> estão vendo esta página agora</span>
+  <span>👀 <span id="pr-viewers"><span id="pr-viewers-count">10</span> personas</span> están viendo esta página ahora</span>
 </div>
 
 <header class="hero">
-  <span class="eyebrow badge-top">Edição Premium 2026</span>
+  <span class="eyebrow badge-top">Edición Premium 2026</span>
   <h1>
-    +100 Projetos de Propriedades Rurais Produtivas
-    <span class="sub-line">que transformam sua terra parada em uma fonte de renda mensal</span>
+    +100 Proyectos de Propiedades Rurales Productivas
+    <span class="sub-line">que transforman tu tierra parada en una fuente de ingresos mensuales</span>
   </h1>
-  <p class="hero-text">A biblioteca mais completa de projetos rurais da América Latina: <b>+100 plantas profissionais</b> com medidas reais, divisões estratégicas e layouts prontos para executar.</p>
-  <div class="hero-mock"><img src="https://www.image2url.com/r2/default/images/1778629380417-163aca0b-6a61-4810-bc20-bc6912fb1e2b.png" alt="Mockup do Pack Plan Rural"></div>
+  <p class="hero-text">La biblioteca más completa de proyectos rurales de América Latina: <b>+100 planos profesionales</b> con medidas reales, divisiones estratégicas y layouts listos para ejecutar.</p>
+  <div class="hero-mock"><img src="https://www.image2url.com/r2/default/images/1778629380417-163aca0b-6a61-4810-bc20-bc6912fb1e2b.png" alt="Mockup del Pack Plan Rural"></div>
   <div class="notify-pill">
     <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>
-    Acesso imediato no seu e-mail · Pagamento 100% seguro
+    Acceso inmediato en tu correo · Pago 100% seguro
   </div>
-  <div><a href="#pricing" class="btn">Quero meu Projeto por $9,00</a></div>
-  <div class="trust-line">★ Acesso imediato · 7 dias de garantia ★</div>
+  <div><a href="#pricing" class="btn">Quiero mi Proyecto por $9,00</a></div>
+  <div class="trust-line">★ Acceso inmediato · 7 días de garantía ★</div>
 </header>
 
 <section class="sec sec--navy">
