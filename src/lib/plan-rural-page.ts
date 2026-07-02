@@ -124,7 +124,9 @@ body{background:var(--navy);overflow-x:hidden}
 .pr .bonus-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;margin-top:30px}
 .pr .bonus-card{background:#fff;border-radius:16px;overflow:hidden;box-shadow:var(--shadow-card);color:var(--ink);display:flex;flex-direction:column}
 .pr .bonus-cover{position:relative;background:#0f2036}
-.pr .bonus-cover img{display:block;margin:0 auto;max-width:88%;max-height:220px;width:auto;height:auto;aspect-ratio:auto;object-fit:contain;padding:14px 0}
+@keyframes prBonusPulse{0%,100%{transform:scale(1)}50%{transform:scale(1.04)}}
+.pr .bonus-cover img{display:block;margin:0 auto;max-width:88%;max-height:220px;width:auto;height:auto;aspect-ratio:auto;object-fit:contain;padding:14px 0;animation:prBonusPulse 3s ease-in-out infinite;will-change:transform}
+@media (prefers-reduced-motion: reduce){.pr .bonus-cover img{animation:none}}
 .pr .bonus-num{position:absolute;top:10px;left:10px;background:var(--ink);color:var(--lime);font-family:'Montserrat',sans-serif;font-weight:800;font-size:.6rem;letter-spacing:.6px;padding:5px 10px;border-radius:6px}
 .pr .bonus-body{padding:18px 18px 22px;display:flex;flex-direction:column;flex:1}
 .pr .bonus-body h3{font-family:'Montserrat',sans-serif;font-weight:800;text-transform:uppercase;font-size:.92rem;color:var(--ink);margin-bottom:8px;line-height:1.2}
