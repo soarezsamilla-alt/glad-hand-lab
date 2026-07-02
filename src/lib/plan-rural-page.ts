@@ -352,26 +352,26 @@ export const pageHtml = String.raw`<div class="pr">
   <div class="reveal">
     <div class="kit-flag">
       <span class="eyebrow" style="background:var(--lime);color:#1a1a1a">
-        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6 9 17l-5-5"/></svg> Tudo isso está incluso no seu kit
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6 9 17l-5-5"/></svg> Todo esto está incluido en tu kit
       </span>
     </div>
     <div class="kit-card">
       <div class="kit-mock">
-        <span class="flag-red">Acesso Imediato</span>
-        <img src="https://www.image2url.com/r2/default/images/1782948795231-bec3f465-9115-4564-9f83-2d9405d6dec1.webp" alt="Kit +100 Projetos">
+        <span class="flag-red">Acceso Inmediato</span>
+        <img src="https://www.image2url.com/r2/default/images/1782948795231-bec3f465-9115-4564-9f83-2d9405d6dec1.webp" alt="Kit +100 Proyectos">
       </div>
       <div>
-        <span class="item-tag">ITEM 01</span>
-        <h2>+100 Projetos de Propriedades Rurais Produtivas</h2>
-        <p class="lead">Não é um curso nem um manual teórico. É uma biblioteca visual completa, pronta para escolher, imprimir e executar.</p>
+        <span class="item-tag">ÍTEM 01</span>
+        <h2>+100 Proyectos de Propiedades Rurales Productivas</h2>
+        <p class="lead">No es un curso ni un manual teórico. Es una biblioteca visual completa, lista para elegir, imprimir y ejecutar.</p>
         <ul class="kit-list">
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6"><path d="M20 6 9 17l-5-5"/></svg><span><b>Projetos com Medidas Reais</b><small>Plantas técnicas dimensionadas em metros</small></span></li>
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6"><path d="M20 6 9 17l-5-5"/></svg><span><b>Divisões por Vocação Produtiva</b><small>Café, hortaliças, pecuária, piscicultura e mais</small></span></li>
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6"><path d="M20 6 9 17l-5-5"/></svg><span><b>Adaptados a 5 Regiões Climáticas</b><small>Tropical úmido, savana, semiárido, temperado e andino</small></span></li>
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6"><path d="M20 6 9 17l-5-5"/></svg><span><b>Acesso Vitalício e Imediato</b><small>Compre uma vez e use sempre</small></span></li>
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6"><path d="M20 6 9 17l-5-5"/></svg><span><b>Atualizações Gratuitas</b><small>Sempre novos modelos inclusos</small></span></li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6"><path d="M20 6 9 17l-5-5"/></svg><span><b>Proyectos con Medidas Reales</b><small>Planos técnicos dimensionados en metros</small></span></li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6"><path d="M20 6 9 17l-5-5"/></svg><span><b>Divisiones por Vocación Productiva</b><small>Café, hortalizas, ganadería, piscicultura y más</small></span></li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6"><path d="M20 6 9 17l-5-5"/></svg><span><b>Adaptados a 5 Regiones Climáticas</b><small>Tropical húmedo, sabana, semiárido, templado y andino</small></span></li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6"><path d="M20 6 9 17l-5-5"/></svg><span><b>Acceso Vitalicio e Inmediato</b><small>Compra una vez y úsalo siempre</small></span></li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6"><path d="M20 6 9 17l-5-5"/></svg><span><b>Actualizaciones Gratuitas</b><small>Siempre nuevos modelos incluidos</small></span></li>
         </ul>
-        <span class="kit-more">+ 6 Bônus Exclusivos abaixo 👇</span>
+        <span class="kit-more">+ 6 Bonos Exclusivos abajo 👇</span>
       </div>
     </div>
   </div>
