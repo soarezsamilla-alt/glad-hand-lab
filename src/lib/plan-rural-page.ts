@@ -486,15 +486,15 @@ export const pageHtml = String.raw`<div class="pr">
 
 <section class="sec sec--white">
   <div class="wrap reveal">
-    <h2 class="sec-title">Perguntas <span class="lime-text" style="-webkit-text-stroke:.5px #9bc52a">frequentes</span></h2>
+    <h2 class="sec-title">Preguntas <span class="lime-text" style="-webkit-text-stroke:.5px #9bc52a">frecuentes</span></h2>
     <div class="faq-list" id="faq">
-      <div class="faq-item"><button class="faq-q">Como recebo os materiais após a compra? <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="m6 9 6 6 6-6"/></svg></button><div class="faq-a"><p>Assim que o pagamento é confirmado, você recebe no seu e-mail o acesso com usuário e senha.</p></div></div>
-      <div class="faq-item"><button class="faq-q">Preciso ter experiência em agricultura? <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="m6 9 6 6 6-6"/></svg></button><div class="faq-a"><p>Não. Os projetos foram feitos para qualquer pessoa aplicar, mesmo sem experiência técnica.</p></div></div>
-      <div class="faq-item"><button class="faq-q">Os projetos servem para qualquer região? <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="m6 9 6 6 6-6"/></svg></button><div class="faq-a"><p>Sim. Adaptados a 5 regiões climáticas da América Latina.</p></div></div>
-      <div class="faq-item"><button class="faq-q">Em que formato o material é entregue? <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="m6 9 6 6 6-6"/></svg></button><div class="faq-a"><p>100% digital, em arquivos PDF de alta qualidade.</p></div></div>
-      <div class="faq-item"><button class="faq-q">Funciona para terrenos pequenos? <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="m6 9 6 6 6-6"/></svg></button><div class="faq-a"><p>Sim. Projetos de 0,5 a 5 hectares.</p></div></div>
-      <div class="faq-item"><button class="faq-q">Qual a diferença de contratar um agrônomo? <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="m6 9 6 6 6-6"/></svg></button><div class="faq-a"><p>Um projeto sob medida custa milhares. Aqui você recebe +100 projetos por um preço único.</p></div></div>
-      <div class="faq-item"><button class="faq-q">E se eu não gostar do material? <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="m6 9 6 6 6-6"/></svg></button><div class="faq-a"><p>7 dias de garantia incondicional. Devolvemos cada centavo.</p></div></div>
+      <div class="faq-item"><button class="faq-q">¿Cómo recibo los materiales tras la compra? <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="m6 9 6 6 6-6"/></svg></button><div class="faq-a"><p>Apenas se confirma el pago, recibes en tu correo el acceso con usuario y contraseña.</p></div></div>
+      <div class="faq-item"><button class="faq-q">¿Necesito tener experiencia en agricultura? <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="m6 9 6 6 6-6"/></svg></button><div class="faq-a"><p>No. Los proyectos están pensados para que cualquier persona los aplique, incluso sin experiencia técnica.</p></div></div>
+      <div class="faq-item"><button class="faq-q">¿Los proyectos sirven para cualquier región? <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="m6 9 6 6 6-6"/></svg></button><div class="faq-a"><p>Sí. Están adaptados a 5 regiones climáticas de América Latina.</p></div></div>
+      <div class="faq-item"><button class="faq-q">¿En qué formato se entrega el material? <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="m6 9 6 6 6-6"/></svg></button><div class="faq-a"><p>100% digital, en archivos PDF de alta calidad.</p></div></div>
+      <div class="faq-item"><button class="faq-q">¿Funciona para terrenos pequeños? <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="m6 9 6 6 6-6"/></svg></button><div class="faq-a"><p>Sí. Hay proyectos desde 0,5 hasta 5 hectáreas.</p></div></div>
+      <div class="faq-item"><button class="faq-q">¿Qué diferencia hay con contratar un agrónomo? <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="m6 9 6 6 6-6"/></svg></button><div class="faq-a"><p>Un proyecto a la medida cuesta miles. Aquí recibes +100 proyectos por un precio único.</p></div></div>
+      <div class="faq-item"><button class="faq-q">¿Y si no me gusta el material? <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="m6 9 6 6 6-6"/></svg></button><div class="faq-a"><p>7 días de garantía incondicional. Te devolvemos cada centavo.</p></div></div>
     </div>
   </div>
 </section>
@@ -502,10 +502,10 @@ export const pageHtml = String.raw`<div class="pr">
 <section class="sec sec--white" style="padding-top:0">
   <div class="wrap reveal">
     <div class="guarantee">
-      <div class="guar-seal"><div><b>7</b><span>DIAS</span></div></div>
+      <div class="guar-seal"><div><b>7</b><span>DÍAS</span></div></div>
       <div class="guar-text">
-        <h3>Garantia Incondicional de 7 Dias</h3>
-        <p>Temos tanta confiança no valor do <b>Plan Rural</b> que assumimos todo o risco. Se em 7 dias você não estiver 100% satisfeito, devolvemos <b>cada centavo</b>.</p>
+        <h3>Garantía Incondicional de 7 Días</h3>
+        <p>Tenemos tanta confianza en el valor de <b>Plan Rural</b> que asumimos todo el riesgo. Si en 7 días no estás 100% satisfecho, te devolvemos <b>cada centavo</b>.</p>
       </div>
     </div>
   </div>
@@ -514,15 +514,15 @@ export const pageHtml = String.raw`<div class="pr">
 <footer class="footer">
   <div class="wrap">
     <div class="brand">PLAN RURAL</div>
-    <div class="ed">Edição Premium <span id="year">2026</span> · Todos os direitos reservados</div>
-    <div class="links"><a href="#">Termos de Uso</a><a href="#">Política de Privacidade</a></div>
-    <p class="disc">Este site não é afiliado ao Facebook, Instagram, Google ou qualquer outra plataforma. Os resultados dependem do esforço e da aplicação prática do cliente.</p>
+    <div class="ed">Edición Premium <span id="year">2026</span> · Todos los derechos reservados</div>
+    <div class="links"><a href="#">Términos de Uso</a><a href="#">Política de Privacidad</a></div>
+    <p class="disc">Este sitio no está afiliado a Facebook, Instagram, Google ni a ninguna otra plataforma. Los resultados dependen del esfuerzo y la aplicación práctica del cliente.</p>
   </div>
 </footer>
 
 <div class="toast" id="toast" role="status">
   <div class="ti"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 8v13H3V8M1 3h22v5H1zM10 12h4"/></svg></div>
-  <div><div class="tn" id="toastName">Juan P., de Bogotá</div><div class="tm" id="toastMeta">Acabou de comprar · agora mesmo</div></div>
+  <div><div class="tn" id="toastName">Juan P., de Bogotá</div><div class="tm" id="toastMeta">Acaba de comprar · ahora mismo</div></div>
 </div>
 </div>`;
 
