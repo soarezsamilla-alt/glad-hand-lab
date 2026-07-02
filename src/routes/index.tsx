@@ -5,11 +5,11 @@ import { pageCss, pageHtml, initPage } from "@/lib/plan-rural-page";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Plan Rural | +100 Projetos de Propriedades Rurais Produtivas" },
+      { title: "Plan Rural | +100 Proyectos de Propiedades Rurales Productivas" },
       {
         name: "description",
         content:
-          "A coleção definitiva de projetos de propriedades rurais produtivas da América Latina. +100 plantas dimensionadas, prontas para executar.",
+          "La colección definitiva de proyectos de propiedades rurales productivas de América Latina. +100 planos dimensionados, listos para ejecutar.",
       },
     ],
     links: [

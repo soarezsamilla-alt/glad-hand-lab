@@ -227,49 +227,49 @@ body{background:var(--navy);overflow-x:hidden}
 export const pageHtml = String.raw`<div class="pr">
 <div class="topbar">
   <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>
-  <span>👀 <span id="pr-viewers"><span id="pr-viewers-count">10</span> pessoas</span> estão vendo esta página agora</span>
+  <span>👀 <span id="pr-viewers"><span id="pr-viewers-count">10</span> personas</span> están viendo esta página ahora</span>
 </div>
 
 <header class="hero">
-  <span class="eyebrow badge-top">Edição Premium 2026</span>
+  <span class="eyebrow badge-top">Edición Premium 2026</span>
   <h1>
-    +100 Projetos de Propriedades Rurais Produtivas
-    <span class="sub-line">que transformam sua terra parada em uma fonte de renda mensal</span>
+    +100 Proyectos de Propiedades Rurales Productivas
+    <span class="sub-line">que transforman tu tierra parada en una fuente de ingresos mensuales</span>
   </h1>
-  <p class="hero-text">A biblioteca mais completa de projetos rurais da América Latina: <b>+100 plantas profissionais</b> com medidas reais, divisões estratégicas e layouts prontos para executar.</p>
-  <div class="hero-mock"><img src="https://www.image2url.com/r2/default/images/1778629380417-163aca0b-6a61-4810-bc20-bc6912fb1e2b.png" alt="Mockup do Pack Plan Rural"></div>
+  <p class="hero-text">La biblioteca más completa de proyectos rurales de América Latina: <b>+100 planos profesionales</b> con medidas reales, divisiones estratégicas y layouts listos para ejecutar.</p>
+  <div class="hero-mock"><img src="https://www.image2url.com/r2/default/images/1778629380417-163aca0b-6a61-4810-bc20-bc6912fb1e2b.png" alt="Mockup del Pack Plan Rural"></div>
   <div class="notify-pill">
     <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>
-    Acesso imediato no seu e-mail · Pagamento 100% seguro
+    Acceso inmediato en tu correo · Pago 100% seguro
   </div>
-  <div><a href="#pricing" class="btn">Quero meu Projeto por $9,00</a></div>
-  <div class="trust-line">★ Acesso imediato · 7 dias de garantia ★</div>
+  <div><a href="#pricing" class="btn">Quiero mi Proyecto por $9,00</a></div>
+  <div class="trust-line">★ Acceso inmediato · 7 días de garantía ★</div>
 </header>
 
 <section class="sec sec--navy">
   <div class="wrap reveal">
-    <h2 class="sec-title">O que vai mudar <span class="lime-ul">na sua propriedade</span></h2>
-    <p class="sec-sub" style="font-style:italic">Chega de improvisar — aqui você executa com clareza</p>
+    <h2 class="sec-title">Lo que va a cambiar <span class="lime-ul">en tu propiedad</span></h2>
+    <p class="sec-sub" style="font-style:italic">Basta de improvisar — aquí ejecutas con claridad</p>
     <div class="grid-4">
       <div class="feat-card">
         <div class="feat-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 5s3-1 5 0 5 0 5 0v14s-3-1-5 0-5 0-5 0V5Z"/><path d="M12 5s3-1 5 0 5 0 5 0v14s-3-1-5 0-5 0-5 0"/></svg></div>
-        <h3>Planeje com Visão Profissional</h3>
-        <p>Pare de adivinhar o que fazer com seu terreno. Agora você segue projetos prontos com divisão estratégica.</p>
+        <h3>Planifica con Visión Profesional</h3>
+        <p>Deja de adivinar qué hacer con tu terreno. Ahora sigues proyectos listos con división estratégica.</p>
       </div>
       <div class="feat-card">
         <div class="feat-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M20 6 9 17l-5-5"/></svg></div>
-        <h3>Saiba Onde Vai Cada Coisa</h3>
-        <p>Casa, cultivos, animais, irrigação… tudo já posicionado para o melhor fluxo e aproveitamento.</p>
+        <h3>Sabe Dónde Va Cada Cosa</h3>
+        <p>Casa, cultivos, animales, riego… todo ya posicionado para el mejor flujo y aprovechamiento.</p>
       </div>
       <div class="feat-card">
         <div class="feat-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M13 2 3 14h7l-1 8 10-12h-7l1-8Z"/></svg></div>
-        <h3>Pare de Perder Tempo</h3>
-        <p>Sem erros, sem tentativas, sem desperdício. Projetos com medidas reais para aplicação direta.</p>
+        <h3>Deja de Perder Tiempo</h3>
+        <p>Sin errores, sin intentos, sin desperdicio. Proyectos con medidas reales para aplicación directa.</p>
       </div>
       <div class="feat-card">
         <div class="feat-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg></div>
-        <h3>Comece em Minutos</h3>
-        <p>Abra o projeto e aplique direto no seu terreno. Receba na hora no seu e-mail.</p>
+        <h3>Empieza en Minutos</h3>
+        <p>Abre el proyecto y aplícalo directo en tu terreno. Recíbelo al instante en tu correo.</p>
       </div>
     </div>
   </div>
@@ -277,53 +277,53 @@ export const pageHtml = String.raw`<div class="pr">
 
 <section class="sec sec--white">
   <div class="wrap reveal">
-    <h2 class="sec-title">📖 Uma amostra do <span class="mark">material que você vai receber</span></h2>
-    <p class="sec-sub">Exemplos reais das páginas que você vai receber. Cada projeto com padrão editorial profissional.</p>
+    <h2 class="sec-title">📖 Una muestra del <span class="mark">material que vas a recibir</span></h2>
+    <p class="sec-sub">Ejemplos reales de las páginas que vas a recibir. Cada proyecto con estándar editorial profesional.</p>
     <div class="carousel carousel--sample" id="sample-carousel" data-carousel data-autoplay="3500">
       <button class="cbtn cprev" data-prev aria-label="Anterior"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="m15 18-6-6 6-6"/></svg></button>
       <div class="carousel-track" data-track>
-        <div class="img-card"><img src="https://www.image2url.com/r2/default/images/1779227478825-868e1785-44e5-4fd5-bf0e-aa8791f8a54c.png" alt="Amostra 01"></div>
-        <div class="img-card"><img src="https://www.image2url.com/r2/default/images/1779227527836-7e9d7bb3-c918-41e2-95c0-39e80dee8196.png" alt="Amostra 02"></div>
-        <div class="img-card"><img src="https://www.image2url.com/r2/default/images/1779227580437-27b3966c-241e-418b-bdfd-38e28079f541.png" alt="Amostra 03"></div>
-        <div class="img-card"><img src="https://www.image2url.com/r2/default/images/1779227648888-85c1e9e8-0d02-4d79-89f1-951f7ede0c01.png" alt="Amostra 04"></div>
-        <div class="img-card"><img src="https://www.image2url.com/r2/default/images/1779227686186-73c64665-434b-45e6-92d5-310175b4f083.png" alt="Amostra 05"></div>
-        <div class="img-card"><img src="https://www.image2url.com/r2/default/images/1779227721192-f5bc4948-4530-4b83-b1ff-e3a8a42eff09.png" alt="Amostra 06"></div>
-        <div class="img-card"><img src="https://www.image2url.com/r2/default/images/1779228796729-063bc753-d313-4b18-ad7e-34738b1f2283.png" alt="Amostra 07"></div>
-        <div class="img-card"><img src="https://www.image2url.com/r2/default/images/1779227831149-3f632b9b-e796-4e8f-b5a2-0d7596a49079.png" alt="Amostra 08"></div>
-        <div class="img-card"><img src="https://www.image2url.com/r2/default/images/1779227882622-fd2c3720-9941-487a-9225-813b6be2beec.png" alt="Amostra 09"></div>
-        <div class="img-card"><img src="https://www.image2url.com/r2/default/images/1779227946126-db94f760-60fb-40ca-ba51-3ddbf2c8ff92.png" alt="Amostra 10"></div>
+        <div class="img-card"><img src="https://www.image2url.com/r2/default/images/1779227478825-868e1785-44e5-4fd5-bf0e-aa8791f8a54c.png" alt="Muestra 01"></div>
+        <div class="img-card"><img src="https://www.image2url.com/r2/default/images/1779227527836-7e9d7bb3-c918-41e2-95c0-39e80dee8196.png" alt="Muestra 02"></div>
+        <div class="img-card"><img src="https://www.image2url.com/r2/default/images/1779227580437-27b3966c-241e-418b-bdfd-38e28079f541.png" alt="Muestra 03"></div>
+        <div class="img-card"><img src="https://www.image2url.com/r2/default/images/1779227648888-85c1e9e8-0d02-4d79-89f1-951f7ede0c01.png" alt="Muestra 04"></div>
+        <div class="img-card"><img src="https://www.image2url.com/r2/default/images/1779227686186-73c64665-434b-45e6-92d5-310175b4f083.png" alt="Muestra 05"></div>
+        <div class="img-card"><img src="https://www.image2url.com/r2/default/images/1779227721192-f5bc4948-4530-4b83-b1ff-e3a8a42eff09.png" alt="Muestra 06"></div>
+        <div class="img-card"><img src="https://www.image2url.com/r2/default/images/1779228796729-063bc753-d313-4b18-ad7e-34738b1f2283.png" alt="Muestra 07"></div>
+        <div class="img-card"><img src="https://www.image2url.com/r2/default/images/1779227831149-3f632b9b-e796-4e8f-b5a2-0d7596a49079.png" alt="Muestra 08"></div>
+        <div class="img-card"><img src="https://www.image2url.com/r2/default/images/1779227882622-fd2c3720-9941-487a-9225-813b6be2beec.png" alt="Muestra 09"></div>
+        <div class="img-card"><img src="https://www.image2url.com/r2/default/images/1779227946126-db94f760-60fb-40ca-ba51-3ddbf2c8ff92.png" alt="Muestra 10"></div>
       </div>
-      <button class="cbtn cnext" data-next aria-label="Próximo"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="m9 18 6-6-6-6"/></svg></button>
+      <button class="cbtn cnext" data-next aria-label="Siguiente"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="m9 18 6-6-6-6"/></svg></button>
     </div>
-    <p class="sec-sub" style="margin-top:10px;font-size:.9rem"><b>Observação:</b> os +100 projetos seguem o mesmo padrão editorial premium.</p>
+    <p class="sec-sub" style="margin-top:10px;font-size:.9rem"><b>Nota:</b> los +100 proyectos siguen el mismo estándar editorial premium.</p>
   </div>
 </section>
 
 <section class="sec sec--navy">
   <div class="wrap reveal">
-    <h2 class="sec-title">Veja a diferença <span class="mark">Sem os Projetos</span> e <span class="mark">Com os Projetos</span></h2>
+    <h2 class="sec-title">Mira la diferencia <span class="mark">Sin los Proyectos</span> y <span class="mark">Con los Proyectos</span></h2>
     <div class="ba" id="ba">
-      <img src="${comparacaoSplit.url}" alt="Comparação: sem os projetos vs com +100 projetos" loading="lazy" width="1024" height="576">
+      <img src="${comparacaoSplit.url}" alt="Comparación: sin los proyectos vs con +100 proyectos" loading="lazy" width="1024" height="576">
       <div class="ba-divider" aria-hidden="true"></div>
       <div class="ba-overlay">
-        <span class="ba-badge bad"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#d23030" stroke-width="2.6"><circle cx="12" cy="12" r="10"/><path d="m15 9-6 6M9 9l6 6"/></svg> Sem os Projetos</span>
-        <span class="ba-badge good"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#1f8a36" stroke-width="2.6"><circle cx="12" cy="12" r="10"/><path d="m8 12 3 3 5-6"/></svg> Com +100 Projetos</span>
+        <span class="ba-badge bad"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#d23030" stroke-width="2.6"><circle cx="12" cy="12" r="10"/><path d="m15 9-6 6M9 9l6 6"/></svg> Sin los Proyectos</span>
+        <span class="ba-badge good"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#1f8a36" stroke-width="2.6"><circle cx="12" cy="12" r="10"/><path d="m8 12 3 3 5-6"/></svg> Con +100 Proyectos</span>
       </div>
     </div>
     <div class="cmp-wrap">
       <div class="cmp-card">
-        <div class="cmp-pill bad"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6"><path d="m6 6 12 12M18 6 6 18"/></svg> Sem os projetos</div>
-        <div class="cmp-li"><svg class="x-ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6"><path d="m6 6 12 12M18 6 6 18"/></svg> Terra parada sem uso</div>
-        <div class="cmp-li"><svg class="x-ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6"><path d="m6 6 12 12M18 6 6 18"/></svg> Não sabe por onde começar</div>
-        <div class="cmp-li"><svg class="x-ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6"><path d="m6 6 12 12M18 6 6 18"/></svg> Mistura tudo sem organização</div>
-        <div class="cmp-li"><svg class="x-ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6"><path d="m6 6 12 12M18 6 6 18"/></svg> Depende de ideias soltas da internet</div>
+        <div class="cmp-pill bad"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6"><path d="m6 6 12 12M18 6 6 18"/></svg> Sin los proyectos</div>
+        <div class="cmp-li"><svg class="x-ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6"><path d="m6 6 12 12M18 6 6 18"/></svg> Tierra parada sin uso</div>
+        <div class="cmp-li"><svg class="x-ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6"><path d="m6 6 12 12M18 6 6 18"/></svg> No sabes por dónde empezar</div>
+        <div class="cmp-li"><svg class="x-ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6"><path d="m6 6 12 12M18 6 6 18"/></svg> Mezclas todo sin organización</div>
+        <div class="cmp-li"><svg class="x-ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6"><path d="m6 6 12 12M18 6 6 18"/></svg> Dependes de ideas sueltas de internet</div>
       </div>
       <div class="cmp-card">
-        <div class="cmp-pill good"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.8"><path d="M20 6 9 17l-5-5"/></svg> Com os projetos</div>
-        <div class="cmp-li"><svg class="v-ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.8"><path d="M20 6 9 17l-5-5"/></svg> Terreno dividido com estratégia</div>
-        <div class="cmp-li"><svg class="v-ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.8"><path d="M20 6 9 17l-5-5"/></svg> Cada área com função clara</div>
-        <div class="cmp-li"><svg class="v-ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.8"><path d="M20 6 9 17l-5-5"/></svg> Mais produtividade e renda</div>
-        <div class="cmp-li"><svg class="v-ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.8"><path d="M20 6 9 17l-5-5"/></svg> Planejamento profissional na sua mão</div>
+        <div class="cmp-pill good"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.8"><path d="M20 6 9 17l-5-5"/></svg> Con los proyectos</div>
+        <div class="cmp-li"><svg class="v-ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.8"><path d="M20 6 9 17l-5-5"/></svg> Terreno dividido con estrategia</div>
+        <div class="cmp-li"><svg class="v-ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.8"><path d="M20 6 9 17l-5-5"/></svg> Cada área con función clara</div>
+        <div class="cmp-li"><svg class="v-ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.8"><path d="M20 6 9 17l-5-5"/></svg> Más productividad y más ingresos</div>
+        <div class="cmp-li"><svg class="v-ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.8"><path d="M20 6 9 17l-5-5"/></svg> Planificación profesional en tu mano</div>
       </div>
     </div>
   </div>
@@ -332,17 +332,17 @@ export const pageHtml = String.raw`<div class="pr">
 <section class="sec sec--navy">
   <div class="wrap reveal" style="text-align:center">
     <span class="eyebrow" style="background:#0e2a1a;color:var(--lime)">
-      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="4"/></svg> Resultado Imediato
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="4"/></svg> Resultado Inmediato
     </span>
-    <h2 class="sec-title" style="margin-top:16px">Você vai <span class="lime-text">ver resultados na hora</span></h2>
-    <p class="sec-sub">Imagine olhar seu terreno e <b style="color:#fff">saber exatamente o que fazer</b> em cada parte.</p>
+    <h2 class="sec-title" style="margin-top:16px">Vas a <span class="lime-text">ver resultados al instante</span></h2>
+    <p class="sec-sub">Imagina mirar tu terreno y <b style="color:#fff">saber exactamente qué hacer</b> en cada parte.</p>
     <div class="split" style="text-align:left">
-      <div class="split-img"><img src="https://www.image2url.com/r2/default/images/1782948649831-c8d0ed2e-6149-4bb8-8cf2-a8027feb68f5.jpeg" alt="Produtor vendo resultados imediatos com o Plan Rural" loading="lazy" width="1024" height="768"></div>
+      <div class="split-img"><img src="https://www.image2url.com/r2/default/images/1782948649831-c8d0ed2e-6149-4bb8-8cf2-a8027feb68f5.jpeg" alt="Productor viendo resultados inmediatos con Plan Rural" loading="lazy" width="1024" height="768"></div>
       <ul class="check-list">
-        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6"><path d="M20 6 9 17l-5-5"/></svg> Planeja tudo em poucos dias</li>
-        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6"><path d="M20 6 9 17l-5-5"/></svg> Organiza sua propriedade com clareza</li>
-        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6"><path d="M20 6 9 17l-5-5"/></svg> Cria novas fontes de renda</li>
-        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6"><path d="M20 6 9 17l-5-5"/></svg> Para de depender de tentativa e erro</li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6"><path d="M20 6 9 17l-5-5"/></svg> Planificas todo en pocos días</li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6"><path d="M20 6 9 17l-5-5"/></svg> Organizas tu propiedad con claridad</li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6"><path d="M20 6 9 17l-5-5"/></svg> Creas nuevas fuentes de ingresos</li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6"><path d="M20 6 9 17l-5-5"/></svg> Dejas de depender de prueba y error</li>
       </ul>
     </div>
   </div>
@@ -352,26 +352,26 @@ export const pageHtml = String.raw`<div class="pr">
   <div class="reveal">
     <div class="kit-flag">
       <span class="eyebrow" style="background:var(--lime);color:#1a1a1a">
-        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6 9 17l-5-5"/></svg> Tudo isso está incluso no seu kit
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6 9 17l-5-5"/></svg> Todo esto está incluido en tu kit
       </span>
     </div>
     <div class="kit-card">
       <div class="kit-mock">
-        <span class="flag-red">Acesso Imediato</span>
-        <img src="https://www.image2url.com/r2/default/images/1782948795231-bec3f465-9115-4564-9f83-2d9405d6dec1.webp" alt="Kit +100 Projetos">
+        <span class="flag-red">Acceso Inmediato</span>
+        <img src="https://www.image2url.com/r2/default/images/1782948795231-bec3f465-9115-4564-9f83-2d9405d6dec1.webp" alt="Kit +100 Proyectos">
       </div>
       <div>
-        <span class="item-tag">ITEM 01</span>
-        <h2>+100 Projetos de Propriedades Rurais Produtivas</h2>
-        <p class="lead">Não é um curso nem um manual teórico. É uma biblioteca visual completa, pronta para escolher, imprimir e executar.</p>
+        <span class="item-tag">ÍTEM 01</span>
+        <h2>+100 Proyectos de Propiedades Rurales Productivas</h2>
+        <p class="lead">No es un curso ni un manual teórico. Es una biblioteca visual completa, lista para elegir, imprimir y ejecutar.</p>
         <ul class="kit-list">
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6"><path d="M20 6 9 17l-5-5"/></svg><span><b>Projetos com Medidas Reais</b><small>Plantas técnicas dimensionadas em metros</small></span></li>
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6"><path d="M20 6 9 17l-5-5"/></svg><span><b>Divisões por Vocação Produtiva</b><small>Café, hortaliças, pecuária, piscicultura e mais</small></span></li>
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6"><path d="M20 6 9 17l-5-5"/></svg><span><b>Adaptados a 5 Regiões Climáticas</b><small>Tropical úmido, savana, semiárido, temperado e andino</small></span></li>
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6"><path d="M20 6 9 17l-5-5"/></svg><span><b>Acesso Vitalício e Imediato</b><small>Compre uma vez e use sempre</small></span></li>
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6"><path d="M20 6 9 17l-5-5"/></svg><span><b>Atualizações Gratuitas</b><small>Sempre novos modelos inclusos</small></span></li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6"><path d="M20 6 9 17l-5-5"/></svg><span><b>Proyectos con Medidas Reales</b><small>Planos técnicos dimensionados en metros</small></span></li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6"><path d="M20 6 9 17l-5-5"/></svg><span><b>Divisiones por Vocación Productiva</b><small>Café, hortalizas, ganadería, piscicultura y más</small></span></li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6"><path d="M20 6 9 17l-5-5"/></svg><span><b>Adaptados a 5 Regiones Climáticas</b><small>Tropical húmedo, sabana, semiárido, templado y andino</small></span></li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6"><path d="M20 6 9 17l-5-5"/></svg><span><b>Acceso Vitalicio e Inmediato</b><small>Compra una vez y úsalo siempre</small></span></li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6"><path d="M20 6 9 17l-5-5"/></svg><span><b>Actualizaciones Gratuitas</b><small>Siempre nuevos modelos incluidos</small></span></li>
         </ul>
-        <span class="kit-more">+ 6 Bônus Exclusivos abaixo 👇</span>
+        <span class="kit-more">+ 6 Bonos Exclusivos abajo 👇</span>
       </div>
     </div>
   </div>
@@ -379,48 +379,48 @@ export const pageHtml = String.raw`<div class="pr">
 
 <section class="sec sec--navy">
   <div class="wrap reveal">
-    <h2 class="sec-title">E não para por aí… <span class="lime-text">tem mais!</span></h2>
-    <p class="sec-sub">Seu acesso inclui ainda estes 6 bônus estratégicos, totalmente GRÁTIS.</p>
-    <div class="bonus-pill"><span class="eyebrow" style="background:var(--lime);color:#1a1a1a">+ 6 Bônus Exclusivos</span></div>
+    <h2 class="sec-title">Y no termina aquí… <span class="lime-text">¡hay más!</span></h2>
+    <p class="sec-sub">Tu acceso incluye además estos 6 bonos estratégicos, totalmente GRATIS.</p>
+    <div class="bonus-pill"><span class="eyebrow" style="background:var(--lime);color:#1a1a1a">+ 6 Bonos Exclusivos</span></div>
     <div class="bonus-grid">
-      <article class="bonus-card"><div class="bonus-cover"><span class="bonus-num">Bônus 01</span><img src="https://www.image2url.com/r2/default/images/1779852503723-bc1919ff-8525-41c5-a1cf-a4dc71e59516.png" alt="Construções Rurais"></div><div class="bonus-body"><h3>Pack de Construções Rurais</h3><p>10 plantas prontas de galinheiros, chiqueiros, estábulos e tanques.</p><div class="bonus-price"><span class="old">$17 USD</span><span class="free">GRÁTIS</span></div></div></article>
-      <article class="bonus-card"><div class="bonus-cover"><span class="bonus-num">Bônus 02</span><img src="https://www.image2url.com/r2/default/images/1779852710951-007dd71c-0497-42d0-92bf-536511d4cf51.png" alt="Calculadora ROI"></div><div class="bonus-body"><h3>Calculadora de ROI Produtivo</h3><p>Calculadora editável com retorno financeiro estimado.</p><div class="bonus-price"><span class="old">$17 USD</span><span class="free">GRÁTIS</span></div></div></article>
-      <article class="bonus-card"><div class="bonus-cover"><span class="bonus-num">Bônus 03</span><img src="https://www.image2url.com/r2/default/images/1779852637100-d9699970-3a9f-4c2b-8d55-bff2c730c7ad.png" alt="Plantas Companheiras"></div><div class="bonus-body"><h3>Guia de Plantas Companheiras</h3><p>Aprenda o que plantar junto para aumentar a produtividade.</p><div class="bonus-price"><span class="old">$17 USD</span><span class="free">GRÁTIS</span></div></div></article>
-      <article class="bonus-card"><div class="bonus-cover"><span class="bonus-num">Bônus 04</span><img src="https://www.image2url.com/r2/default/images/1779852899013-b3dfc03f-a441-47b6-91d5-022748be9f30.png" alt="Energia Solar"></div><div class="bonus-body"><h3>Manual de Energia Solar Rural</h3><p>Dimensione sistemas solares para casas, poços e irrigação.</p><div class="bonus-price"><span class="old">$17 USD</span><span class="free">GRÁTIS</span></div></div></article>
-      <article class="bonus-card"><div class="bonus-cover"><span class="bonus-num">Bônus 05</span><img src="https://www.image2url.com/r2/default/images/1779889057973-9851ad9e-b9ce-46dd-8e8d-a1e76b788c25.png" alt="Cultivos Alto Valor"></div><div class="bonus-body"><h3>Guia de Cultivos de Alto Valor</h3><p>Descubra as plantas mais rentáveis por m².</p><div class="bonus-price"><span class="old">$17 USD</span><span class="free">GRÁTIS</span></div></div></article>
-      <article class="bonus-card"><div class="bonus-cover"><span class="bonus-num">Bônus 06</span><img src="https://www.image2url.com/r2/default/images/1779896748774-3c025729-45f8-4d9f-ab03-ee8c368aa1ee.png" alt="Água e Irrigação"></div><div class="bonus-body"><h3>Manual de Água e Irrigação</h3><p>Capte água da chuva, monte cisternas e irrigação eficiente.</p><div class="bonus-price"><span class="old">$17 USD</span><span class="free">GRÁTIS</span></div></div></article>
+      <article class="bonus-card"><div class="bonus-cover"><span class="bonus-num">Bono 01</span><img src="https://www.image2url.com/r2/default/images/1779852503723-bc1919ff-8525-41c5-a1cf-a4dc71e59516.png" alt="Construcciones Rurales"></div><div class="bonus-body"><h3>Pack de Construcciones Rurales</h3><p>10 planos listos de gallineros, chiqueros, establos y tanques.</p><div class="bonus-price"><span class="old">$17 USD</span><span class="free">GRATIS</span></div></div></article>
+      <article class="bonus-card"><div class="bonus-cover"><span class="bonus-num">Bono 02</span><img src="https://www.image2url.com/r2/default/images/1779852710951-007dd71c-0497-42d0-92bf-536511d4cf51.png" alt="Calculadora ROI"></div><div class="bonus-body"><h3>Calculadora de ROI Productivo</h3><p>Calculadora editable con retorno financiero estimado.</p><div class="bonus-price"><span class="old">$17 USD</span><span class="free">GRATIS</span></div></div></article>
+      <article class="bonus-card"><div class="bonus-cover"><span class="bonus-num">Bono 03</span><img src="https://www.image2url.com/r2/default/images/1779852637100-d9699970-3a9f-4c2b-8d55-bff2c730c7ad.png" alt="Plantas Compañeras"></div><div class="bonus-body"><h3>Guía de Plantas Compañeras</h3><p>Aprende qué plantar junto para aumentar la productividad.</p><div class="bonus-price"><span class="old">$17 USD</span><span class="free">GRATIS</span></div></div></article>
+      <article class="bonus-card"><div class="bonus-cover"><span class="bonus-num">Bono 04</span><img src="https://www.image2url.com/r2/default/images/1779852899013-b3dfc03f-a441-47b6-91d5-022748be9f30.png" alt="Energía Solar"></div><div class="bonus-body"><h3>Manual de Energía Solar Rural</h3><p>Dimensiona sistemas solares para casas, pozos y riego.</p><div class="bonus-price"><span class="old">$17 USD</span><span class="free">GRATIS</span></div></div></article>
+      <article class="bonus-card"><div class="bonus-cover"><span class="bonus-num">Bono 05</span><img src="https://www.image2url.com/r2/default/images/1779889057973-9851ad9e-b9ce-46dd-8e8d-a1e76b788c25.png" alt="Cultivos Alto Valor"></div><div class="bonus-body"><h3>Guía de Cultivos de Alto Valor</h3><p>Descubre las plantas más rentables por m².</p><div class="bonus-price"><span class="old">$17 USD</span><span class="free">GRATIS</span></div></div></article>
+      <article class="bonus-card"><div class="bonus-cover"><span class="bonus-num">Bono 06</span><img src="https://www.image2url.com/r2/default/images/1779896748774-3c025729-45f8-4d9f-ab03-ee8c368aa1ee.png" alt="Agua y Riego"></div><div class="bonus-body"><h3>Manual de Agua y Riego</h3><p>Capta agua de lluvia, arma cisternas y riego eficiente.</p><div class="bonus-price"><span class="old">$17 USD</span><span class="free">GRATIS</span></div></div></article>
     </div>
-    <div class="center-btn" style="margin-top:36px"><a href="#pricing" class="btn">Quero meu Projeto por $9,00 <span class="arr">›</span></a></div>
+    <div class="center-btn" style="margin-top:36px"><a href="#pricing" class="btn">Quiero mi Proyecto por $9,00 <span class="arr">›</span></a></div>
   </div>
 </section>
 
 <section class="sec sec--white">
   <div class="wrap reveal">
-    <h2 class="sec-title">Quem comprou, <span class="mark">recomenda</span></h2>
-    <p class="sec-sub">Resultados reais e comentários de produtores que já usam o Plan Rural.</p>
+    <h2 class="sec-title">Quienes compraron, <span class="mark">recomiendan</span></h2>
+    <p class="sec-sub">Resultados reales y comentarios de productores que ya usan Plan Rural.</p>
     <div class="carousel carousel--sample carousel--testi" data-carousel data-autoplay="4000">
       <button class="cbtn cprev" data-prev aria-label="Anterior"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="m15 18-6-6 6-6"/></svg></button>
       <div class="carousel-track" data-track>
-        <div class="img-card testi-card"><img src="https://www.image2url.com/r2/default/images/1778637463831-fff617a2-1307-4006-b7a7-2b35037e57c7.png" alt="Depoimento 01"></div>
-        <div class="img-card testi-card"><img src="https://www.image2url.com/r2/default/images/1778637789011-de4100ad-82ff-401f-be3d-d381a3f5679e.png" alt="Depoimento 02"></div>
-        <div class="img-card testi-card"><img src="https://www.image2url.com/r2/default/images/1778638049492-5c823441-bc0b-4efb-9a58-f3a4bc8b0bcc.png" alt="Depoimento 03"></div>
-        <div class="img-card testi-card"><img src="https://www.image2url.com/r2/default/images/1778636217662-148f37cc-1c82-403e-b5b2-382b7420f389.png" alt="Depoimento 04"></div>
-        <div class="img-card testi-card"><img src="https://www.image2url.com/r2/default/images/1778636316874-a0464222-93ee-420e-a099-ef453dbea104.png" alt="Depoimento 05"></div>
-        <div class="img-card testi-card"><img src="https://www.image2url.com/r2/default/images/1778636394813-07c11f56-46b7-49a5-9834-4f24846eeb3e.png" alt="Depoimento 06"></div>
+        <div class="img-card testi-card"><img src="https://www.image2url.com/r2/default/images/1778637463831-fff617a2-1307-4006-b7a7-2b35037e57c7.png" alt="Testimonio 01"></div>
+        <div class="img-card testi-card"><img src="https://www.image2url.com/r2/default/images/1778637789011-de4100ad-82ff-401f-be3d-d381a3f5679e.png" alt="Testimonio 02"></div>
+        <div class="img-card testi-card"><img src="https://www.image2url.com/r2/default/images/1778638049492-5c823441-bc0b-4efb-9a58-f3a4bc8b0bcc.png" alt="Testimonio 03"></div>
+        <div class="img-card testi-card"><img src="https://www.image2url.com/r2/default/images/1778636217662-148f37cc-1c82-403e-b5b2-382b7420f389.png" alt="Testimonio 04"></div>
+        <div class="img-card testi-card"><img src="https://www.image2url.com/r2/default/images/1778636316874-a0464222-93ee-420e-a099-ef453dbea104.png" alt="Testimonio 05"></div>
+        <div class="img-card testi-card"><img src="https://www.image2url.com/r2/default/images/1778636394813-07c11f56-46b7-49a5-9834-4f24846eeb3e.png" alt="Testimonio 06"></div>
       </div>
-      <button class="cbtn cnext" data-next aria-label="Próximo"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="m9 18 6-6-6-6"/></svg></button>
+      <button class="cbtn cnext" data-next aria-label="Siguiente"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="m9 18 6-6-6-6"/></svg></button>
     </div>
   </div>
 </section>
 
 <section class="sec sec--navy">
   <div class="wrap reveal">
-    <h2 class="sec-title">Comece a organizar <span class="lime-text">em minutos</span></h2>
+    <h2 class="sec-title">Empieza a organizar <span class="lime-text">en minutos</span></h2>
     <div class="steps-grid">
-      <div class="step"><div class="step-num">1</div><h3>Faça o Pagamento</h3><p>Acesso imediato após a confirmação da compra.</p></div>
-      <div class="step"><div class="step-num">2</div><h3>Receba por E-mail</h3><p>Seu usuário e senha chegam em segundos.</p></div>
-      <div class="step"><div class="step-num">3</div><h3>Abra os Projetos</h3><p>Baixe os PDFs pelo celular, tablet ou computador.</p></div>
-      <div class="step"><div class="step-num">4</div><h3>Aplique na sua Terra</h3><p>Siga as plantas e transforme sua propriedade.</p></div>
+      <div class="step"><div class="step-num">1</div><h3>Realiza el Pago</h3><p>Acceso inmediato tras la confirmación de compra.</p></div>
+      <div class="step"><div class="step-num">2</div><h3>Recibe por Correo</h3><p>Tu usuario y contraseña llegan en segundos.</p></div>
+      <div class="step"><div class="step-num">3</div><h3>Abre los Proyectos</h3><p>Descarga los PDFs desde el celular, tablet o computadora.</p></div>
+      <div class="step"><div class="step-num">4</div><h3>Aplica en tu Tierra</h3><p>Sigue los planos y transforma tu propiedad.</p></div>
     </div>
     
   </div>
@@ -428,13 +428,13 @@ export const pageHtml = String.raw`<div class="pr">
 
 <section class="sec sec--white" id="pricing">
   <div class="wrap reveal">
-    <h2 class="sec-title">Garanta agora com um <span class="lime-text" style="-webkit-text-stroke:.5px #9bc52a">preço especial</span></h2>
-    <p class="sec-sub">Inclui acesso vitalício, todos os bônus e 7 dias de garantia total.</p>
+    <h2 class="sec-title">Asegura ahora con un <span class="lime-text" style="-webkit-text-stroke:.5px #9bc52a">precio especial</span></h2>
+    <p class="sec-sub">Incluye acceso vitalicio, todos los bonos y 7 días de garantía total.</p>
     <div class="price-single">
       <div class="price-card">
-        <span class="best-tag">★ Acesso Completo ★</span>
-        <h3>Acesso Completo</h3>
-        <p style="text-align:center;font-family:'Montserrat',sans-serif;font-weight:800;text-transform:uppercase;letter-spacing:.5px;color:var(--muted-l);font-size:.8rem;margin:8px 0 4px">A oferta termina em:</p>
+        <span class="best-tag">★ Acceso Completo ★</span>
+        <h3>Acceso Completo</h3>
+        <p style="text-align:center;font-family:'Montserrat',sans-serif;font-weight:800;text-transform:uppercase;letter-spacing:.5px;color:var(--muted-l);font-size:.8rem;margin:8px 0 4px">La oferta termina en:</p>
         <div class="countdown" id="countdown">
           <div class="cd-box"><b id="cd-h">23</b><span>Horas</span></div>
           <div class="cd-box"><b id="cd-m">59</b><span>Min</span></div>
@@ -442,23 +442,23 @@ export const pageHtml = String.raw`<div class="pr">
         </div>
         <p class="price-old">De $137 USD por</p>
         <p class="price-now">$9,00</p>
-        <p class="price-tagline">Pagamento único · Acesso vitalício + Bônus</p>
-        <div class="price-mock"><img src="https://www.image2url.com/r2/default/images/1778629380417-163aca0b-6a61-4810-bc20-bc6912fb1e2b.png" alt="Acesso Completo"></div>
+        <p class="price-tagline">Pago único · Acceso vitalicio + Bonos</p>
+        <div class="price-mock"><img src="https://www.image2url.com/r2/default/images/1778629380417-163aca0b-6a61-4810-bc20-bc6912fb1e2b.png" alt="Acceso Completo"></div>
         <ul class="price-list">
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.8"><path d="M20 6 9 17l-5-5"/></svg> +100 projetos completos</li>
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.8"><path d="M20 6 9 17l-5-5"/></svg> <b style="font-weight:700">Bônus 1:</b> Construções Rurais</li>
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.8"><path d="M20 6 9 17l-5-5"/></svg> <b style="font-weight:700">Bônus 2:</b> Calculadora ROI</li>
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.8"><path d="M20 6 9 17l-5-5"/></svg> <b style="font-weight:700">Bônus 3:</b> Plantas Companheiras</li>
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.8"><path d="M20 6 9 17l-5-5"/></svg> <b style="font-weight:700">Bônus 4:</b> Energia Solar Rural</li>
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.8"><path d="M20 6 9 17l-5-5"/></svg> <b style="font-weight:700">Bônus 5:</b> Guia de Cultivos Pro</li>
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.8"><path d="M20 6 9 17l-5-5"/></svg> <b style="font-weight:700">Bônus 6:</b> Manual de Água/Irrigação</li>
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.8"><path d="M20 6 9 17l-5-5"/></svg> Acesso prioritário a novos projetos</li>
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.8"><path d="M20 6 9 17l-5-5"/></svg> Atualizações gratuitas semanais</li>
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.8"><path d="M20 6 9 17l-5-5"/></svg> Garantia de 7 dias</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.8"><path d="M20 6 9 17l-5-5"/></svg> +100 proyectos completos</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.8"><path d="M20 6 9 17l-5-5"/></svg> <b style="font-weight:700">Bono 1:</b> Construcciones Rurales</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.8"><path d="M20 6 9 17l-5-5"/></svg> <b style="font-weight:700">Bono 2:</b> Calculadora ROI</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.8"><path d="M20 6 9 17l-5-5"/></svg> <b style="font-weight:700">Bono 3:</b> Plantas Compañeras</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.8"><path d="M20 6 9 17l-5-5"/></svg> <b style="font-weight:700">Bono 4:</b> Energía Solar Rural</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.8"><path d="M20 6 9 17l-5-5"/></svg> <b style="font-weight:700">Bono 5:</b> Guía de Cultivos Pro</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.8"><path d="M20 6 9 17l-5-5"/></svg> <b style="font-weight:700">Bono 6:</b> Manual de Agua/Riego</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.8"><path d="M20 6 9 17l-5-5"/></svg> Acceso prioritario a nuevos proyectos</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.8"><path d="M20 6 9 17l-5-5"/></svg> Actualizaciones gratuitas semanales</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.8"><path d="M20 6 9 17l-5-5"/></svg> Garantía de 7 días</li>
         </ul>
-        <a href="https://pay.hotmart.com/K105902897X?checkoutMode=10" class="btn" target="_blank" rel="noopener">Quero meu Projeto por $9,00 <span class="arr">›</span></a>
-        <p class="price-warn">🔥 Você não vai encontrar esse preço depois.</p>
-        <p class="price-safe">Pagamento 100% seguro · Acesso imediato</p>
+        <a href="https://pay.hotmart.com/K105902897X?checkoutMode=10" class="btn" target="_blank" rel="noopener">Quiero mi Proyecto por $9,00 <span class="arr">›</span></a>
+        <p class="price-warn">🔥 No vas a encontrar este precio después.</p>
+        <p class="price-safe">Pago 100% seguro · Acceso inmediato</p>
       </div>
     </div>
   </div>
@@ -466,18 +466,18 @@ export const pageHtml = String.raw`<div class="pr">
 
 <section class="sec sec--navy">
   <div class="wrap reveal" style="text-align:center">
-    <span class="eyebrow" style="background:rgba(194,245,60,.12);color:var(--lime);border:1px solid rgba(194,245,60,.3)">★ Conheça o Criador ★</span>
-    <h2 class="sec-title" style="margin-top:16px">Quem está por trás do <span class="lime-text">Plan Rural</span></h2>
+    <span class="eyebrow" style="background:rgba(194,245,60,.12);color:var(--lime);border:1px solid rgba(194,245,60,.3)">★ Conoce al Creador ★</span>
+    <h2 class="sec-title" style="margin-top:16px">Quién está detrás de <span class="lime-text">Plan Rural</span></h2>
     <div class="creator" style="text-align:left">
       <div class="creator-photo"><img src="https://www.image2url.com/r2/default/images/1778714848819-60a6bb5e-390a-4372-8731-66d19e3ed55b.png" alt="Alejandro Martínez"></div>
       <div>
         <h3>Alejandro Martínez</h3>
-        <p class="role">Fundador e Criador</p>
-        <p>Engenheiro agrônomo com mais de 15 anos de experiência em planejamento rural em toda a América Latina. Já visitou mais de 3.000 propriedades em 8 países. Sua missão é democratizar o conhecimento rural profissional.</p>
+        <p class="role">Fundador y Creador</p>
+        <p>Ingeniero agrónomo con más de 15 años de experiencia en planificación rural en toda América Latina. Ha visitado más de 3.000 propiedades en 8 países. Su misión es democratizar el conocimiento rural profesional.</p>
         <div class="creator-stats">
-          <div><b>15+</b><span>Anos exp.</span></div>
-          <div><b>3k+</b><span>Propriedades</span></div>
-          <div><b>12 mil</b><span>Produtores</span></div>
+          <div><b>15+</b><span>Años exp.</span></div>
+          <div><b>3k+</b><span>Propiedades</span></div>
+          <div><b>12 mil</b><span>Productores</span></div>
         </div>
       </div>
     </div>
@@ -486,15 +486,15 @@ export const pageHtml = String.raw`<div class="pr">
 
 <section class="sec sec--white">
   <div class="wrap reveal">
-    <h2 class="sec-title">Perguntas <span class="lime-text" style="-webkit-text-stroke:.5px #9bc52a">frequentes</span></h2>
+    <h2 class="sec-title">Preguntas <span class="lime-text" style="-webkit-text-stroke:.5px #9bc52a">frecuentes</span></h2>
     <div class="faq-list" id="faq">
-      <div class="faq-item"><button class="faq-q">Como recebo os materiais após a compra? <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="m6 9 6 6 6-6"/></svg></button><div class="faq-a"><p>Assim que o pagamento é confirmado, você recebe no seu e-mail o acesso com usuário e senha.</p></div></div>
-      <div class="faq-item"><button class="faq-q">Preciso ter experiência em agricultura? <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="m6 9 6 6 6-6"/></svg></button><div class="faq-a"><p>Não. Os projetos foram feitos para qualquer pessoa aplicar, mesmo sem experiência técnica.</p></div></div>
-      <div class="faq-item"><button class="faq-q">Os projetos servem para qualquer região? <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="m6 9 6 6 6-6"/></svg></button><div class="faq-a"><p>Sim. Adaptados a 5 regiões climáticas da América Latina.</p></div></div>
-      <div class="faq-item"><button class="faq-q">Em que formato o material é entregue? <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="m6 9 6 6 6-6"/></svg></button><div class="faq-a"><p>100% digital, em arquivos PDF de alta qualidade.</p></div></div>
-      <div class="faq-item"><button class="faq-q">Funciona para terrenos pequenos? <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="m6 9 6 6 6-6"/></svg></button><div class="faq-a"><p>Sim. Projetos de 0,5 a 5 hectares.</p></div></div>
-      <div class="faq-item"><button class="faq-q">Qual a diferença de contratar um agrônomo? <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="m6 9 6 6 6-6"/></svg></button><div class="faq-a"><p>Um projeto sob medida custa milhares. Aqui você recebe +100 projetos por um preço único.</p></div></div>
-      <div class="faq-item"><button class="faq-q">E se eu não gostar do material? <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="m6 9 6 6 6-6"/></svg></button><div class="faq-a"><p>7 dias de garantia incondicional. Devolvemos cada centavo.</p></div></div>
+      <div class="faq-item"><button class="faq-q">¿Cómo recibo los materiales tras la compra? <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="m6 9 6 6 6-6"/></svg></button><div class="faq-a"><p>Apenas se confirma el pago, recibes en tu correo el acceso con usuario y contraseña.</p></div></div>
+      <div class="faq-item"><button class="faq-q">¿Necesito tener experiencia en agricultura? <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="m6 9 6 6 6-6"/></svg></button><div class="faq-a"><p>No. Los proyectos están pensados para que cualquier persona los aplique, incluso sin experiencia técnica.</p></div></div>
+      <div class="faq-item"><button class="faq-q">¿Los proyectos sirven para cualquier región? <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="m6 9 6 6 6-6"/></svg></button><div class="faq-a"><p>Sí. Están adaptados a 5 regiones climáticas de América Latina.</p></div></div>
+      <div class="faq-item"><button class="faq-q">¿En qué formato se entrega el material? <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="m6 9 6 6 6-6"/></svg></button><div class="faq-a"><p>100% digital, en archivos PDF de alta calidad.</p></div></div>
+      <div class="faq-item"><button class="faq-q">¿Funciona para terrenos pequeños? <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="m6 9 6 6 6-6"/></svg></button><div class="faq-a"><p>Sí. Hay proyectos desde 0,5 hasta 5 hectáreas.</p></div></div>
+      <div class="faq-item"><button class="faq-q">¿Qué diferencia hay con contratar un agrónomo? <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="m6 9 6 6 6-6"/></svg></button><div class="faq-a"><p>Un proyecto a la medida cuesta miles. Aquí recibes +100 proyectos por un precio único.</p></div></div>
+      <div class="faq-item"><button class="faq-q">¿Y si no me gusta el material? <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="m6 9 6 6 6-6"/></svg></button><div class="faq-a"><p>7 días de garantía incondicional. Te devolvemos cada centavo.</p></div></div>
     </div>
   </div>
 </section>
@@ -502,10 +502,10 @@ export const pageHtml = String.raw`<div class="pr">
 <section class="sec sec--white" style="padding-top:0">
   <div class="wrap reveal">
     <div class="guarantee">
-      <div class="guar-seal"><div><b>7</b><span>DIAS</span></div></div>
+      <div class="guar-seal"><div><b>7</b><span>DÍAS</span></div></div>
       <div class="guar-text">
-        <h3>Garantia Incondicional de 7 Dias</h3>
-        <p>Temos tanta confiança no valor do <b>Plan Rural</b> que assumimos todo o risco. Se em 7 dias você não estiver 100% satisfeito, devolvemos <b>cada centavo</b>.</p>
+        <h3>Garantía Incondicional de 7 Días</h3>
+        <p>Tenemos tanta confianza en el valor de <b>Plan Rural</b> que asumimos todo el riesgo. Si en 7 días no estás 100% satisfecho, te devolvemos <b>cada centavo</b>.</p>
       </div>
     </div>
   </div>
@@ -514,15 +514,15 @@ export const pageHtml = String.raw`<div class="pr">
 <footer class="footer">
   <div class="wrap">
     <div class="brand">PLAN RURAL</div>
-    <div class="ed">Edição Premium <span id="year">2026</span> · Todos os direitos reservados</div>
-    <div class="links"><a href="#">Termos de Uso</a><a href="#">Política de Privacidade</a></div>
-    <p class="disc">Este site não é afiliado ao Facebook, Instagram, Google ou qualquer outra plataforma. Os resultados dependem do esforço e da aplicação prática do cliente.</p>
+    <div class="ed">Edición Premium <span id="year">2026</span> · Todos los derechos reservados</div>
+    <div class="links"><a href="#">Términos de Uso</a><a href="#">Política de Privacidad</a></div>
+    <p class="disc">Este sitio no está afiliado a Facebook, Instagram, Google ni a ninguna otra plataforma. Los resultados dependen del esfuerzo y la aplicación práctica del cliente.</p>
   </div>
 </footer>
 
 <div class="toast" id="toast" role="status">
   <div class="ti"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 8v13H3V8M1 3h22v5H1zM10 12h4"/></svg></div>
-  <div><div class="tn" id="toastName">Juan P., de Bogotá</div><div class="tm" id="toastMeta">Acabou de comprar · agora mesmo</div></div>
+  <div><div class="tn" id="toastName">Juan P., de Bogotá</div><div class="tm" id="toastMeta">Acaba de comprar · ahora mismo</div></div>
 </div>
 </div>`;
 
@@ -619,12 +619,12 @@ export function initPage(root: HTMLElement): () => void {
   timers.push(window.setInterval(tick, 1000));
 
   const people: [string, string][] = [
-    ["Juan P., de Bogotá", "Acabou de comprar · agora mesmo"],
-    ["María G., de Lima", "Acabou de comprar · há 2 min"],
-    ["Carlos R., da Cidade do México", "Acabou de comprar · há 4 min"],
-    ["Andrés M., de Quito", "Acabou de comprar · há 7 min"],
-    ["Sofía L., de Medellín", "Acabou de comprar · há 9 min"],
-    ["Diego T., de Guayaquil", "Acabou de comprar · há 12 min"],
+    ["Juan P., de Bogotá", "Acaba de comprar · ahora mismo"],
+    ["María G., de Lima", "Acaba de comprar · hace 2 min"],
+    ["Carlos R., de Ciudad de México", "Acaba de comprar · hace 4 min"],
+    ["Andrés M., de Quito", "Acaba de comprar · hace 7 min"],
+    ["Sofía L., de Medellín", "Acaba de comprar · hace 9 min"],
+    ["Diego T., de Guayaquil", "Acaba de comprar · hace 12 min"],
   ];
   const toast = root.querySelector<HTMLElement>("#toast");
   const tn = root.querySelector<HTMLElement>("#toastName");
