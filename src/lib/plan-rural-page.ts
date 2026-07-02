@@ -641,7 +641,7 @@ export function initPage(root: HTMLElement): () => void {
   timers.push(window.setInterval(showToast, 11000));
 
   // Contador dinâmico de "pessoas vendo a página"
-  const viewersEl = root.querySelector<HTMLElement>("#pr-viewers");
+  const viewersEl = root.querySelector<HTMLElement>("#pr-viewers-count");
   if (viewersEl) {
     let current = 10;
     timers.push(
