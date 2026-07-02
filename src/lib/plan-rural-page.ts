@@ -81,8 +81,8 @@ body{background:var(--navy);overflow-x:hidden}
 
 .pr .ba{max-width:920px;margin:42px auto 0;position:relative;border-radius:18px;overflow:hidden;box-shadow:var(--shadow-card);aspect-ratio:16/9;background:#1a2c42}
 .pr .ba img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:0}
-.pr .ba-overlay{position:absolute;inset:0;display:grid;grid-template-columns:1fr 1fr;z-index:2;padding:18px}
-.pr .ba-overlay .ba-badge{justify-self:start}
+.pr .ba-overlay{position:absolute;inset:0;display:grid;grid-template-columns:1fr 1fr;align-items:start;z-index:2;padding:18px}
+.pr .ba-overlay .ba-badge{justify-self:start;align-self:start}
 .pr .ba-overlay .ba-badge.good{justify-self:end}
 .pr .ba-divider{position:absolute;top:0;bottom:0;left:50%;width:4px;background:#fff;transform:translateX(-50%);z-index:3}
 .pr .ba-badge{display:inline-flex;align-items:center;gap:8px;background:#fff;padding:7px 14px;border-radius:999px;font-family:'Montserrat',sans-serif;font-weight:800;font-size:.78rem;color:#1c1c1c;box-shadow:0 6px 16px -8px rgba(0,0,0,.4)}
