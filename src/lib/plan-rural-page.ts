@@ -32,9 +32,11 @@ body{background:var(--navy);overflow-x:hidden}
 .pr .mark-dark{background:var(--ink);color:#fff;padding:.02em .2em;border-radius:3px;-webkit-box-decoration-break:clone;box-decoration-break:clone}
 .pr .lime-text{color:var(--lime)}
 .pr .lime-ul{color:#fff;border-bottom:4px solid var(--lime);padding-bottom:3px;display:inline-block;line-height:1}
-.pr .btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;font-family:'Montserrat',sans-serif;font-weight:800;text-transform:uppercase;letter-spacing:.4px;font-size:clamp(.92rem,2vw,1.05rem);background:var(--lime);color:#0a1a2c;padding:19px 40px;border-radius:999px;box-shadow:0 14px 30px -10px rgba(169,230,0,.55);transition:transform .18s ease,box-shadow .18s ease,filter .18s ease;text-align:center}
-.pr .btn:hover{transform:translateY(-2px) scale(1.015);filter:brightness(1.04);box-shadow:0 20px 38px -12px rgba(169,230,0,.7)}
-.pr .btn:active{transform:translateY(0) scale(.99)}
+@keyframes prBtnPulse{0%,100%{transform:scale(1);box-shadow:0 14px 30px -10px rgba(169,230,0,.55)}50%{transform:scale(1.03);box-shadow:0 18px 36px -10px rgba(169,230,0,.75)}}
+.pr .btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;font-family:'Montserrat',sans-serif;font-weight:800;text-transform:uppercase;letter-spacing:.4px;font-size:clamp(.92rem,2vw,1.05rem);background:var(--lime);color:#0a1a2c;padding:19px 40px;border-radius:999px;box-shadow:0 14px 30px -10px rgba(169,230,0,.55);transition:transform .18s ease,box-shadow .18s ease,filter .18s ease;text-align:center;animation:prBtnPulse 2.4s ease-in-out infinite;will-change:transform}
+.pr .btn:hover{animation-play-state:paused;transform:translateY(-2px) scale(1.03);filter:brightness(1.04);box-shadow:0 20px 38px -12px rgba(169,230,0,.7)}
+.pr .btn:active{animation-play-state:paused;transform:translateY(0) scale(.99)}
+@media (prefers-reduced-motion:reduce){.pr .btn{animation:none}}
 .pr .btn .arr{font-weight:900}
 .pr .eyebrow{display:inline-flex;align-items:center;gap:8px;font-family:'Montserrat',sans-serif;font-weight:800;font-size:.74rem;letter-spacing:.6px;text-transform:uppercase;padding:8px 16px;border-radius:999px}
 .pr .reveal{opacity:0;transform:translateY(26px);transition:opacity .6s ease,transform .6s ease}
