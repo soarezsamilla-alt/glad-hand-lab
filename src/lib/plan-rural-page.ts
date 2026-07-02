@@ -116,7 +116,7 @@ body{background:var(--navy);overflow-x:hidden}
 .pr .kit-list li svg{width:20px;height:20px;color:var(--green);flex:none;margin-top:2px}
 .pr .kit-list b{font-family:'Montserrat',sans-serif;font-weight:700;font-size:.96rem;color:var(--ink);display:block}
 .pr .kit-list small{color:#7b96b0;font-size:.82rem}
-.pr .kit-more{display:block;margin-top:22px;color:var(--red);font-family:'Montserrat',sans-serif;font-weight:800;font-size:.92rem;text-transform:uppercase}
+.pr .kit-more{display:block;margin-top:22px;text-align:center;color:var(--red);font-family:'Montserrat',sans-serif;font-weight:800;font-size:.92rem;text-transform:uppercase}
 
 .pr .bonus-pill{display:flex;justify-content:center;margin:24px 0 8px}
 .pr .bonus-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;margin-top:30px}
