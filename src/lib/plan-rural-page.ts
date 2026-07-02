@@ -82,7 +82,7 @@ body{background:var(--navy);overflow-x:hidden}
 .pr .carousel--sample .carousel-track{scroll-snap-type:x mandatory;overflow:hidden}
 .pr .carousel--sample .img-card{flex:0 0 100%;width:100%;background:transparent;border:none;box-shadow:none;border-radius:0;display:flex;align-items:center;justify-content:center;scroll-snap-align:center}
 .pr .carousel--sample .img-card img{width:auto;max-width:min(100%,420px);height:auto;max-height:55vh;aspect-ratio:auto;object-fit:contain;display:block;margin:0 auto;background:transparent}
-.pr .carousel--testi .img-card img{max-width:min(100%,760px);max-height:80vh}
+.pr .carousel--testi .img-card img{max-width:min(100%,560px);max-height:60vh}
 
 .pr .ba{max-width:920px;margin:42px auto 0;position:relative;border-radius:18px;overflow:hidden;box-shadow:var(--shadow-card);aspect-ratio:16/9;background:#1a2c42}
 .pr .ba img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:0}
