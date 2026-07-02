@@ -1,4 +1,4 @@
-import comparacaoSplit from "@/assets/comparacao-split.jpg.asset.json";
+const comparacaoSplit = { url: "/comparacao-split.jpg" };
 
 export const pageCss = String.raw`
 :root{
