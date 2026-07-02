@@ -82,6 +82,7 @@ body{background:var(--navy);overflow-x:hidden}
 .pr .carousel--sample .carousel-track{scroll-snap-type:x mandatory;overflow:hidden}
 .pr .carousel--sample .img-card{flex:0 0 100%;width:100%;background:transparent;border:none;box-shadow:none;border-radius:0;display:flex;align-items:center;justify-content:center;scroll-snap-align:center}
 .pr .carousel--sample .img-card img{width:auto;max-width:min(100%,420px);height:auto;max-height:55vh;aspect-ratio:auto;object-fit:contain;display:block;margin:0 auto;background:transparent}
+.pr .carousel--testi .img-card img{max-width:min(100%,760px);max-height:80vh}
 
 .pr .ba{max-width:920px;margin:42px auto 0;position:relative;border-radius:18px;overflow:hidden;box-shadow:var(--shadow-card);aspect-ratio:16/9;background:#1a2c42}
 .pr .ba img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:0}
@@ -397,7 +398,7 @@ export const pageHtml = String.raw`<div class="pr">
   <div class="wrap reveal">
     <h2 class="sec-title">Quem comprou, <span class="mark">recomenda</span></h2>
     <p class="sec-sub">Resultados reais e comentários de produtores que já usam o Plan Rural.</p>
-    <div class="carousel" data-carousel>
+    <div class="carousel carousel--sample carousel--testi" data-carousel data-autoplay="4000">
       <button class="cbtn cprev" data-prev aria-label="Anterior"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="m15 18-6-6 6-6"/></svg></button>
       <div class="carousel-track" data-track>
         <div class="img-card testi-card"><img src="https://www.image2url.com/r2/default/images/1778637463831-fff617a2-1307-4006-b7a7-2b35037e57c7.png" alt="Depoimento 01"></div>
