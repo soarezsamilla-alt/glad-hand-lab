@@ -397,7 +397,7 @@ export const pageHtml = String.raw`<div class="pr">
   <div class="wrap reveal">
     <h2 class="sec-title">Quem comprou, <span class="mark">recomenda</span></h2>
     <p class="sec-sub">Resultados reais e comentários de produtores que já usam o Plan Rural.</p>
-    <div class="carousel" data-carousel>
+    <div class="carousel carousel--sample carousel--testi" data-carousel data-autoplay="4000">
       <button class="cbtn cprev" data-prev aria-label="Anterior"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="m15 18-6-6 6-6"/></svg></button>
       <div class="carousel-track" data-track>
         <div class="img-card testi-card"><img src="https://www.image2url.com/r2/default/images/1778637463831-fff617a2-1307-4006-b7a7-2b35037e57c7.png" alt="Depoimento 01"></div>
