@@ -1,4 +1,4 @@
-import comProjetos from "@/assets/com-projetos.jpg";
+import comparacaoSplit from "@/assets/comparacao-split.jpg.asset.json";
 
 export const pageCss = String.raw`
 :root{
@@ -79,13 +79,14 @@ body{background:var(--navy);overflow-x:hidden}
 .pr .carousel--sample .img-card{flex:0 0 100%;width:100%;background:transparent;border:none;box-shadow:none;border-radius:0;display:flex;align-items:center;justify-content:center;scroll-snap-align:center}
 .pr .carousel--sample .img-card img{width:auto;max-width:min(100%,420px);height:auto;max-height:55vh;aspect-ratio:auto;object-fit:contain;display:block;margin:0 auto;background:transparent}
 
-.pr .ba{max-width:880px;margin:42px auto 0;position:relative;border-radius:18px;overflow:hidden;display:grid;grid-template-columns:1fr 1fr;aspect-ratio:16/9;box-shadow:var(--shadow-card)}
-.pr .ba-side{position:relative;overflow:hidden;display:flex;align-items:flex-start;justify-content:flex-start;padding:18px}
-.pr .ba-side img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:0}
-.pr .ba-side>.ba-badge{position:relative;z-index:2}
-.pr .ba-after{border-left:4px solid #fff}
+.pr .ba{max-width:920px;margin:42px auto 0;position:relative;border-radius:18px;overflow:hidden;box-shadow:var(--shadow-card);aspect-ratio:16/9;background:#1a2c42}
+.pr .ba img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:0}
+.pr .ba-overlay{position:absolute;inset:0;display:grid;grid-template-columns:1fr 1fr;align-items:start;z-index:2;padding:18px}
+.pr .ba-overlay .ba-badge{justify-self:start;align-self:start}
+.pr .ba-overlay .ba-badge.good{justify-self:end}
+.pr .ba-divider{position:absolute;top:0;bottom:0;left:50%;width:4px;background:#fff;transform:translateX(-50%);z-index:3}
 .pr .ba-badge{display:inline-flex;align-items:center;gap:8px;background:#fff;padding:7px 14px;border-radius:999px;font-family:'Montserrat',sans-serif;font-weight:800;font-size:.78rem;color:#1c1c1c;box-shadow:0 6px 16px -8px rgba(0,0,0,.4)}
-.pr .ba-badge.bad{color:#d23030}.pr .ba-badge.good{color:#1f8a36}.pr .ba-after .ba-badge{margin-left:auto}
+.pr .ba-badge.bad{color:#d23030}.pr .ba-badge.good{color:#1f8a36}
 .pr .cmp-wrap{display:grid;grid-template-columns:1fr 1fr;gap:24px;max-width:880px;margin:36px auto 0}
 .pr .cmp-card{background:#f6f7f9;border-radius:16px;padding:26px 24px;box-shadow:0 10px 26px -18px rgba(0,0,0,.3)}
 .pr .cmp-pill{display:flex;align-items:center;justify-content:center;gap:8px;font-family:'Montserrat',sans-serif;font-weight:800;font-size:.86rem;padding:11px;border-radius:10px;text-transform:uppercase;margin-bottom:18px}
@@ -296,12 +297,10 @@ export const pageHtml = String.raw`<div class="pr">
   <div class="wrap reveal">
     <h2 class="sec-title">Veja a diferença <span class="mark">Sem os Projetos</span> e <span class="mark">Com os Projetos</span></h2>
     <div class="ba" id="ba">
-      <div class="ba-side ba-before">
-        <img src="https://www.image2url.com/r2/default/images/1782950019898-fc48cf38-fc69-48b8-b92d-91a7f288f105.jpg" alt="Propriedade sem os projetos" loading="lazy">
+      <img src="${comparacaoSplit.url}" alt="Comparação: sem os projetos vs com +100 projetos" loading="lazy" width="1024" height="576">
+      <div class="ba-divider" aria-hidden="true"></div>
+      <div class="ba-overlay">
         <span class="ba-badge bad"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#d23030" stroke-width="2.6"><circle cx="12" cy="12" r="10"/><path d="m15 9-6 6M9 9l6 6"/></svg> Sem os Projetos</span>
-      </div>
-      <div class="ba-side ba-after">
-        <img src="${comProjetos}" alt="Propriedade com os projetos" loading="lazy">
         <span class="ba-badge good"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#1f8a36" stroke-width="2.6"><circle cx="12" cy="12" r="10"/><path d="m8 12 3 3 5-6"/></svg> Com +100 Projetos</span>
       </div>
     </div>
