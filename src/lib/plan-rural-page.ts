@@ -562,6 +562,16 @@ export function initPage(root: HTMLElement): () => void {
   const yearEl = root.querySelector("#year");
   if (yearEl) yearEl.textContent = String(new Date().getFullYear());
 
+  const tomorrow = new Date();
+  tomorrow.setDate(tomorrow.getDate() + 1);
+  const dd = String(tomorrow.getDate()).padStart(2, "0");
+  const mm = String(tomorrow.getMonth() + 1).padStart(2, "0");
+  const yyyy = tomorrow.getFullYear();
+  root.querySelectorAll<HTMLElement>("[data-scarcity-date]").forEach((el) => {
+    el.textContent = `${dd}/${mm}/${yyyy}`;
+  });
+
+
   const io = new IntersectionObserver(
     (entries) => {
       entries.forEach((e) => {
