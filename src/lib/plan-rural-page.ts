@@ -156,9 +156,9 @@ body{background:var(--navy);overflow-x:hidden}
 .pr .best-tag{position:absolute;top:-15px;left:50%;transform:translateX(-50%);background:var(--ink);color:var(--lime);font-family:'Montserrat',sans-serif;font-weight:800;font-size:.64rem;letter-spacing:.5px;padding:7px 18px;border-radius:999px;text-transform:uppercase;white-space:nowrap}
 .pr .price-card h3{font-family:'Montserrat',sans-serif;font-weight:800;text-transform:uppercase;font-size:1.35rem;color:var(--ink);margin-bottom:6px}
 .pr .price-old{color:#9aa6b2;text-decoration:line-through;font-size:.92rem;margin-top:6px}
-@keyframes scarcitySoftPulse{0%,100%{opacity:1;box-shadow:0 6px 18px -8px rgba(178,93,0,.35)}50%{opacity:.92;box-shadow:0 8px 26px -6px rgba(178,93,0,.55)}}
-.pr .scarcity-badge{display:flex;width:max-content;max-width:100%;align-items:center;justify-content:center;gap:8px;background:#fff4e5;color:#b25d00;border:1px solid #ffd8a8;border-radius:999px;padding:9px 18px;font-family:'Montserrat',sans-serif;font-weight:800;font-size:.78rem;letter-spacing:.4px;text-transform:uppercase;margin:6px auto 22px;box-shadow:0 6px 18px -8px rgba(178,93,0,.35);animation:scarcitySoftPulse 2.5s ease-in-out infinite;will-change:box-shadow,opacity}
-.pr .scarcity-badge .scarcity-ico{font-size:1rem;line-height:1;animation:scarcitySoftPulse 2.5s ease-in-out infinite}
+@keyframes scarcitySoftPulse{0%,100%{opacity:1;box-shadow:0 4px 12px -6px rgba(178,93,0,.35)}50%{opacity:.92;box-shadow:0 6px 18px -4px rgba(178,93,0,.55)}}
+.pr .scarcity-badge{display:flex;width:max-content;max-width:100%;align-items:center;justify-content:center;gap:6px;background:#fff4e5;color:#b25d00;border:1px solid #ffd8a8;border-radius:999px;padding:7px 14px;font-family:'Montserrat',sans-serif;font-weight:800;font-size:.7rem;letter-spacing:.35px;text-transform:uppercase;margin:6px auto 22px;box-shadow:0 4px 12px -6px rgba(178,93,0,.35);animation:scarcitySoftPulse 2.5s ease-in-out infinite;will-change:box-shadow,opacity}
+.pr .scarcity-badge .scarcity-ico{font-size:.9rem;line-height:1;animation:scarcitySoftPulse 2.5s ease-in-out infinite}
 @media (prefers-reduced-motion: reduce){.pr .scarcity-badge,.pr .scarcity-badge .scarcity-ico{animation:none}}
 .pr .price-now{font-family:'Montserrat',sans-serif;font-weight:900;font-size:clamp(2.4rem,6vw,3rem);color:var(--ink);line-height:1;margin:2px 0 4px}
 .pr .price-tagline{font-size:.8rem;color:#6f8a1c;font-weight:800;text-transform:uppercase;letter-spacing:.3px;margin-bottom:16px}
