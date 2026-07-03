@@ -443,7 +443,7 @@ export const pageHtml = String.raw`<div class="pr">
         <p class="price-old">De $97 USD por</p>
         <p class="price-now">$5,90</p>
         <p class="price-tagline">Pago único</p>
-        <a href="https://pay.hotmart.com/K105902897X?checkoutMode=10" class="btn" target="_blank" rel="noopener">Quiero el Básico <span class="arr">›</span></a>
+        <a href="https://pay.hotmart.com/H106592377U?checkoutMode=10" class="btn" target="_blank" rel="noopener">Quiero el Básico <span class="arr">›</span></a>
       </div>
     </div>
     <div class="price-single">
