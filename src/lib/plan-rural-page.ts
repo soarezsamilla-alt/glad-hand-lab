@@ -156,6 +156,9 @@ body{background:var(--navy);overflow-x:hidden}
 .pr .best-tag{position:absolute;top:-15px;left:50%;transform:translateX(-50%);background:var(--ink);color:var(--lime);font-family:'Montserrat',sans-serif;font-weight:800;font-size:.64rem;letter-spacing:.5px;padding:7px 18px;border-radius:999px;text-transform:uppercase;white-space:nowrap}
 .pr .price-card h3{font-family:'Montserrat',sans-serif;font-weight:800;text-transform:uppercase;font-size:1.35rem;color:var(--ink);margin-bottom:6px}
 .pr .price-old{color:#9aa6b2;text-decoration:line-through;font-size:.92rem;margin-top:6px}
+.pr .scarcity-badge{display:inline-flex;align-items:center;gap:8px;background:#fff4e5;color:#b25d00;border:1px solid #ffd8a8;border-radius:999px;padding:9px 18px;font-family:'Montserrat',sans-serif;font-weight:800;font-size:.78rem;letter-spacing:.4px;text-transform:uppercase;margin:6px auto 22px;box-shadow:0 6px 18px -8px rgba(178,93,0,.35)}
+.pr .scarcity-badge{display:flex;width:max-content;max-width:100%;align-items:center;justify-content:center;gap:8px;background:#fff4e5;color:#b25d00;border:1px solid #ffd8a8;border-radius:999px;padding:9px 18px;font-family:'Montserrat',sans-serif;font-weight:800;font-size:.78rem;letter-spacing:.4px;text-transform:uppercase;margin:6px auto 22px;box-shadow:0 6px 18px -8px rgba(178,93,0,.35)}
+.pr .scarcity-badge .scarcity-ico{font-size:1rem;line-height:1}
 .pr .price-now{font-family:'Montserrat',sans-serif;font-weight:900;font-size:clamp(2.4rem,6vw,3rem);color:var(--ink);line-height:1;margin:2px 0 4px}
 .pr .price-tagline{font-size:.8rem;color:#6f8a1c;font-weight:800;text-transform:uppercase;letter-spacing:.3px;margin-bottom:16px}
 .pr .price-mock{width:min(100%,360px);margin:10px auto 18px;border-radius:10px;overflow:hidden;animation:prBonusPulse 3s ease-in-out infinite;will-change:transform}
@@ -429,6 +432,8 @@ export const pageHtml = String.raw`<div class="pr">
 <section class="sec sec--white" id="pricing">
   <div class="wrap reveal">
     <h2 class="sec-title">Elige tu plan y <span class="lime-text" style="-webkit-text-stroke:.5px #9bc52a">empieza ahora</span></h2>
+    <div class="scarcity-badge"><span class="scarcity-ico">⏱</span> OFERTA DISPONIBLE SOLO HOY, <span data-scarcity-date>--/--/----</span></div>
+    
     
     <div class="price-single" style="margin-bottom:28px">
       <div class="price-card price-card--basic">
@@ -556,6 +561,16 @@ export function initPage(root: HTMLElement): () => void {
 
   const yearEl = root.querySelector("#year");
   if (yearEl) yearEl.textContent = String(new Date().getFullYear());
+
+  const tomorrow = new Date();
+  tomorrow.setDate(tomorrow.getDate() + 1);
+  const dd = String(tomorrow.getDate()).padStart(2, "0");
+  const mm = String(tomorrow.getMonth() + 1).padStart(2, "0");
+  const yyyy = tomorrow.getFullYear();
+  root.querySelectorAll<HTMLElement>("[data-scarcity-date]").forEach((el) => {
+    el.textContent = `${dd}/${mm}/${yyyy}`;
+  });
+
 
   const io = new IntersectionObserver(
     (entries) => {
