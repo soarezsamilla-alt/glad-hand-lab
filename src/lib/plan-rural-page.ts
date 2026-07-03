@@ -157,8 +157,8 @@ body{background:var(--navy);overflow-x:hidden}
 .pr .price-card h3{font-family:'Montserrat',sans-serif;font-weight:800;text-transform:uppercase;font-size:1.35rem;color:var(--ink);margin-bottom:6px}
 .pr .price-old{color:#9aa6b2;text-decoration:line-through;font-size:.92rem;margin-top:6px}
 .pr .scarcity-badge{display:inline-flex;align-items:center;gap:8px;background:#fff4e5;color:#b25d00;border:1px solid #ffd8a8;border-radius:999px;padding:9px 18px;font-family:'Montserrat',sans-serif;font-weight:800;font-size:.78rem;letter-spacing:.4px;text-transform:uppercase;margin:6px auto 22px;box-shadow:0 6px 18px -8px rgba(178,93,0,.35)}
+.pr .scarcity-badge{display:flex;width:max-content;max-width:100%;align-items:center;justify-content:center;gap:8px;background:#fff4e5;color:#b25d00;border:1px solid #ffd8a8;border-radius:999px;padding:9px 18px;font-family:'Montserrat',sans-serif;font-weight:800;font-size:.78rem;letter-spacing:.4px;text-transform:uppercase;margin:6px auto 22px;box-shadow:0 6px 18px -8px rgba(178,93,0,.35)}
 .pr .scarcity-badge .scarcity-ico{font-size:1rem;line-height:1}
-.pr #pricing .wrap{text-align:center}
 .pr .price-now{font-family:'Montserrat',sans-serif;font-weight:900;font-size:clamp(2.4rem,6vw,3rem);color:var(--ink);line-height:1;margin:2px 0 4px}
 .pr .price-tagline{font-size:.8rem;color:#6f8a1c;font-weight:800;text-transform:uppercase;letter-spacing:.3px;margin-bottom:16px}
 .pr .price-mock{width:min(100%,360px);margin:10px auto 18px;border-radius:10px;overflow:hidden;animation:prBonusPulse 3s ease-in-out infinite;will-change:transform}
