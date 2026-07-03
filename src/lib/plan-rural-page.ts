@@ -428,7 +428,7 @@ export const pageHtml = String.raw`<div class="pr">
 
 <section class="sec sec--white" id="pricing">
   <div class="wrap reveal">
-    <h2 class="sec-title">Asegura ahora con un <span class="lime-text" style="-webkit-text-stroke:.5px #9bc52a">precio especial</span></h2>
+    <h2 class="sec-title">Elige tu plan y <span class="lime-text" style="-webkit-text-stroke:.5px #9bc52a">empieza ahora</span></h2>
     <p class="sec-sub">Incluye acceso vitalicio, todos los bonos y 7 días de garantía total.</p>
     <div class="price-single" style="margin-bottom:28px">
       <div class="price-card price-card--basic">
