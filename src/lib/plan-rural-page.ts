@@ -242,7 +242,7 @@ export const pageHtml = String.raw`<div class="pr">
     <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>
     Acceso inmediato en tu correo · Pago 100% seguro
   </div>
-  <div><a href="#pricing" class="btn">QUERO O PLANO COMPLETO</a></div>
+  <div><a href="#pricing" class="btn">QUIERO MI PROYECTO POR $5,90</a></div>
   <div class="trust-line">★ Acceso inmediato · 7 días de garantía ★</div>
 </header>
 
