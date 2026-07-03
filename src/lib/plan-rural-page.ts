@@ -440,7 +440,7 @@ export const pageHtml = String.raw`<div class="pr">
           <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.8"><path d="M20 6 9 17l-5-5"/></svg> Garantía de 7 días</li>
           <li style="text-decoration:line-through;opacity:.55"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.8"><path d="M18 6 6 18M6 6l12 12"/></svg> Sin los 6 Bonos Exclusivos</li>
         </ul>
-        <p class="price-old">De $97 USD por</p>
+        <p class="price-old">De $47 USD por</p>
         <p class="price-now">$5,90</p>
         <p class="price-tagline">Pago único</p>
         <a href="https://pay.hotmart.com/H106592377U?checkoutMode=10" class="btn" target="_blank" rel="noopener">Quiero el Básico <span class="arr">›</span></a>
