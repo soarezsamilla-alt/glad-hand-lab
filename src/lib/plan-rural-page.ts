@@ -472,7 +472,7 @@ export const pageHtml = String.raw`<div class="pr">
           <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.8"><path d="M20 6 9 17l-5-5"/></svg> Actualizaciones gratuitas semanales</li>
           <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.8"><path d="M20 6 9 17l-5-5"/></svg> Garantía de 7 días</li>
         </ul>
-        <a href="https://pay.hotmart.com/K105902897X?checkoutMode=10" class="btn" target="_blank" rel="noopener">QUIERO EL PLAN COMPLETO <span class="arr">›</span></a>
+        <a href="https://pay.hotmart.com/K105902897X?checkoutMode=10" class="btn" target="_blank" rel="noopener">QUIERO MI PROYECTO POR $5,90 <span class="arr">›</span></a>
         <p class="price-warn">🔥 No vas a encontrar este precio después.</p>
         <p class="price-safe">Pago 100% seguro · Acceso inmediato</p>
       </div>
