@@ -430,6 +430,22 @@ export const pageHtml = String.raw`<div class="pr">
   <div class="wrap reveal">
     <h2 class="sec-title">Asegura ahora con un <span class="lime-text" style="-webkit-text-stroke:.5px #9bc52a">precio especial</span></h2>
     <p class="sec-sub">Incluye acceso vitalicio, todos los bonos y 7 días de garantía total.</p>
+    <div class="price-single" style="margin-bottom:28px">
+      <div class="price-card price-card--basic">
+        <h3>Plan Básico</h3>
+        <div class="price-mock"><img src="https://www.image2url.com/r2/default/images/1778629380417-163aca0b-6a61-4810-bc20-bc6912fb1e2b.png" alt="Plan Básico"></div>
+        <ul class="price-list">
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.8"><path d="M20 6 9 17l-5-5"/></svg> +100 proyectos completos</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.8"><path d="M20 6 9 17l-5-5"/></svg> Acceso inmediato tras la compra</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.8"><path d="M20 6 9 17l-5-5"/></svg> Garantía de 7 días</li>
+          <li style="text-decoration:line-through;opacity:.55"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.8"><path d="M18 6 6 18M6 6l12 12"/></svg> Sin los 6 Bonos Exclusivos</li>
+        </ul>
+        <p class="price-old">De $97 USD por</p>
+        <p class="price-now">$5,90</p>
+        <p class="price-tagline">Pago único</p>
+        <a href="https://pay.hotmart.com/K105902897X?checkoutMode=10" class="btn" target="_blank" rel="noopener">Quiero el Básico <span class="arr">›</span></a>
+      </div>
+    </div>
     <div class="price-single">
       <div class="price-card">
         <span class="best-tag">★ Acceso Completo ★</span>
