@@ -433,7 +433,7 @@ export const pageHtml = String.raw`<div class="pr">
     <div class="price-single" style="margin-bottom:28px">
       <div class="price-card price-card--basic">
         <h3>Plan Básico</h3>
-        <div class="price-mock"><img src="https://www.image2url.com/r2/default/images/1778629380417-163aca0b-6a61-4810-bc20-bc6912fb1e2b.png" alt="Plan Básico"></div>
+        <div class="price-mock"><img src="https://www.image2url.com/r2/default/images/1783091516399-50ff336d-896f-4f51-afa9-3eb0fb56e850.png" alt="Plan Básico"></div>
         <ul class="price-list">
           <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.8"><path d="M20 6 9 17l-5-5"/></svg> +100 proyectos completos</li>
           <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.8"><path d="M20 6 9 17l-5-5"/></svg> Acceso inmediato tras la compra</li>
