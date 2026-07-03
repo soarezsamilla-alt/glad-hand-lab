@@ -429,6 +429,8 @@ export const pageHtml = String.raw`<div class="pr">
 <section class="sec sec--white" id="pricing">
   <div class="wrap reveal">
     <h2 class="sec-title">Elige tu plan y <span class="lime-text" style="-webkit-text-stroke:.5px #9bc52a">empieza ahora</span></h2>
+    <div class="scarcity-badge"><span class="scarcity-ico">⏱</span> OFERTA DISPONIBLE SOLO HOY, <span data-scarcity-date>--/--/----</span></div>
+    
     
     <div class="price-single" style="margin-bottom:28px">
       <div class="price-card price-card--basic">
