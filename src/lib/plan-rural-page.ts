@@ -759,7 +759,7 @@ export function initPage(root: HTMLElement): () => void {
   const upsellDecline = root.querySelector<HTMLAnchorElement>("#prUpsellDecline");
   const upsellMin = root.querySelector<HTMLElement>("#prUpsellM");
   const upsellSec = root.querySelector<HTMLElement>("#prUpsellS");
-  const basicBtn = root.querySelector<HTMLAnchorElement>("#basicBtn");
+  const basicBtn = root.querySelector<HTMLButtonElement>("#basicBtn");
   let upsellTimer: number | null = null;
   let upsellEnd = 0;
   let upsellShown = false;
@@ -803,7 +803,7 @@ export function initPage(root: HTMLElement): () => void {
   });
   upsellClose?.addEventListener("click", closeUpsell);
   upsellDecline?.addEventListener("click", () => {
-    const url = basicBtn?.dataset.basicUrl;
+    const url = "https://pay.hotmart.com/H106592377U?checkoutMode=10";
     closeUpsell();
     if (url) window.open(url, "_blank", "noopener");
   });
