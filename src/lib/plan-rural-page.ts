@@ -226,7 +226,38 @@ body{background:var(--navy);overflow-x:hidden}
   .pr .reveal{opacity:1;transform:none;transition:none}
   .pr .btn:hover,.pr .feat-card:hover{transform:none}
 }
+
+/* ===== Upsell Modal ===== */
+.pr-upsell{position:fixed;inset:0;z-index:9999;display:none;align-items:center;justify-content:center;padding:16px;background:rgba(5,12,22,.72);backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px);opacity:0;transition:opacity .25s ease}
+.pr-upsell.show{display:flex;opacity:1}
+.pr-upsell-card{position:relative;width:100%;max-width:480px;background:linear-gradient(160deg,#0c2138 0%,#0a1a2c 100%);color:#fff;border:1px solid rgba(194,245,60,.35);border-radius:20px;box-shadow:0 30px 60px -20px rgba(0,0,0,.6),0 0 0 4px rgba(194,245,60,.08);padding:26px 22px 24px;transform:scale(.92) translateY(12px);transition:transform .3s cubic-bezier(.2,.9,.3,1.2);max-height:92vh;overflow-y:auto;font-family:'Inter',system-ui,Arial,sans-serif}
+.pr-upsell.show .pr-upsell-card{transform:scale(1) translateY(0)}
+.pr-upsell-close{position:absolute;top:10px;right:12px;width:32px;height:32px;border-radius:50%;background:rgba(255,255,255,.08);color:#fff;font-size:20px;line-height:1;display:flex;align-items:center;justify-content:center;transition:background .18s}
+.pr-upsell-close:hover{background:rgba(255,255,255,.18)}
+.pr-upsell-tag{display:inline-block;background:var(--red);color:#fff;font-family:'Montserrat',sans-serif;font-weight:800;font-size:.7rem;letter-spacing:.6px;text-transform:uppercase;padding:5px 11px;border-radius:999px;margin-bottom:10px;animation:prBadgePulse 2s ease-in-out infinite}
+.pr-upsell-title{font-family:'Montserrat',sans-serif;font-weight:800;font-size:clamp(1.2rem,4.5vw,1.55rem);line-height:1.15;text-transform:uppercase;letter-spacing:-.3px;margin-bottom:8px}
+.pr-upsell-title span{color:var(--lime)}
+.pr-upsell-sub{font-size:.92rem;color:var(--muted-d);margin-bottom:14px}
+.pr-upsell-prices{display:flex;align-items:baseline;justify-content:center;gap:14px;background:rgba(194,245,60,.06);border:1px dashed rgba(194,245,60,.3);border-radius:14px;padding:14px 12px;margin-bottom:14px;flex-wrap:wrap}
+.pr-upsell-prices .old{font-family:'Montserrat',sans-serif;font-weight:700;font-size:1.1rem;text-decoration:line-through;color:var(--muted-d)}
+.pr-upsell-prices .new{font-family:'Montserrat',sans-serif;font-weight:900;font-size:2rem;color:var(--lime);line-height:1}
+.pr-upsell-prices .save{width:100%;text-align:center;font-size:.82rem;color:#fff;margin-top:4px}
+.pr-upsell-prices .save b{color:var(--lime);font-weight:800}
+.pr-upsell-timer{display:flex;gap:6px;justify-content:center;margin-bottom:14px}
+.pr-upsell-timer .cd{background:#0a1a2c;border:1px solid rgba(255,255,255,.12);border-radius:10px;padding:8px 12px;min-width:56px;text-align:center}
+.pr-upsell-timer .cd b{font-family:'Montserrat',sans-serif;font-weight:900;font-size:1.4rem;color:var(--lime);display:block;line-height:1}
+.pr-upsell-timer .cd span{font-size:.65rem;text-transform:uppercase;letter-spacing:.5px;color:var(--muted-d)}
+.pr-upsell-why{background:rgba(255,255,255,.04);border-radius:12px;padding:12px 14px;margin-bottom:16px}
+.pr-upsell-why h4{font-family:'Montserrat',sans-serif;font-weight:800;font-size:.82rem;text-transform:uppercase;letter-spacing:.5px;color:var(--lime);margin-bottom:8px}
+.pr-upsell-why ul{list-style:none;padding:0;margin:0;display:grid;gap:6px}
+.pr-upsell-why li{display:flex;gap:8px;font-size:.88rem;color:#fff;line-height:1.4}
+.pr-upsell-why li::before{content:"✓";color:var(--lime);font-weight:900;flex-shrink:0}
+.pr-upsell .btn-full{width:100%;padding:16px 20px;font-size:.95rem;margin-bottom:8px}
+.pr-upsell-decline{display:block;width:100%;text-align:center;background:none;color:var(--muted-d);font-size:.78rem;padding:8px;text-decoration:underline;text-underline-offset:2px}
+.pr-upsell-decline:hover{color:#fff}
+@keyframes prBadgePulse{0%,100%{transform:scale(1)}50%{transform:scale(1.06)}}
 `;
+
 
 export const pageHtml = String.raw`<div class="pr">
 <div class="topbar">
@@ -449,7 +480,7 @@ export const pageHtml = String.raw`<div class="pr">
           <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.8"><path d="M20 6 9 17l-5-5"/></svg> Garantía de 7 días</li>
           <li style="text-decoration:line-through;opacity:.55"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.8"><path d="M18 6 6 18M6 6l12 12"/></svg> Sin los 6 Bonos Exclusivos</li>
         </ul>
-        <a href="https://pay.hotmart.com/H106592377U?checkoutMode=10" class="btn" target="_blank" rel="noopener">Quiero el Básico <span class="arr">›</span></a>
+        <a href="https://pay.hotmart.com/H106592377U?checkoutMode=10" class="btn" id="basicBtn" data-basic-url="https://pay.hotmart.com/H106592377U?checkoutMode=10" target="_blank" rel="noopener">Quiero el Básico <span class="arr">›</span></a>
       </div>
     </div>
     <div class="price-single">
@@ -546,7 +577,43 @@ export const pageHtml = String.raw`<div class="pr">
   <div class="ti"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 8v13H3V8M1 3h22v5H1zM10 12h4"/></svg></div>
   <div><div class="tn" id="toastName">Juan P., de Bogotá</div><div class="tm" id="toastMeta">Acaba de comprar · ahora mismo</div></div>
 </div>
+
+<div class="pr-upsell" id="prUpsell" role="dialog" aria-modal="true" aria-labelledby="prUpsellTitle">
+  <div class="pr-upsell-card">
+    <button class="pr-upsell-close" id="prUpsellClose" aria-label="Cerrar">×</button>
+    <span class="pr-upsell-tag">🔥 Oferta exclusiva · Solo ahora</span>
+    <h3 class="pr-upsell-title" id="prUpsellTitle">¡Espera! Lleva el <span>Acceso Completo</span> con descuento</h3>
+    <p class="pr-upsell-sub">Por muy poco más te llevas los <b>6 Bonos Exclusivos</b> y el acceso vitalicio.</p>
+
+    <div class="pr-upsell-prices">
+      <span class="old">$9,90</span>
+      <span class="new">$7,90</span>
+      <span class="save">Ahorras <b>$2,00 USD</b> extra en esta oferta única</span>
+    </div>
+
+    <div class="pr-upsell-timer" aria-live="polite">
+      <div class="cd"><b id="prUpsellM">10</b><span>Min</span></div>
+      <div class="cd"><b id="prUpsellS">00</b><span>Seg</span></div>
+    </div>
+
+    <div class="pr-upsell-why">
+      <h4>¿Por qué llevar el Plan Completo?</h4>
+      <ul>
+        <li>Recibes los <b>6 Bonos Exclusivos</b> (Construcciones, ROI, Solar, Riego y más)</li>
+        <li>Acceso <b>vitalicio</b> con actualizaciones semanales gratuitas</li>
+        <li>Prioridad en los nuevos proyectos añadidos cada mes</li>
+        <li>El plan más elegido: <b>rentabiliza tu propiedad más rápido</b></li>
+        <li>Solo <b>$2 USD</b> más — no encontrarás este precio después</li>
+      </ul>
+    </div>
+
+    <a href="https://pay.hotmart.com/K105902897X?checkoutMode=10&off=upsell790" class="btn btn-full" id="prUpsellCta" target="_blank" rel="noopener">SÍ, QUIERO EL COMPLETO POR $7,90 <span class="arr">›</span></a>
+    <button class="pr-upsell-decline" id="prUpsellDecline">No, gracias. Continuar con el Plan Básico</button>
+  </div>
+</div>
+
 </div>`;
+
 
 export function initPage(root: HTMLElement): () => void {
   const timers: number[] = [];
@@ -685,6 +752,64 @@ export function initPage(root: HTMLElement): () => void {
       }, 2500)
     );
   }
+
+  // ===== Upsell Modal =====
+  const upsell = root.querySelector<HTMLElement>("#prUpsell");
+  const upsellClose = root.querySelector<HTMLElement>("#prUpsellClose");
+  const upsellDecline = root.querySelector<HTMLAnchorElement>("#prUpsellDecline");
+  const upsellMin = root.querySelector<HTMLElement>("#prUpsellM");
+  const upsellSec = root.querySelector<HTMLElement>("#prUpsellS");
+  const basicBtn = root.querySelector<HTMLAnchorElement>("#basicBtn");
+  let upsellTimer: number | null = null;
+  let upsellEnd = 0;
+  let upsellShown = false;
+
+  const stopUpsellTimer = () => {
+    if (upsellTimer !== null) {
+      clearInterval(upsellTimer);
+      upsellTimer = null;
+    }
+  };
+  const renderUpsell = () => {
+    const diff = Math.max(0, upsellEnd - Date.now());
+    const mm = Math.floor(diff / 60000);
+    const ss = Math.floor((diff % 60000) / 1000);
+    if (upsellMin) upsellMin.textContent = mm < 10 ? "0" + mm : "" + mm;
+    if (upsellSec) upsellSec.textContent = ss < 10 ? "0" + ss : "" + ss;
+    if (diff <= 0) stopUpsellTimer();
+  };
+  const openUpsell = () => {
+    if (!upsell) return;
+    upsell.classList.add("show");
+    if (!upsellShown) {
+      upsellEnd = Date.now() + 10 * 60 * 1000;
+      upsellShown = true;
+    }
+    renderUpsell();
+    stopUpsellTimer();
+    upsellTimer = window.setInterval(renderUpsell, 1000);
+    timers.push(upsellTimer);
+    document.body.style.overflow = "hidden";
+  };
+  const closeUpsell = () => {
+    if (!upsell) return;
+    upsell.classList.remove("show");
+    document.body.style.overflow = "";
+  };
+
+  basicBtn?.addEventListener("click", (e) => {
+    e.preventDefault();
+    openUpsell();
+  });
+  upsellClose?.addEventListener("click", closeUpsell);
+  upsellDecline?.addEventListener("click", () => {
+    const url = basicBtn?.dataset.basicUrl;
+    closeUpsell();
+    if (url) window.open(url, "_blank", "noopener");
+  });
+  upsell?.addEventListener("click", (e) => {
+    if (e.target === upsell) closeUpsell();
+  });
 
 
   return () => {
