@@ -254,7 +254,7 @@ body{background:var(--navy);overflow-x:hidden}
 .pr-upsell-why li{display:flex;gap:8px;font-size:.88rem;color:#fff;line-height:1.4}
 .pr-upsell-why li::before{content:"✓";color:var(--lime);font-weight:900;flex-shrink:0}
 .pr-upsell .btn-full{width:100%;max-width:340px;padding:16px 20px;font-size:.95rem;margin:0 auto 8px;display:block}
-.pr-upsell-decline{display:block;width:100%;text-align:center;background:none;color:var(--muted-d);font-size:.78rem;padding:8px;text-decoration:underline;text-underline-offset:2px}
+.pr-upsell-decline{display:block;width:100%;max-width:340px;text-align:center;background:none;color:var(--muted-d);font-size:.78rem;padding:8px;margin:0 auto;text-decoration:underline;text-underline-offset:2px}
 .pr-upsell-decline:hover{color:#fff}
 @keyframes prBadgePulse{0%,100%{transform:scale(1)}50%{transform:scale(1.06)}}
 `;
