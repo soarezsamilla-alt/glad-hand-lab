@@ -226,7 +226,38 @@ body{background:var(--navy);overflow-x:hidden}
   .pr .reveal{opacity:1;transform:none;transition:none}
   .pr .btn:hover,.pr .feat-card:hover{transform:none}
 }
+
+/* ===== Upsell Modal ===== */
+.pr-upsell{position:fixed;inset:0;z-index:9999;display:none;align-items:center;justify-content:center;padding:16px;background:rgba(5,12,22,.72);backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px);opacity:0;transition:opacity .25s ease}
+.pr-upsell.show{display:flex;opacity:1}
+.pr-upsell-card{position:relative;width:100%;max-width:480px;background:linear-gradient(160deg,#0c2138 0%,#0a1a2c 100%);color:#fff;border:1px solid rgba(194,245,60,.35);border-radius:20px;box-shadow:0 30px 60px -20px rgba(0,0,0,.6),0 0 0 4px rgba(194,245,60,.08);padding:26px 22px 24px;transform:scale(.92) translateY(12px);transition:transform .3s cubic-bezier(.2,.9,.3,1.2);max-height:92vh;overflow-y:auto;font-family:'Inter',system-ui,Arial,sans-serif}
+.pr-upsell.show .pr-upsell-card{transform:scale(1) translateY(0)}
+.pr-upsell-close{position:absolute;top:10px;right:12px;width:32px;height:32px;border-radius:50%;background:rgba(255,255,255,.08);color:#fff;font-size:20px;line-height:1;display:flex;align-items:center;justify-content:center;transition:background .18s}
+.pr-upsell-close:hover{background:rgba(255,255,255,.18)}
+.pr-upsell-tag{display:inline-block;background:var(--red);color:#fff;font-family:'Montserrat',sans-serif;font-weight:800;font-size:.7rem;letter-spacing:.6px;text-transform:uppercase;padding:5px 11px;border-radius:999px;margin-bottom:10px;animation:prBadgePulse 2s ease-in-out infinite}
+.pr-upsell-title{font-family:'Montserrat',sans-serif;font-weight:800;font-size:clamp(1.2rem,4.5vw,1.55rem);line-height:1.15;text-transform:uppercase;letter-spacing:-.3px;margin-bottom:8px}
+.pr-upsell-title span{color:var(--lime)}
+.pr-upsell-sub{font-size:.92rem;color:var(--muted-d);margin-bottom:14px}
+.pr-upsell-prices{display:flex;align-items:baseline;justify-content:center;gap:14px;background:rgba(194,245,60,.06);border:1px dashed rgba(194,245,60,.3);border-radius:14px;padding:14px 12px;margin-bottom:14px;flex-wrap:wrap}
+.pr-upsell-prices .old{font-family:'Montserrat',sans-serif;font-weight:700;font-size:1.1rem;text-decoration:line-through;color:var(--muted-d)}
+.pr-upsell-prices .new{font-family:'Montserrat',sans-serif;font-weight:900;font-size:2rem;color:var(--lime);line-height:1}
+.pr-upsell-prices .save{width:100%;text-align:center;font-size:.82rem;color:#fff;margin-top:4px}
+.pr-upsell-prices .save b{color:var(--lime);font-weight:800}
+.pr-upsell-timer{display:flex;gap:6px;justify-content:center;margin-bottom:14px}
+.pr-upsell-timer .cd{background:#0a1a2c;border:1px solid rgba(255,255,255,.12);border-radius:10px;padding:8px 12px;min-width:56px;text-align:center}
+.pr-upsell-timer .cd b{font-family:'Montserrat',sans-serif;font-weight:900;font-size:1.4rem;color:var(--lime);display:block;line-height:1}
+.pr-upsell-timer .cd span{font-size:.65rem;text-transform:uppercase;letter-spacing:.5px;color:var(--muted-d)}
+.pr-upsell-why{background:rgba(255,255,255,.04);border-radius:12px;padding:12px 14px;margin-bottom:16px}
+.pr-upsell-why h4{font-family:'Montserrat',sans-serif;font-weight:800;font-size:.82rem;text-transform:uppercase;letter-spacing:.5px;color:var(--lime);margin-bottom:8px}
+.pr-upsell-why ul{list-style:none;padding:0;margin:0;display:grid;gap:6px}
+.pr-upsell-why li{display:flex;gap:8px;font-size:.88rem;color:#fff;line-height:1.4}
+.pr-upsell-why li::before{content:"✓";color:var(--lime);font-weight:900;flex-shrink:0}
+.pr-upsell .btn-full{width:100%;padding:16px 20px;font-size:.95rem;margin-bottom:8px}
+.pr-upsell-decline{display:block;width:100%;text-align:center;background:none;color:var(--muted-d);font-size:.78rem;padding:8px;text-decoration:underline;text-underline-offset:2px}
+.pr-upsell-decline:hover{color:#fff}
+@keyframes prBadgePulse{0%,100%{transform:scale(1)}50%{transform:scale(1.06)}}
 `;
+
 
 export const pageHtml = String.raw`<div class="pr">
 <div class="topbar">
