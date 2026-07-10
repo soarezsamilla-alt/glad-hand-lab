@@ -607,7 +607,7 @@ export const pageHtml = String.raw`<div class="pr">
       </ul>
     </div>
 
-    <a href="https://pay.hotmart.com/K105902897X?checkoutMode=10&off=upsell790" class="btn btn-full" id="prUpsellCta" target="_blank" rel="noopener">SÍ, QUIERO EL COMPLETO POR $7,90 <span class="arr">›</span></a>
+    <a href="https://pay.hotmart.com/R106687211M?checkoutMode=10" class="btn btn-full" id="prUpsellCta" target="_blank" rel="noopener">SÍ, QUIERO EL COMPLETO POR $7,90 <span class="arr">›</span></a>
     <button class="pr-upsell-decline" id="prUpsellDecline">No, gracias. Continuar con el Plan Básico</button>
   </div>
 </div>
