@@ -577,7 +577,43 @@ export const pageHtml = String.raw`<div class="pr">
   <div class="ti"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 8v13H3V8M1 3h22v5H1zM10 12h4"/></svg></div>
   <div><div class="tn" id="toastName">Juan P., de Bogotá</div><div class="tm" id="toastMeta">Acaba de comprar · ahora mismo</div></div>
 </div>
+
+<div class="pr-upsell" id="prUpsell" role="dialog" aria-modal="true" aria-labelledby="prUpsellTitle">
+  <div class="pr-upsell-card">
+    <button class="pr-upsell-close" id="prUpsellClose" aria-label="Cerrar">×</button>
+    <span class="pr-upsell-tag">🔥 Oferta exclusiva · Solo ahora</span>
+    <h3 class="pr-upsell-title" id="prUpsellTitle">¡Espera! Lleva el <span>Acceso Completo</span> con descuento</h3>
+    <p class="pr-upsell-sub">Por muy poco más te llevas los <b>6 Bonos Exclusivos</b> y el acceso vitalicio.</p>
+
+    <div class="pr-upsell-prices">
+      <span class="old">$9,90</span>
+      <span class="new">$7,90</span>
+      <span class="save">Ahorras <b>$2,00 USD</b> extra en esta oferta única</span>
+    </div>
+
+    <div class="pr-upsell-timer" aria-live="polite">
+      <div class="cd"><b id="prUpsellM">10</b><span>Min</span></div>
+      <div class="cd"><b id="prUpsellS">00</b><span>Seg</span></div>
+    </div>
+
+    <div class="pr-upsell-why">
+      <h4>¿Por qué llevar el Plan Completo?</h4>
+      <ul>
+        <li>Recibes los <b>6 Bonos Exclusivos</b> (Construcciones, ROI, Solar, Riego y más)</li>
+        <li>Acceso <b>vitalicio</b> con actualizaciones semanales gratuitas</li>
+        <li>Prioridad en los nuevos proyectos añadidos cada mes</li>
+        <li>El plan más elegido: <b>rentabiliza tu propiedad más rápido</b></li>
+        <li>Solo <b>$2 USD</b> más — no encontrarás este precio después</li>
+      </ul>
+    </div>
+
+    <a href="https://pay.hotmart.com/K105902897X?checkoutMode=10&off=upsell790" class="btn btn-full" id="prUpsellCta" target="_blank" rel="noopener">SÍ, QUIERO EL COMPLETO POR $7,90 <span class="arr">›</span></a>
+    <button class="pr-upsell-decline" id="prUpsellDecline">No, gracias. Continuar con el Plan Básico</button>
+  </div>
+</div>
+
 </div>`;
+
 
 export function initPage(root: HTMLElement): () => void {
   const timers: number[] = [];
