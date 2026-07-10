@@ -753,6 +753,64 @@ export function initPage(root: HTMLElement): () => void {
     );
   }
 
+  // ===== Upsell Modal =====
+  const upsell = root.querySelector<HTMLElement>("#prUpsell");
+  const upsellClose = root.querySelector<HTMLElement>("#prUpsellClose");
+  const upsellDecline = root.querySelector<HTMLAnchorElement>("#prUpsellDecline");
+  const upsellMin = root.querySelector<HTMLElement>("#prUpsellM");
+  const upsellSec = root.querySelector<HTMLElement>("#prUpsellS");
+  const basicBtn = root.querySelector<HTMLAnchorElement>("#basicBtn");
+  let upsellTimer: number | null = null;
+  let upsellEnd = 0;
+  let upsellShown = false;
+
+  const stopUpsellTimer = () => {
+    if (upsellTimer !== null) {
+      clearInterval(upsellTimer);
+      upsellTimer = null;
+    }
+  };
+  const renderUpsell = () => {
+    const diff = Math.max(0, upsellEnd - Date.now());
+    const mm = Math.floor(diff / 60000);
+    const ss = Math.floor((diff % 60000) / 1000);
+    if (upsellMin) upsellMin.textContent = mm < 10 ? "0" + mm : "" + mm;
+    if (upsellSec) upsellSec.textContent = ss < 10 ? "0" + ss : "" + ss;
+    if (diff <= 0) stopUpsellTimer();
+  };
+  const openUpsell = () => {
+    if (!upsell) return;
+    upsell.classList.add("show");
+    if (!upsellShown) {
+      upsellEnd = Date.now() + 10 * 60 * 1000;
+      upsellShown = true;
+    }
+    renderUpsell();
+    stopUpsellTimer();
+    upsellTimer = window.setInterval(renderUpsell, 1000);
+    timers.push(upsellTimer);
+    document.body.style.overflow = "hidden";
+  };
+  const closeUpsell = () => {
+    if (!upsell) return;
+    upsell.classList.remove("show");
+    document.body.style.overflow = "";
+  };
+
+  basicBtn?.addEventListener("click", (e) => {
+    e.preventDefault();
+    openUpsell();
+  });
+  upsellClose?.addEventListener("click", closeUpsell);
+  upsellDecline?.addEventListener("click", () => {
+    const url = basicBtn?.dataset.basicUrl;
+    closeUpsell();
+    if (url) window.open(url, "_blank", "noopener");
+  });
+  upsell?.addEventListener("click", (e) => {
+    if (e.target === upsell) closeUpsell();
+  });
+
 
   return () => {
     timers.forEach((t) => {
