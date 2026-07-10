@@ -802,10 +802,10 @@ export function initPage(root: HTMLElement): () => void {
     openUpsell();
   });
   upsellClose?.addEventListener("click", closeUpsell);
-  upsellDecline?.addEventListener("click", () => {
-    const url = "https://pay.hotmart.com/H106592377U?checkoutMode=10";
+  upsellDecline?.addEventListener("click", (e) => {
+    e.preventDefault();
     closeUpsell();
-    if (url) window.open(url, "_blank", "noopener");
+    window.open("https://pay.hotmart.com/H106592377U?checkoutMode=10", "_blank", "noopener");
   });
   upsell?.addEventListener("click", (e) => {
     if (e.target === upsell) closeUpsell();
