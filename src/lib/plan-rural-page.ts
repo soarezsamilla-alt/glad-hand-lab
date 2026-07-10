@@ -480,7 +480,7 @@ export const pageHtml = String.raw`<div class="pr">
           <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.8"><path d="M20 6 9 17l-5-5"/></svg> Garantía de 7 días</li>
           <li style="text-decoration:line-through;opacity:.55"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.8"><path d="M18 6 6 18M6 6l12 12"/></svg> Sin los 6 Bonos Exclusivos</li>
         </ul>
-        <a href="https://pay.hotmart.com/H106592377U?checkoutMode=10" class="btn" id="basicBtn" data-basic-url="https://pay.hotmart.com/H106592377U?checkoutMode=10" target="_blank" rel="noopener">Quiero el Básico <span class="arr">›</span></a>
+        <button class="btn" id="basicBtn">Quiero el Básico <span class="arr">›</span></button>
       </div>
     </div>
     <div class="price-single">
@@ -759,7 +759,7 @@ export function initPage(root: HTMLElement): () => void {
   const upsellDecline = root.querySelector<HTMLAnchorElement>("#prUpsellDecline");
   const upsellMin = root.querySelector<HTMLElement>("#prUpsellM");
   const upsellSec = root.querySelector<HTMLElement>("#prUpsellS");
-  const basicBtn = root.querySelector<HTMLAnchorElement>("#basicBtn");
+  const basicBtn = root.querySelector<HTMLButtonElement>("#basicBtn");
   let upsellTimer: number | null = null;
   let upsellEnd = 0;
   let upsellShown = false;
@@ -803,7 +803,7 @@ export function initPage(root: HTMLElement): () => void {
   });
   upsellClose?.addEventListener("click", closeUpsell);
   upsellDecline?.addEventListener("click", () => {
-    const url = basicBtn?.dataset.basicUrl;
+    const url = "https://pay.hotmart.com/H106592377U?checkoutMode=10";
     closeUpsell();
     if (url) window.open(url, "_blank", "noopener");
   });
