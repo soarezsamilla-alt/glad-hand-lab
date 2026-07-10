@@ -608,7 +608,7 @@ export const pageHtml = String.raw`<div class="pr">
     </div>
 
     <a href="https://pay.hotmart.com/R106687211M?checkoutMode=10" class="btn btn-full" id="prUpsellCta" target="_blank" rel="noopener">SÍ, QUIERO EL COMPLETO POR $7,90 <span class="arr">›</span></a>
-    <button class="pr-upsell-decline" id="prUpsellDecline">No, gracias. Continuar con el Plan Básico</button>
+    <a href="https://pay.hotmart.com/H106592377U?checkoutMode=10" class="pr-upsell-decline" id="prUpsellDecline" target="_blank" rel="noopener">No, gracias. Continuar con el Plan Básico</a>
   </div>
 </div>
 
@@ -802,10 +802,10 @@ export function initPage(root: HTMLElement): () => void {
     openUpsell();
   });
   upsellClose?.addEventListener("click", closeUpsell);
-  upsellDecline?.addEventListener("click", () => {
-    const url = "https://pay.hotmart.com/H106592377U?checkoutMode=10";
+  upsellDecline?.addEventListener("click", (e) => {
+    e.preventDefault();
     closeUpsell();
-    if (url) window.open(url, "_blank", "noopener");
+    window.open("https://pay.hotmart.com/H106592377U?checkoutMode=10", "_blank", "noopener");
   });
   upsell?.addEventListener("click", (e) => {
     if (e.target === upsell) closeUpsell();
