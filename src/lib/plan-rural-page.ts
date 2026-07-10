@@ -153,6 +153,7 @@ body{background:var(--navy);overflow-x:hidden}
 .pr .cd-box span{font-size:.6rem;letter-spacing:1px;text-transform:uppercase;color:#aeb9c6}
 .pr .price-single{max-width:460px;margin:28px auto 0}
 .pr .price-card{border:2px solid var(--lime);border-radius:22px;padding:34px 28px;text-align:center;color:var(--ink);position:relative;background:linear-gradient(180deg,#f4ffe2,#fff 30%);box-shadow:0 30px 60px -30px rgba(120,180,20,.5)}
+.pr .price-card .btn{display:inline-flex;margin-left:auto;margin-right:auto}
 .pr .best-tag{position:absolute;top:-15px;left:50%;transform:translateX(-50%);background:var(--ink);color:var(--lime);font-family:'Montserrat',sans-serif;font-weight:800;font-size:.64rem;letter-spacing:.5px;padding:7px 18px;border-radius:999px;text-transform:uppercase;white-space:nowrap}
 .pr .price-card h3{font-family:'Montserrat',sans-serif;font-weight:800;text-transform:uppercase;font-size:1.35rem;color:var(--ink);margin-bottom:6px}
 .pr .price-old{color:#9aa6b2;text-decoration:line-through;font-size:.92rem;margin-top:6px}
