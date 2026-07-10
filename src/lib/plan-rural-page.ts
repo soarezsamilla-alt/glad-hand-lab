@@ -599,11 +599,9 @@ export const pageHtml = String.raw`<div class="pr">
     <div class="pr-upsell-why">
       <h4>¿Por qué llevar el Plan Completo?</h4>
       <ul>
-        <li>Recibes los <b>6 Bonos Exclusivos</b> (Construcciones, ROI, Solar, Riego y más)</li>
-        <li>Acceso <b>vitalicio</b> con actualizaciones semanales gratuitas</li>
-        <li>Prioridad en los nuevos proyectos añadidos cada mes</li>
-        <li>El plan más elegido: <b>rentabiliza tu propiedad más rápido</b></li>
-        <li>Solo <b>$2 USD</b> más — no encontrarás este precio después</li>
+        <li>Recibes los <b>6 Bonos Exclusivos</b></li>
+        <li>Acceso <b>vitalicio</b> con futuras actualizaciones incluidas</li>
+        <li>Garantía de <b>7 días</b> incondicional</li>
       </ul>
     </div>
 
