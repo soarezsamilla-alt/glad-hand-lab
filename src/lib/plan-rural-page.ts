@@ -230,7 +230,7 @@ body{background:var(--navy);overflow-x:hidden}
 /* ===== Upsell Modal ===== */
 .pr-upsell{position:fixed;inset:0;z-index:9999;display:none;align-items:center;justify-content:center;padding:16px;background:rgba(5,12,22,.72);backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px);opacity:0;transition:opacity .25s ease}
 .pr-upsell.show{display:flex;opacity:1}
-.pr-upsell-card{position:relative;width:100%;max-width:520px;background:linear-gradient(160deg,#0c2138 0%,#0a1a2c 100%);color:#fff;border:1px solid rgba(194,245,60,.35);border-radius:20px;box-shadow:0 30px 60px -20px rgba(0,0,0,.6),0 0 0 4px rgba(194,245,60,.08);padding:26px 24px 24px;transform:scale(.92) translateY(12px);transition:transform .3s cubic-bezier(.2,.9,.3,1.2);max-height:92vh;overflow-y:auto;font-family:'Inter',system-ui,Arial,sans-serif}
+.pr-upsell-card{position:relative;width:100%;max-width:480px;background:linear-gradient(160deg,#0c2138 0%,#0a1a2c 100%);color:#fff;border:1px solid rgba(194,245,60,.35);border-radius:20px;box-shadow:0 30px 60px -20px rgba(0,0,0,.6),0 0 0 4px rgba(194,245,60,.08);padding:26px 22px 24px;transform:scale(.92) translateY(12px);transition:transform .3s cubic-bezier(.2,.9,.3,1.2);max-height:92vh;overflow-y:auto;font-family:'Inter',system-ui,Arial,sans-serif}
 .pr-upsell.show .pr-upsell-card{transform:scale(1) translateY(0)}
 .pr-upsell-close{position:absolute;top:10px;right:12px;width:32px;height:32px;border-radius:50%;background:rgba(255,255,255,.08);color:#fff;font-size:20px;line-height:1;display:flex;align-items:center;justify-content:center;transition:background .18s}
 .pr-upsell-close:hover{background:rgba(255,255,255,.18)}
@@ -247,12 +247,12 @@ body{background:var(--navy);overflow-x:hidden}
 .pr-upsell-timer .cd{background:#0a1a2c;border:1px solid rgba(255,255,255,.12);border-radius:10px;padding:8px 12px;min-width:56px;text-align:center}
 .pr-upsell-timer .cd b{font-family:'Montserrat',sans-serif;font-weight:900;font-size:1.4rem;color:var(--lime);display:block;line-height:1}
 .pr-upsell-timer .cd span{font-size:.65rem;text-transform:uppercase;letter-spacing:.5px;color:var(--muted-d)}
-.pr-upsell-why{background:rgba(255,255,255,.04);border:1px solid rgba(194,245,60,.12);border-radius:14px;padding:16px;margin-bottom:16px}
-.pr-upsell-why h4{font-family:'Montserrat',sans-serif;font-weight:800;font-size:.9rem;text-transform:uppercase;letter-spacing:.5px;color:var(--lime);margin-bottom:14px;text-align:center}
-.pr-upsell-why ul{list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:10px}
-.pr-upsell-why li{display:flex;gap:12px;align-items:flex-start;font-size:.9rem;color:#fff;line-height:1.5;background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.08);border-radius:12px;padding:12px 14px}
-.pr-upsell-why li::before{content:"✓";display:grid;place-items:center;width:24px;height:24px;border-radius:50%;background:rgba(194,245,60,.16);color:var(--lime);font-weight:900;font-size:.8rem;flex-shrink:0}
-.pr-upsell .btn-full{display:flex;width:100%;max-width:100%;padding:18px 22px;font-size:1rem;margin:0 auto 10px;text-align:center}
+.pr-upsell-why{background:rgba(255,255,255,.04);border-radius:12px;padding:12px 14px;margin-bottom:16px}
+.pr-upsell-why h4{font-family:'Montserrat',sans-serif;font-weight:800;font-size:.82rem;text-transform:uppercase;letter-spacing:.5px;color:var(--lime);margin-bottom:8px}
+.pr-upsell-why ul{list-style:none;padding:0;margin:0;display:grid;gap:6px}
+.pr-upsell-why li{display:flex;gap:8px;font-size:.88rem;color:#fff;line-height:1.4}
+.pr-upsell-why li::before{content:"✓";color:var(--lime);font-weight:900;flex-shrink:0}
+.pr-upsell .btn-full{width:100%;padding:16px 20px;font-size:.95rem;margin-bottom:8px}
 .pr-upsell-decline{display:block;width:100%;text-align:center;background:none;color:var(--muted-d);font-size:.78rem;padding:8px;text-decoration:underline;text-underline-offset:2px}
 .pr-upsell-decline:hover{color:#fff}
 @keyframes prBadgePulse{0%,100%{transform:scale(1)}50%{transform:scale(1.06)}}
