@@ -153,6 +153,7 @@ body{background:var(--navy);overflow-x:hidden}
 .pr .cd-box span{font-size:.6rem;letter-spacing:1px;text-transform:uppercase;color:#aeb9c6}
 .pr .price-single{max-width:460px;margin:28px auto 0}
 .pr .price-card{border:2px solid var(--lime);border-radius:22px;padding:34px 28px;text-align:center;color:var(--ink);position:relative;background:linear-gradient(180deg,#f4ffe2,#fff 30%);box-shadow:0 30px 60px -30px rgba(120,180,20,.5)}
+.pr .price-card .btn{display:inline-flex;margin-left:auto;margin-right:auto}
 .pr .best-tag{position:absolute;top:-15px;left:50%;transform:translateX(-50%);background:var(--ink);color:var(--lime);font-family:'Montserrat',sans-serif;font-weight:800;font-size:.64rem;letter-spacing:.5px;padding:7px 18px;border-radius:999px;text-transform:uppercase;white-space:nowrap}
 .pr .price-card h3{font-family:'Montserrat',sans-serif;font-weight:800;text-transform:uppercase;font-size:1.35rem;color:var(--ink);margin-bottom:6px}
 .pr .price-old{color:#9aa6b2;text-decoration:line-through;font-size:.92rem;margin-top:6px}
@@ -230,7 +231,7 @@ body{background:var(--navy);overflow-x:hidden}
 /* ===== Upsell Modal ===== */
 .pr-upsell{position:fixed;inset:0;z-index:9999;display:none;align-items:center;justify-content:center;padding:16px;background:rgba(5,12,22,.72);backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px);opacity:0;transition:opacity .25s ease}
 .pr-upsell.show{display:flex;opacity:1}
-.pr-upsell-card{position:relative;width:100%;max-width:480px;background:linear-gradient(160deg,#0c2138 0%,#0a1a2c 100%);color:#fff;border:1px solid rgba(194,245,60,.35);border-radius:20px;box-shadow:0 30px 60px -20px rgba(0,0,0,.6),0 0 0 4px rgba(194,245,60,.08);padding:26px 22px 24px;transform:scale(.92) translateY(12px);transition:transform .3s cubic-bezier(.2,.9,.3,1.2);max-height:92vh;overflow-y:auto;font-family:'Inter',system-ui,Arial,sans-serif}
+.pr-upsell-card{position:relative;width:100%;max-width:480px;background:linear-gradient(160deg,#0c2138 0%,#0a1a2c 100%);color:#fff;border:1px solid rgba(194,245,60,.35);border-radius:20px;box-shadow:0 30px 60px -20px rgba(0,0,0,.6),0 0 0 4px rgba(194,245,60,.08);padding:26px 22px 24px;transform:scale(.92) translateY(12px);transition:transform .3s cubic-bezier(.2,.9,.3,1.2);max-height:92vh;overflow-y:auto;font-family:'Inter',system-ui,Arial,sans-serif;text-align:center}
 .pr-upsell.show .pr-upsell-card{transform:scale(1) translateY(0)}
 .pr-upsell-close{position:absolute;top:10px;right:12px;width:32px;height:32px;border-radius:50%;background:rgba(255,255,255,.08);color:#fff;font-size:20px;line-height:1;display:flex;align-items:center;justify-content:center;transition:background .18s}
 .pr-upsell-close:hover{background:rgba(255,255,255,.18)}
@@ -252,8 +253,8 @@ body{background:var(--navy);overflow-x:hidden}
 .pr-upsell-why ul{list-style:none;padding:0;margin:0;display:grid;gap:6px}
 .pr-upsell-why li{display:flex;gap:8px;font-size:.88rem;color:#fff;line-height:1.4}
 .pr-upsell-why li::before{content:"✓";color:var(--lime);font-weight:900;flex-shrink:0}
-.pr-upsell .btn-full{width:100%;padding:16px 20px;font-size:.95rem;margin-bottom:8px}
-.pr-upsell-decline{display:block;width:100%;text-align:center;background:none;color:var(--muted-d);font-size:.78rem;padding:8px;text-decoration:underline;text-underline-offset:2px}
+.pr-upsell .btn-full{display:block;width:fit-content;min-width:280px;max-width:100%;padding:16px 20px;font-size:.95rem;margin:0 auto 8px}
+.pr-upsell-decline{display:block;width:fit-content;max-width:100%;text-align:center;background:none;color:var(--muted-d);font-size:.78rem;padding:8px 16px;margin:0 auto;text-decoration:underline;text-underline-offset:2px}
 .pr-upsell-decline:hover{color:#fff}
 @keyframes prBadgePulse{0%,100%{transform:scale(1)}50%{transform:scale(1.06)}}
 `;
