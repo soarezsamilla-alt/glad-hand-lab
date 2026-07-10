@@ -247,12 +247,13 @@ body{background:var(--navy);overflow-x:hidden}
 .pr-upsell-timer .cd{background:#0a1a2c;border:1px solid rgba(255,255,255,.12);border-radius:10px;padding:8px 12px;min-width:56px;text-align:center}
 .pr-upsell-timer .cd b{font-family:'Montserrat',sans-serif;font-weight:900;font-size:1.4rem;color:var(--lime);display:block;line-height:1}
 .pr-upsell-timer .cd span{font-size:.65rem;text-transform:uppercase;letter-spacing:.5px;color:var(--muted-d)}
-.pr-upsell-why{background:rgba(255,255,255,.04);border-radius:12px;padding:12px 14px;margin-bottom:16px}
-.pr-upsell-why h4{font-family:'Montserrat',sans-serif;font-weight:800;font-size:.82rem;text-transform:uppercase;letter-spacing:.5px;color:var(--lime);margin-bottom:8px}
-.pr-upsell-why ul{list-style:none;padding:0;margin:0;display:grid;gap:6px}
-.pr-upsell-why li{display:flex;gap:8px;font-size:.88rem;color:#fff;line-height:1.4}
-.pr-upsell-why li::before{content:"✓";color:var(--lime);font-weight:900;flex-shrink:0}
-.pr-upsell .btn-full{width:100%;padding:16px 20px;font-size:.95rem;margin-bottom:8px}
+.pr-upsell-why{background:rgba(255,255,255,.04);border:1px solid rgba(194,245,60,.12);border-radius:14px;padding:16px 14px;margin-bottom:16px}
+.pr-upsell-why h4{font-family:'Montserrat',sans-serif;font-weight:800;font-size:.9rem;text-transform:uppercase;letter-spacing:.5px;color:var(--lime);margin-bottom:12px;text-align:center}
+.pr-upsell-why ul{list-style:none;padding:0;margin:0;display:grid;grid-template-columns:1fr;gap:10px}
+@media(min-width:480px){.pr-upsell-why ul{grid-template-columns:1fr 1fr;gap:12px}}
+.pr-upsell-why li{display:flex;gap:10px;align-items:flex-start;font-size:.86rem;color:#fff;line-height:1.45;background:rgba(255,255,255,.04);border-radius:10px;padding:10px 12px;border:1px solid rgba(255,255,255,.06)}
+.pr-upsell-why li::before{content:"✓";display:grid;place-items:center;width:22px;height:22px;border-radius:50%;background:rgba(194,245,60,.14);color:var(--lime);font-weight:900;font-size:.75rem;flex-shrink:0;margin-top:-1px}
+.pr-upsell .btn-full{display:flex;width:100%;max-width:100%;padding:18px 22px;font-size:1rem;margin:0 auto 10px;text-align:center}
 .pr-upsell-decline{display:block;width:100%;text-align:center;background:none;color:var(--muted-d);font-size:.78rem;padding:8px;text-decoration:underline;text-underline-offset:2px}
 .pr-upsell-decline:hover{color:#fff}
 @keyframes prBadgePulse{0%,100%{transform:scale(1)}50%{transform:scale(1.06)}}
