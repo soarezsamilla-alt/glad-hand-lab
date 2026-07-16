@@ -573,7 +573,7 @@ export const pageHtml = String.raw`<div class="pr">
       </div>
       <div class="instagram-grid">
         <img src="https://www.image2url.com/r2/default/images/1784162433156-31d8c83c-eb7e-454e-89a1-c2413b97c243.jpeg" alt="Post de Instagram 1">
-        <img src="https://www.image2url.com/r2/default/images/1779227527836-7e9d7bb3-c918-41e2-95c0-39e80dee8196.png" alt="Post de Instagram 2">
+        <img src="https://www.image2url.com/r2/default/images/1784162475827-6719dd72-b625-49ad-b833-ee9d95b40e91.jpeg" alt="Post de Instagram 2">
         <img src="https://www.image2url.com/r2/default/images/1779227580437-27b3966c-241e-418b-bdfd-38e28079f541.png" alt="Post de Instagram 3">
       </div>
       <a href="https://instagram.com/plan.rural.oficial" class="instagram-btn" target="_blank" rel="noopener">
