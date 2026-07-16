@@ -183,6 +183,9 @@ body{background:var(--navy);overflow-x:hidden}
 .pr .creator-stats div b{font-family:'Montserrat',sans-serif;font-weight:900;font-size:1.5rem;color:var(--lime);display:block;line-height:1}
 .pr .creator-stats div span{font-size:.72rem;color:var(--muted-d);text-transform:uppercase;letter-spacing:.5px}
 
+@keyframes instagramPulse{0%,100%{transform:scale(1);box-shadow:0 10px 24px -12px rgba(194,245,60,.4)}50%{transform:scale(1.03);box-shadow:0 14px 32px -12px rgba(194,245,60,.6)}}
+@media (prefers-reduced-motion:reduce){.pr .instagram-btn{animation:none}}
+
 .pr .instagram{max-width:720px;margin:0 auto;text-align:center}
 .pr .instagram-header{margin-bottom:30px}
 .pr .instagram-eyebrow{display:inline-flex;align-items:center;gap:6px;font-family:'Montserrat',sans-serif;font-weight:800;font-size:.65rem;letter-spacing:.8px;text-transform:uppercase;color:var(--navy);background:var(--lime);padding:7px 14px;border-radius:999px;margin-bottom:18px}
