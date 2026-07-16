@@ -560,7 +560,7 @@ export const pageHtml = String.raw`<div class="pr">
       <div class="instagram-profile">
         <div class="instagram-avatar"><span>RP</span></div>
         <h3>Plan Rural</h3>
-        <p class="handle">@ruralplanner.oficial</p>
+        <p class="handle">@plan.rural.oficial</p>
         <div class="instagram-badges">
           <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6"><path d="M20 6 9 17l-5-5"/></svg> Planificación rural de la manera correcta</span>
           <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6"><path d="M20 6 9 17l-5-5"/></svg> +100 proyectos profesionales de fincas</span>
@@ -576,9 +576,9 @@ export const pageHtml = String.raw`<div class="pr">
         <img src="https://www.image2url.com/r2/default/images/1779227527836-7e9d7bb3-c918-41e2-95c0-39e80dee8196.png" alt="Post de Instagram 2">
         <img src="https://www.image2url.com/r2/default/images/1779227580437-27b3966c-241e-418b-bdfd-38e28079f541.png" alt="Post de Instagram 3">
       </div>
-      <a href="https://instagram.com/ruralplanner.oficial" class="instagram-btn" target="_blank" rel="noopener">
+      <a href="https://instagram.com/plan.rural.oficial" class="instagram-btn" target="_blank" rel="noopener">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37Z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
-        VER @RURALPLANNER.OFICIAL EN INSTAGRAM
+        VER @PLAN.RURAL.OFICIAL EN INSTAGRAM
       </a>
       <p class="instagram-help">¿Tienes dudas? Escríbenos directo al perfil ✓</p>
     </div>
