@@ -191,8 +191,8 @@ body{background:var(--navy);overflow-x:hidden}
 .pr .instagram-header p{color:var(--muted-d);font-size:clamp(.95rem,2.2vw,1.05rem);max-width:520px;margin:14px auto 0;font-style:italic}
 .pr .instagram-card{background:var(--navy-card);border:1px solid var(--navy-border);border-radius:22px;padding:clamp(24px,4vw,36px);box-shadow:var(--shadow-card);overflow:hidden}
 .pr .instagram-profile{margin-bottom:24px}
-.pr .instagram-avatar{width:82px;height:82px;margin:0 auto 14px;border-radius:50%;background:radial-gradient(circle at 50% 38%,#e6c76c,#9e7a23);display:grid;place-items:center;border:3px solid rgba(255,255,255,.12);box-shadow:0 12px 28px -12px rgba(0,0,0,.5)}
-.pr .instagram-avatar span{font-family:'Montserrat',sans-serif;font-weight:900;font-size:1.6rem;color:#0a1a2c;letter-spacing:-1px}
+.pr .instagram-avatar{width:82px;height:82px;margin:0 auto 14px;border-radius:50%;background:radial-gradient(circle at 50% 38%,#e6c76c,#9e7a23);display:grid;place-items:center;border:3px solid rgba(255,255,255,.12);box-shadow:0 12px 28px -12px rgba(0,0,0,.5);overflow:hidden}
+.pr .instagram-avatar img{width:100%;height:100%;object-fit:cover;display:block}
 .pr .instagram-profile h3{font-family:'Montserrat',sans-serif;font-weight:900;font-size:1.25rem;color:#fff}
 .pr .instagram-profile .handle{color:var(--muted-d);font-size:.9rem;font-weight:600;margin-bottom:12px}
 .pr .instagram-badges{display:flex;flex-direction:column;gap:6px;align-items:center;font-size:.82rem;color:#dfe7ef}
