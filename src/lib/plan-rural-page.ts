@@ -183,6 +183,34 @@ body{background:var(--navy);overflow-x:hidden}
 .pr .creator-stats div b{font-family:'Montserrat',sans-serif;font-weight:900;font-size:1.5rem;color:var(--lime);display:block;line-height:1}
 .pr .creator-stats div span{font-size:.72rem;color:var(--muted-d);text-transform:uppercase;letter-spacing:.5px}
 
+.pr .instagram{max-width:720px;margin:0 auto;text-align:center}
+.pr .instagram-header{margin-bottom:30px}
+.pr .instagram-eyebrow{display:inline-flex;align-items:center;gap:6px;font-family:'Montserrat',sans-serif;font-weight:800;font-size:.65rem;letter-spacing:.8px;text-transform:uppercase;color:var(--navy);background:var(--lime);padding:7px 14px;border-radius:999px;margin-bottom:18px}
+.pr .instagram-header h2{font-family:'Montserrat',sans-serif;font-weight:900;font-size:clamp(1.5rem,4.5vw,2.2rem);line-height:1.1;letter-spacing:-.5px;color:#fff}
+.pr .instagram-header h2 em{color:var(--lime);font-style:italic;font-weight:900}
+.pr .instagram-header p{color:var(--muted-d);font-size:clamp(.95rem,2.2vw,1.05rem);max-width:520px;margin:14px auto 0;font-style:italic}
+.pr .instagram-card{background:var(--navy-card);border:1px solid var(--navy-border);border-radius:22px;padding:clamp(24px,4vw,36px);box-shadow:var(--shadow-card);overflow:hidden}
+.pr .instagram-profile{margin-bottom:24px}
+.pr .instagram-avatar{width:82px;height:82px;margin:0 auto 14px;border-radius:50%;background:radial-gradient(circle at 50% 38%,#e6c76c,#9e7a23);display:grid;place-items:center;border:3px solid rgba(255,255,255,.12);box-shadow:0 12px 28px -12px rgba(0,0,0,.5)}
+.pr .instagram-avatar span{font-family:'Montserrat',sans-serif;font-weight:900;font-size:1.6rem;color:#0a1a2c;letter-spacing:-1px}
+.pr .instagram-profile h3{font-family:'Montserrat',sans-serif;font-weight:900;font-size:1.25rem;color:#fff}
+.pr .instagram-profile .handle{color:var(--muted-d);font-size:.9rem;font-weight:600;margin-bottom:12px}
+.pr .instagram-badges{display:flex;flex-direction:column;gap:6px;align-items:center;font-size:.82rem;color:#dfe7ef}
+.pr .instagram-badges span{display:flex;align-items:center;gap:6px}
+.pr .instagram-badges svg{width:16px;height:16px;color:var(--lime);flex:none}
+.pr .instagram-stats{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;max-width:420px;margin:22px auto 24px;border-top:1px solid var(--navy-border);border-bottom:1px solid var(--navy-border);padding:18px 0}
+.pr .instagram-stats div b{font-family:'Montserrat',sans-serif;font-weight:900;font-size:1.3rem;color:var(--lime);display:block;line-height:1}
+.pr .instagram-stats div span{font-size:.6rem;color:var(--muted-d);text-transform:uppercase;letter-spacing:.6px}
+.pr .instagram-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-bottom:22px}
+.pr .instagram-grid img{width:100%;aspect-ratio:1/1.25;object-fit:cover;border-radius:12px;background:#1a2c42;transition:transform .2s ease}
+.pr .instagram-grid img:hover{transform:scale(1.02)}
+.pr .instagram-btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;width:100%;max-width:420px;margin:0 auto;font-family:'Montserrat',sans-serif;font-weight:800;text-transform:uppercase;letter-spacing:.4px;font-size:.9rem;background:linear-gradient(90deg,#f3d250,#c2f53c);color:#0a1a2c;padding:16px 24px;border-radius:999px;box-shadow:0 12px 28px -12px rgba(194,245,60,.4);transition:transform .18s ease,filter .18s ease}
+.pr .instagram-btn:hover{transform:translateY(-2px);filter:brightness(1.05)}
+.pr .instagram-btn svg{width:18px;height:18px;flex:none}
+.pr .instagram-help{color:var(--muted-d);font-size:.78rem;margin-top:12px}
+.pr .instagram-footer{margin-top:36px;color:var(--muted-d);font-size:.6rem;letter-spacing:.8px;text-transform:uppercase;font-weight:700}
+
+
 .pr .faq-list{max-width:740px;margin:42px auto 0}
 .pr .faq-item{border-bottom:1px solid #e6e9ee}
 .pr .faq-q{width:100%;display:flex;align-items:center;justify-content:space-between;gap:16px;text-align:left;padding:20px 4px;font-family:'Montserrat',sans-serif;font-weight:700;font-size:clamp(.95rem,2.3vw,1.05rem);color:var(--ink)}
