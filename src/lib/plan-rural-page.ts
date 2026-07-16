@@ -559,7 +559,7 @@ export const pageHtml = String.raw`<div class="pr">
     <div class="instagram-card">
       <div class="instagram-profile">
         <div class="instagram-avatar"><span>RP</span></div>
-        <h3>Rural Planner</h3>
+        <h3>Plan Rural</h3>
         <p class="handle">@ruralplanner.oficial</p>
         <div class="instagram-badges">
           <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6"><path d="M20 6 9 17l-5-5"/></svg> Planificación rural de la manera correcta</span>
