@@ -207,8 +207,8 @@ body{background:var(--navy);overflow-x:hidden}
 .pr .instagram-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-bottom:22px}
 .pr .instagram-grid img{width:100%;aspect-ratio:1/1.25;object-fit:cover;border-radius:12px;background:#1a2c42;transition:transform .2s ease}
 .pr .instagram-grid img:hover{transform:scale(1.02)}
-.pr .instagram-btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;width:auto;min-width:220px;max-width:100%;margin:0 auto;font-family:'Montserrat',sans-serif;font-weight:800;text-transform:uppercase;letter-spacing:.4px;font-size:.78rem;background:linear-gradient(90deg,#f3d250,#c2f53c);color:#0a1a2c;padding:12px 22px;border-radius:999px;box-shadow:0 10px 24px -12px rgba(194,245,60,.4);transition:transform .18s ease,filter .18s ease}
-.pr .instagram-btn:hover{transform:translateY(-2px);filter:brightness(1.05)}
+.pr .instagram-btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;width:auto;min-width:220px;max-width:100%;margin:0 auto;font-family:'Montserrat',sans-serif;font-weight:800;text-transform:uppercase;letter-spacing:.4px;font-size:.78rem;background:linear-gradient(90deg,#f3d250,#c2f53c);color:#0a1a2c;padding:12px 22px;border-radius:999px;box-shadow:0 10px 24px -12px rgba(194,245,60,.4);transition:transform .18s ease,filter .18s ease;animation:instagramPulse 2.6s ease-in-out infinite}
+.pr .instagram-btn:hover{transform:translateY(-2px);filter:brightness(1.05);animation-play-state:paused}
 .pr .instagram-btn svg{width:16px;height:16px;flex:none}
 .pr .instagram-help{color:var(--muted-d);font-size:.78rem;margin-top:12px}
 .pr .instagram-footer{margin-top:36px;color:var(--muted-d);font-size:.6rem;letter-spacing:.8px;text-transform:uppercase;font-weight:700}
