@@ -558,7 +558,7 @@ export const pageHtml = String.raw`<div class="pr">
     </div>
     <div class="instagram-card">
       <div class="instagram-profile">
-        <div class="instagram-avatar"><span>RP</span></div>
+        <div class="instagram-avatar"><img src="https://www.image2url.com/r2/default/images/1784162372803-ae25ecd4-3a92-4ca2-9126-40939f9da072.jpeg" alt="Plan Rural"></div>
         <h3>Plan Rural</h3>
         <p class="handle">@plan.rural.oficial</p>
         <div class="instagram-badges">
