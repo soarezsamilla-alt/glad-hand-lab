@@ -547,24 +547,45 @@ export const pageHtml = String.raw`<div class="pr">
 </section>
 
 <section class="sec sec--navy">
-  <div class="wrap reveal" style="text-align:center">
-    <span class="eyebrow" style="background:rgba(194,245,60,.12);color:var(--lime);border:1px solid rgba(194,245,60,.3)">★ Conoce al Creador ★</span>
-    <h2 class="sec-title" style="margin-top:16px">Quién está detrás de <span class="lime-text">Plan Rural</span></h2>
-    <div class="creator" style="text-align:left">
-      <div class="creator-photo"><img src="https://www.image2url.com/r2/default/images/1778714848819-60a6bb5e-390a-4372-8731-66d19e3ed55b.png" alt="Alejandro Martínez"></div>
-      <div>
-        <h3>Alejandro Martínez</h3>
-        <p class="role">Fundador y Creador</p>
-        <p>Ingeniero agrónomo con más de 15 años de experiencia en planificación rural en toda América Latina. Ha visitado más de 3.000 propiedades en 8 países. Su misión es democratizar el conocimiento rural profesional.</p>
-        <div class="creator-stats">
-          <div><b>15+</b><span>Años exp.</span></div>
-          <div><b>3k+</b><span>Propiedades</span></div>
-          <div><b>12 mil</b><span>Productores</span></div>
+  <div class="wrap reveal instagram">
+    <div class="instagram-header">
+      <span class="instagram-eyebrow">
+        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M7 17 17 7M7 7h10v10"/></svg>
+        ACOMPÁÑANOS DE CERCA
+      </span>
+      <h2>Síguenos en Instagram y mira a <em>Plan Rural</em> en acción</h2>
+      <p>Consejos de planificación rural, proyectos reales y contenido exclusivo todas las semanas. ¿Tienes dudas? Escríbenos por allí.</p>
+    </div>
+    <div class="instagram-card">
+      <div class="instagram-profile">
+        <div class="instagram-avatar"><span>RP</span></div>
+        <h3>Rural Planner</h3>
+        <p class="handle">@ruralplanner.oficial</p>
+        <div class="instagram-badges">
+          <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6"><path d="M20 6 9 17l-5-5"/></svg> Planificación rural de la manera correcta</span>
+          <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6"><path d="M20 6 9 17l-5-5"/></svg> +100 proyectos profesionales de fincas</span>
         </div>
       </div>
+      <div class="instagram-stats">
+        <div><b>+100</b><span>Proyectos</span></div>
+        <div><b>12 mil</b><span>Productores</span></div>
+        <div><b>15+</b><span>Años exp.</span></div>
+      </div>
+      <div class="instagram-grid">
+        <img src="https://www.image2url.com/r2/default/images/1779227478825-868e1785-44e5-4fd5-bf0e-aa8791f8a54c.png" alt="Post de Instagram 1">
+        <img src="https://www.image2url.com/r2/default/images/1779227527836-7e9d7bb3-c918-41e2-95c0-39e80dee8196.png" alt="Post de Instagram 2">
+        <img src="https://www.image2url.com/r2/default/images/1779227580437-27b3966c-241e-418b-bdfd-38e28079f541.png" alt="Post de Instagram 3">
+      </div>
+      <a href="https://instagram.com/ruralplanner.oficial" class="instagram-btn" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37Z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+        VER @RURALPLANNER.OFICIAL EN INSTAGRAM
+      </a>
+      <p class="instagram-help">¿Tienes dudas? Escríbenos directo al perfil ✓</p>
     </div>
+    <p class="instagram-footer">CONTENIDO NUEVO TODA LA SEMANA • CONSEJOS REALES DE PLANIFICACIÓN RURAL • SIN RODEOS</p>
   </div>
 </section>
+
 
 <section class="sec sec--white">
   <div class="wrap reveal">
