@@ -184,11 +184,12 @@ body{background:var(--navy);overflow-x:hidden}
 .pr .creator-stats div span{font-size:.72rem;color:var(--muted-d);text-transform:uppercase;letter-spacing:.5px}
 
 @keyframes instagramPulse{0%,100%{transform:scale(1);box-shadow:0 10px 24px -12px rgba(194,245,60,.4)}50%{transform:scale(1.03);box-shadow:0 14px 32px -12px rgba(194,245,60,.6)}}
-@media (prefers-reduced-motion:reduce){.pr .instagram-btn{animation:none}}
+@keyframes instagramEyebrowPulse{0%,100%{box-shadow:0 0 0 0 rgba(194,245,60,.35)}50%{box-shadow:0 0 0 8px rgba(194,245,60,0)}}
+@media (prefers-reduced-motion:reduce){.pr .instagram-btn,.pr .instagram-eyebrow{animation:none}}
 
 .pr .instagram{max-width:720px;margin:0 auto;text-align:center}
 .pr .instagram-header{margin-bottom:30px}
-.pr .instagram-eyebrow{display:inline-flex;align-items:center;gap:6px;font-family:'Montserrat',sans-serif;font-weight:800;font-size:.65rem;letter-spacing:.8px;text-transform:uppercase;color:var(--navy);background:var(--lime);padding:7px 14px;border-radius:999px;margin-bottom:18px}
+.pr .instagram-eyebrow{display:inline-flex;align-items:center;gap:6px;font-family:'Montserrat',sans-serif;font-weight:800;font-size:.65rem;letter-spacing:.8px;text-transform:uppercase;color:var(--navy);background:var(--lime);padding:7px 14px;border-radius:999px;margin-bottom:18px;animation:instagramEyebrowPulse 2s ease-in-out infinite}
 .pr .instagram-header h2{font-family:'Montserrat',sans-serif;font-weight:900;font-size:clamp(1.5rem,4.5vw,2.2rem);line-height:1.1;letter-spacing:-.5px;color:#fff}
 .pr .instagram-header h2 em{color:var(--lime);font-style:italic;font-weight:900}
 .pr .instagram-header p{color:var(--muted-d);font-size:clamp(.95rem,2.2vw,1.05rem);max-width:520px;margin:14px auto 0;font-style:italic}
