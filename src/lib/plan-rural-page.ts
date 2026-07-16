@@ -183,6 +183,34 @@ body{background:var(--navy);overflow-x:hidden}
 .pr .creator-stats div b{font-family:'Montserrat',sans-serif;font-weight:900;font-size:1.5rem;color:var(--lime);display:block;line-height:1}
 .pr .creator-stats div span{font-size:.72rem;color:var(--muted-d);text-transform:uppercase;letter-spacing:.5px}
 
+.pr .instagram{max-width:720px;margin:0 auto;text-align:center}
+.pr .instagram-header{margin-bottom:30px}
+.pr .instagram-eyebrow{display:inline-flex;align-items:center;gap:6px;font-family:'Montserrat',sans-serif;font-weight:800;font-size:.65rem;letter-spacing:.8px;text-transform:uppercase;color:var(--navy);background:var(--lime);padding:7px 14px;border-radius:999px;margin-bottom:18px}
+.pr .instagram-header h2{font-family:'Montserrat',sans-serif;font-weight:900;font-size:clamp(1.5rem,4.5vw,2.2rem);line-height:1.1;letter-spacing:-.5px;color:#fff}
+.pr .instagram-header h2 em{color:var(--lime);font-style:italic;font-weight:900}
+.pr .instagram-header p{color:var(--muted-d);font-size:clamp(.95rem,2.2vw,1.05rem);max-width:520px;margin:14px auto 0;font-style:italic}
+.pr .instagram-card{background:var(--navy-card);border:1px solid var(--navy-border);border-radius:22px;padding:clamp(24px,4vw,36px);box-shadow:var(--shadow-card);overflow:hidden}
+.pr .instagram-profile{margin-bottom:24px}
+.pr .instagram-avatar{width:82px;height:82px;margin:0 auto 14px;border-radius:50%;background:radial-gradient(circle at 50% 38%,#e6c76c,#9e7a23);display:grid;place-items:center;border:3px solid rgba(255,255,255,.12);box-shadow:0 12px 28px -12px rgba(0,0,0,.5)}
+.pr .instagram-avatar span{font-family:'Montserrat',sans-serif;font-weight:900;font-size:1.6rem;color:#0a1a2c;letter-spacing:-1px}
+.pr .instagram-profile h3{font-family:'Montserrat',sans-serif;font-weight:900;font-size:1.25rem;color:#fff}
+.pr .instagram-profile .handle{color:var(--muted-d);font-size:.9rem;font-weight:600;margin-bottom:12px}
+.pr .instagram-badges{display:flex;flex-direction:column;gap:6px;align-items:center;font-size:.82rem;color:#dfe7ef}
+.pr .instagram-badges span{display:flex;align-items:center;gap:6px}
+.pr .instagram-badges svg{width:16px;height:16px;color:var(--lime);flex:none}
+.pr .instagram-stats{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;max-width:420px;margin:22px auto 24px;border-top:1px solid var(--navy-border);border-bottom:1px solid var(--navy-border);padding:18px 0}
+.pr .instagram-stats div b{font-family:'Montserrat',sans-serif;font-weight:900;font-size:1.3rem;color:var(--lime);display:block;line-height:1}
+.pr .instagram-stats div span{font-size:.6rem;color:var(--muted-d);text-transform:uppercase;letter-spacing:.6px}
+.pr .instagram-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-bottom:22px}
+.pr .instagram-grid img{width:100%;aspect-ratio:1/1.25;object-fit:cover;border-radius:12px;background:#1a2c42;transition:transform .2s ease}
+.pr .instagram-grid img:hover{transform:scale(1.02)}
+.pr .instagram-btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;width:100%;max-width:420px;margin:0 auto;font-family:'Montserrat',sans-serif;font-weight:800;text-transform:uppercase;letter-spacing:.4px;font-size:.9rem;background:linear-gradient(90deg,#f3d250,#c2f53c);color:#0a1a2c;padding:16px 24px;border-radius:999px;box-shadow:0 12px 28px -12px rgba(194,245,60,.4);transition:transform .18s ease,filter .18s ease}
+.pr .instagram-btn:hover{transform:translateY(-2px);filter:brightness(1.05)}
+.pr .instagram-btn svg{width:18px;height:18px;flex:none}
+.pr .instagram-help{color:var(--muted-d);font-size:.78rem;margin-top:12px}
+.pr .instagram-footer{margin-top:36px;color:var(--muted-d);font-size:.6rem;letter-spacing:.8px;text-transform:uppercase;font-weight:700}
+
+
 .pr .faq-list{max-width:740px;margin:42px auto 0}
 .pr .faq-item{border-bottom:1px solid #e6e9ee}
 .pr .faq-q{width:100%;display:flex;align-items:center;justify-content:space-between;gap:16px;text-align:left;padding:20px 4px;font-family:'Montserrat',sans-serif;font-weight:700;font-size:clamp(.95rem,2.3vw,1.05rem);color:var(--ink)}
@@ -519,24 +547,45 @@ export const pageHtml = String.raw`<div class="pr">
 </section>
 
 <section class="sec sec--navy">
-  <div class="wrap reveal" style="text-align:center">
-    <span class="eyebrow" style="background:rgba(194,245,60,.12);color:var(--lime);border:1px solid rgba(194,245,60,.3)">★ Conoce al Creador ★</span>
-    <h2 class="sec-title" style="margin-top:16px">Quién está detrás de <span class="lime-text">Plan Rural</span></h2>
-    <div class="creator" style="text-align:left">
-      <div class="creator-photo"><img src="https://www.image2url.com/r2/default/images/1778714848819-60a6bb5e-390a-4372-8731-66d19e3ed55b.png" alt="Alejandro Martínez"></div>
-      <div>
-        <h3>Alejandro Martínez</h3>
-        <p class="role">Fundador y Creador</p>
-        <p>Ingeniero agrónomo con más de 15 años de experiencia en planificación rural en toda América Latina. Ha visitado más de 3.000 propiedades en 8 países. Su misión es democratizar el conocimiento rural profesional.</p>
-        <div class="creator-stats">
-          <div><b>15+</b><span>Años exp.</span></div>
-          <div><b>3k+</b><span>Propiedades</span></div>
-          <div><b>12 mil</b><span>Productores</span></div>
+  <div class="wrap reveal instagram">
+    <div class="instagram-header">
+      <span class="instagram-eyebrow">
+        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M7 17 17 7M7 7h10v10"/></svg>
+        ACOMPÁÑANOS DE CERCA
+      </span>
+      <h2>Síguenos en Instagram y mira a <em>Plan Rural</em> en acción</h2>
+      <p>Consejos de planificación rural, proyectos reales y contenido exclusivo todas las semanas. ¿Tienes dudas? Escríbenos por allí.</p>
+    </div>
+    <div class="instagram-card">
+      <div class="instagram-profile">
+        <div class="instagram-avatar"><span>RP</span></div>
+        <h3>Rural Planner</h3>
+        <p class="handle">@ruralplanner.oficial</p>
+        <div class="instagram-badges">
+          <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6"><path d="M20 6 9 17l-5-5"/></svg> Planificación rural de la manera correcta</span>
+          <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6"><path d="M20 6 9 17l-5-5"/></svg> +100 proyectos profesionales de fincas</span>
         </div>
       </div>
+      <div class="instagram-stats">
+        <div><b>+100</b><span>Proyectos</span></div>
+        <div><b>12 mil</b><span>Productores</span></div>
+        <div><b>15+</b><span>Años exp.</span></div>
+      </div>
+      <div class="instagram-grid">
+        <img src="https://www.image2url.com/r2/default/images/1779227478825-868e1785-44e5-4fd5-bf0e-aa8791f8a54c.png" alt="Post de Instagram 1">
+        <img src="https://www.image2url.com/r2/default/images/1779227527836-7e9d7bb3-c918-41e2-95c0-39e80dee8196.png" alt="Post de Instagram 2">
+        <img src="https://www.image2url.com/r2/default/images/1779227580437-27b3966c-241e-418b-bdfd-38e28079f541.png" alt="Post de Instagram 3">
+      </div>
+      <a href="https://instagram.com/ruralplanner.oficial" class="instagram-btn" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37Z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+        VER @RURALPLANNER.OFICIAL EN INSTAGRAM
+      </a>
+      <p class="instagram-help">¿Tienes dudas? Escríbenos directo al perfil ✓</p>
     </div>
+    <p class="instagram-footer">CONTENIDO NUEVO TODA LA SEMANA • CONSEJOS REALES DE PLANIFICACIÓN RURAL • SIN RODEOS</p>
   </div>
 </section>
+
 
 <section class="sec sec--white">
   <div class="wrap reveal">
