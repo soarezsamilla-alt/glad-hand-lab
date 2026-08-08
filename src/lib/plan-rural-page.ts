@@ -304,7 +304,7 @@ export const pageHtml = String.raw`<div class="pr">
     +120 Proyectos de Propiedades Rurales Productivas
     <span class="sub-line">que transforman tu tierra parada en una fuente de ingresos mensuales</span>
   </h1>
-  <p class="hero-text">La biblioteca más completa de proyectos rurales de América Latina: <b>+100 planos profesionales</b> con medidas reales, divisiones estratégicas y layouts listos para ejecutar.</p>
+  <p class="hero-text">La biblioteca más completa de proyectos rurales de América Latina: <b>+120 planos profesionales</b> con medidas reales, divisiones estratégicas y layouts listos para ejecutar.</p>
   <div class="hero-mock"><img src="https://www.image2url.com/r2/default/images/1778629380417-163aca0b-6a61-4810-bc20-bc6912fb1e2b.png" alt="Mockup del Pack Plan Rural"></div>
   <div class="notify-pill">
     <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>
@@ -363,7 +363,7 @@ export const pageHtml = String.raw`<div class="pr">
       </div>
       <button class="cbtn cnext" data-next aria-label="Siguiente"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="m9 18 6-6-6-6"/></svg></button>
     </div>
-    <p class="sec-sub" style="margin-top:10px;font-size:.9rem"><b>Nota:</b> los +100 proyectos siguen el mismo estándar editorial premium.</p>
+    <p class="sec-sub" style="margin-top:10px;font-size:.9rem"><b>Nota:</b> los +120 proyectos siguen el mismo estándar editorial premium.</p>
   </div>
 </section>
 
@@ -371,7 +371,7 @@ export const pageHtml = String.raw`<div class="pr">
   <div class="wrap reveal">
     <h2 class="sec-title">Mira la diferencia <span class="mark">Sin los Proyectos</span> y <span class="mark">Con los Proyectos</span></h2>
     <div class="ba" id="ba">
-      <img src="${comparacaoSplit.url}" alt="Comparación: sin los proyectos vs con +100 proyectos" loading="lazy" width="1024" height="576">
+      <img src="${comparacaoSplit.url}" alt="Comparación: sin los proyectos vs con +120 proyectos" loading="lazy" width="1024" height="576">
       <div class="ba-divider" aria-hidden="true"></div>
       <div class="ba-overlay">
         <span class="ba-badge bad"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#d23030" stroke-width="2.6"><circle cx="12" cy="12" r="10"/><path d="m15 9-6 6M9 9l6 6"/></svg> Sin los Proyectos</span>
@@ -508,7 +508,7 @@ export const pageHtml = String.raw`<div class="pr">
         <p class="price-tagline">Pago único</p>
         <div class="price-mock"><img src="https://www.image2url.com/r2/default/images/1783091516399-50ff336d-896f-4f51-afa9-3eb0fb56e850.png" alt="Plan Básico"></div>
         <ul class="price-list">
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.8"><path d="M20 6 9 17l-5-5"/></svg> +100 proyectos completos</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.8"><path d="M20 6 9 17l-5-5"/></svg> +120 proyectos completos</li>
           <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.8"><path d="M20 6 9 17l-5-5"/></svg> Acceso inmediato tras la compra</li>
           <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.8"><path d="M20 6 9 17l-5-5"/></svg> Garantía de 7 días</li>
           <li style="text-decoration:line-through;opacity:.55"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.8"><path d="M18 6 6 18M6 6l12 12"/></svg> Sin los 6 Bonos Exclusivos</li>
@@ -531,7 +531,7 @@ export const pageHtml = String.raw`<div class="pr">
         <p class="price-tagline">Pago único · Acceso vitalicio + Bonos</p>
         <div class="price-mock"><img src="https://www.image2url.com/r2/default/images/1778629380417-163aca0b-6a61-4810-bc20-bc6912fb1e2b.png" alt="Acceso Completo"></div>
         <ul class="price-list">
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.8"><path d="M20 6 9 17l-5-5"/></svg> +100 proyectos completos</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.8"><path d="M20 6 9 17l-5-5"/></svg> +120 proyectos completos</li>
           <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.8"><path d="M20 6 9 17l-5-5"/></svg> <b style="font-weight:700">Bono 1:</b> Construcciones Rurales</li>
           <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.8"><path d="M20 6 9 17l-5-5"/></svg> <b style="font-weight:700">Bono 2:</b> Calculadora ROI</li>
           <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.8"><path d="M20 6 9 17l-5-5"/></svg> <b style="font-weight:700">Bono 3:</b> Plantas Compañeras</li>
@@ -567,11 +567,11 @@ export const pageHtml = String.raw`<div class="pr">
         <p class="handle">@plan.rural.oficial</p>
         <div class="instagram-badges">
           <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6"><path d="M20 6 9 17l-5-5"/></svg> Planificación rural de la manera correcta</span>
-          <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6"><path d="M20 6 9 17l-5-5"/></svg> +100 proyectos profesionales de fincas</span>
+          <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6"><path d="M20 6 9 17l-5-5"/></svg> +120 proyectos profesionales de fincas</span>
         </div>
       </div>
       <div class="instagram-stats">
-        <div><b>+100</b><span>Proyectos</span></div>
+        <div><b>+120</b><span>Proyectos</span></div>
         <div><b>12 mil</b><span>Productores</span></div>
         <div><b>15+</b><span>Años exp.</span></div>
       </div>
@@ -600,7 +600,7 @@ export const pageHtml = String.raw`<div class="pr">
       <div class="faq-item"><button class="faq-q">¿Los proyectos sirven para cualquier región? <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="m6 9 6 6 6-6"/></svg></button><div class="faq-a"><p>Sí. Están adaptados a 5 regiones climáticas de América Latina.</p></div></div>
       <div class="faq-item"><button class="faq-q">¿En qué formato se entrega el material? <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="m6 9 6 6 6-6"/></svg></button><div class="faq-a"><p>100% digital, en archivos PDF de alta calidad.</p></div></div>
       <div class="faq-item"><button class="faq-q">¿Funciona para terrenos pequeños? <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="m6 9 6 6 6-6"/></svg></button><div class="faq-a"><p>Sí. Hay proyectos desde 0,5 hasta 5 hectáreas.</p></div></div>
-      <div class="faq-item"><button class="faq-q">¿Qué diferencia hay con contratar un agrónomo? <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="m6 9 6 6 6-6"/></svg></button><div class="faq-a"><p>Un proyecto a la medida cuesta miles. Aquí recibes +100 proyectos por un precio único.</p></div></div>
+      <div class="faq-item"><button class="faq-q">¿Qué diferencia hay con contratar un agrónomo? <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="m6 9 6 6 6-6"/></svg></button><div class="faq-a"><p>Un proyecto a la medida cuesta miles. Aquí recibes +120 proyectos por un precio único.</p></div></div>
       <div class="faq-item"><button class="faq-q">¿Y si no me gusta el material? <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="m6 9 6 6 6-6"/></svg></button><div class="faq-a"><p>7 días de garantía incondicional. Te devolvemos cada centavo.</p></div></div>
     </div>
   </div>
