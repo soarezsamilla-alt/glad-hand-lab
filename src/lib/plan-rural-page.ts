@@ -301,10 +301,10 @@ export const pageHtml = String.raw`<div class="pr">
 <header class="hero">
   <span class="eyebrow badge-top">Edición Premium 2026</span>
   <h1>
-    +150 Proyectos de Propiedades Rurales Productivas
+    +120 Proyectos de Propiedades Rurales Productivas
     <span class="sub-line">que transforman tu tierra parada en una fuente de ingresos mensuales</span>
   </h1>
-  <p class="hero-text">La biblioteca más completa de proyectos rurales de América Latina: <b>+150 planos profesionales</b> con medidas reales, divisiones estratégicas y layouts listos para ejecutar.</p>
+  <p class="hero-text">La biblioteca más completa de proyectos rurales de América Latina: <b>+120 planos profesionales</b> con medidas reales, divisiones estratégicas y layouts listos para ejecutar.</p>
   <div class="hero-mock"><img src="https://www.image2url.com/r2/default/images/1778629380417-163aca0b-6a61-4810-bc20-bc6912fb1e2b.png" alt="Mockup del Pack Plan Rural"></div>
   <div class="notify-pill">
     <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>
@@ -371,11 +371,11 @@ export const pageHtml = String.raw`<div class="pr">
   <div class="wrap reveal">
     <h2 class="sec-title">Mira la diferencia <span class="mark">Sin los Proyectos</span> y <span class="mark">Con los Proyectos</span></h2>
     <div class="ba" id="ba">
-      <img src="${comparacaoSplit.url}" alt="Comparación: sin los proyectos vs con +150 proyectos" loading="lazy" width="1024" height="576">
+      <img src="${comparacaoSplit.url}" alt="Comparación: sin los proyectos vs con +120 proyectos" loading="lazy" width="1024" height="576">
       <div class="ba-divider" aria-hidden="true"></div>
       <div class="ba-overlay">
         <span class="ba-badge bad"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#d23030" stroke-width="2.6"><circle cx="12" cy="12" r="10"/><path d="m15 9-6 6M9 9l6 6"/></svg> Sin los Proyectos</span>
-        <span class="ba-badge good"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#1f8a36" stroke-width="2.6"><circle cx="12" cy="12" r="10"/><path d="m8 12 3 3 5-6"/></svg> Con +150 Proyectos</span>
+        <span class="ba-badge good"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#1f8a36" stroke-width="2.6"><circle cx="12" cy="12" r="10"/><path d="m8 12 3 3 5-6"/></svg> Con +120 Proyectos</span>
       </div>
     </div>
     <div class="cmp-wrap">
@@ -426,11 +426,11 @@ export const pageHtml = String.raw`<div class="pr">
     <div class="kit-card">
       <div class="kit-mock">
         <span class="flag-red">Acceso Inmediato</span>
-        <img src="https://www.image2url.com/r2/default/images/1782948795231-bec3f465-9115-4564-9f83-2d9405d6dec1.webp" alt="Kit +150 Proyectos">
+        <img src="https://www.image2url.com/r2/default/images/1782948795231-bec3f465-9115-4564-9f83-2d9405d6dec1.webp" alt="Kit +120 Proyectos">
       </div>
       <div>
         <span class="item-tag">ÍTEM 01</span>
-        <h2>+150 Proyectos de Propiedades Rurales Productivas</h2>
+        <h2>+120 Proyectos de Propiedades Rurales Productivas</h2>
         <p class="lead">No es un curso ni un manual teórico. Es una biblioteca visual completa, lista para elegir, imprimir y ejecutar.</p>
         <ul class="kit-list">
           <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6"><path d="M20 6 9 17l-5-5"/></svg><span><b>Proyectos con Medidas Reales</b><small>Planos técnicos dimensionados en metros</small></span></li>
