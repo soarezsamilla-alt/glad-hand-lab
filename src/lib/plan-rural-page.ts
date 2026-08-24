@@ -304,8 +304,8 @@ export const pageHtml = String.raw`<div class="pr">
     +120 Proyectos de Propiedades Rurales Productivas
     <span class="sub-line">que transforman tu tierra parada en una fuente de ingresos mensuales</span>
   </h1>
-  <p class="hero-text">La biblioteca más completa de proyectos rurales de América Latina: <b>+120 planos profesionales</b> con medidas reales, divisiones estratégicas y layouts listos para ejecutar.</p>
   <div class="hero-mock"><img src="https://www.image2url.com/r2/default/images/1787586665575-bf79986b-1865-4f4f-8a15-cba37e81b764.png" alt="Mockup del Pack Plan Rural"></div>
+  <p class="hero-text">La biblioteca más completa de proyectos rurales de América Latina: <b>+120 planos profesionales</b> con medidas reales, divisiones estratégicas y layouts listos para ejecutar.</p>
   <div class="notify-pill">
     <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>
     Acceso inmediato en tu correo · Pago 100% seguro
