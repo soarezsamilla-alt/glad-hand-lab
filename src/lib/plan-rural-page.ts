@@ -867,6 +867,7 @@ export function initPage(root: HTMLElement): () => void {
       upsellShown = true;
     }
     renderUpsell();
+    startUpsellView();
     stopUpsellTimer();
     upsellTimer = window.setInterval(renderUpsell, 1000);
     timers.push(upsellTimer);
