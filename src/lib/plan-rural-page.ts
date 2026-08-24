@@ -109,7 +109,7 @@ body{background:var(--navy);overflow-x:hidden}
 .pr .check-list li svg{width:22px;height:22px;color:var(--lime);flex:none}
 
 .pr .kit-flag{display:flex;justify-content:flex-start;max-width:1040px;margin:0 auto 18px}
-.pr .kit-card{max-width:1040px;margin:0 auto;background:#fff;border-radius:26px;padding:clamp(26px,4vw,46px);display:grid;grid-template-columns:1fr 1.1fr;gap:40px;align-items:center;box-shadow:var(--shadow-card);color:var(--ink)}
+.pr .kit-card{max-width:1080px;margin:0 auto;background:#fff;border-radius:26px;padding:clamp(26px,4vw,46px);display:grid;grid-template-columns:1.25fr 1fr;gap:40px;align-items:center;box-shadow:var(--shadow-card);color:var(--ink)}
 .pr .kit-mock{position:relative;border-radius:14px;overflow:hidden}
 .pr .kit-mock img{width:100%;border-radius:14px;background:#e7efe1}
 .pr .flag-red{position:absolute;top:14px;left:-6px;background:var(--red);color:#fff;font-family:'Montserrat',sans-serif;font-weight:800;font-size:.66rem;padding:7px 14px;border-radius:6px;letter-spacing:.5px;box-shadow:0 8px 16px -8px rgba(0,0,0,.4);text-transform:uppercase;z-index:2}
