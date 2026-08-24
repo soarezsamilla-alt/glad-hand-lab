@@ -261,32 +261,52 @@ body{background:var(--navy);overflow-x:hidden}
 }
 
 /* ===== Upsell Modal ===== */
-.pr-upsell{position:fixed;inset:0;z-index:9999;display:none;align-items:center;justify-content:center;padding:16px;background:rgba(5,12,22,.72);backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px);opacity:0;transition:opacity .25s ease}
+@keyframes prUpsellIn{0%{opacity:0;transform:translateY(28px) scale(.9)}60%{opacity:1;transform:translateY(-4px) scale(1.02)}100%{opacity:1;transform:translateY(0) scale(1)}}
+@keyframes prUpsellGlow{0%,100%{box-shadow:0 30px 60px -20px rgba(0,0,0,.65),0 0 0 1px rgba(194,245,60,.3),0 0 38px -6px rgba(194,245,60,.18)}50%{box-shadow:0 30px 60px -20px rgba(0,0,0,.65),0 0 0 1px rgba(194,245,60,.5),0 0 60px -4px rgba(194,245,60,.32)}}
+@keyframes prUpsellShine{0%{transform:translateX(-120%) skewX(-18deg)}100%{transform:translateX(220%) skewX(-18deg)}}
+@keyframes prDropBounce{0%{transform:scale(.6);opacity:0}60%{transform:scale(1.18);opacity:1}100%{transform:scale(1)}}
+@keyframes prLiveDot{0%,100%{box-shadow:0 0 0 0 rgba(255,77,77,.6)}70%{box-shadow:0 0 0 7px rgba(255,77,77,0)}}
+@keyframes prBarDrain{from{width:100%}to{width:0%}}
+.pr-upsell{position:fixed;inset:0;z-index:9999;display:none;align-items:center;justify-content:center;padding:16px;background:rgba(3,9,18,.78);backdrop-filter:blur(7px);-webkit-backdrop-filter:blur(7px);opacity:0;transition:opacity .28s ease}
 .pr-upsell.show{display:flex;opacity:1}
-.pr-upsell-card{position:relative;width:100%;max-width:480px;background:linear-gradient(160deg,#0c2138 0%,#0a1a2c 100%);color:#fff;border:1px solid rgba(194,245,60,.35);border-radius:20px;box-shadow:0 30px 60px -20px rgba(0,0,0,.6),0 0 0 4px rgba(194,245,60,.08);padding:26px 22px 24px;transform:scale(.92) translateY(12px);transition:transform .3s cubic-bezier(.2,.9,.3,1.2);max-height:92vh;overflow-y:auto;font-family:'Inter',system-ui,Arial,sans-serif;text-align:center}
-.pr-upsell.show .pr-upsell-card{transform:scale(1) translateY(0)}
-.pr-upsell-close{position:absolute;top:10px;right:12px;width:32px;height:32px;border-radius:50%;background:rgba(255,255,255,.08);color:#fff;font-size:20px;line-height:1;display:flex;align-items:center;justify-content:center;transition:background .18s}
-.pr-upsell-close:hover{background:rgba(255,255,255,.18)}
-.pr-upsell-tag{display:inline-block;background:var(--red);color:#fff;font-family:'Montserrat',sans-serif;font-weight:800;font-size:.7rem;letter-spacing:.6px;text-transform:uppercase;padding:5px 11px;border-radius:999px;margin-bottom:10px;animation:prBadgePulse 2s ease-in-out infinite}
-.pr-upsell-title{font-family:'Montserrat',sans-serif;font-weight:800;font-size:clamp(1.2rem,4.5vw,1.55rem);line-height:1.15;text-transform:uppercase;letter-spacing:-.3px;margin-bottom:8px}
-.pr-upsell-title span{color:var(--lime)}
-.pr-upsell-sub{font-size:.92rem;color:var(--muted-d);margin-bottom:14px}
-.pr-upsell-prices{display:flex;align-items:baseline;justify-content:center;gap:14px;background:rgba(194,245,60,.06);border:1px dashed rgba(194,245,60,.3);border-radius:14px;padding:14px 12px;margin-bottom:14px;flex-wrap:wrap}
-.pr-upsell-prices .old{font-family:'Montserrat',sans-serif;font-weight:700;font-size:1.1rem;text-decoration:line-through;color:var(--muted-d)}
-.pr-upsell-prices .new{font-family:'Montserrat',sans-serif;font-weight:900;font-size:2rem;color:var(--lime);line-height:1}
-.pr-upsell-prices .save{width:100%;text-align:center;font-size:.82rem;color:#fff;margin-top:4px}
-.pr-upsell-prices .save b{color:var(--lime);font-weight:800}
-.pr-upsell-timer{display:flex;gap:6px;justify-content:center;margin-bottom:14px}
-.pr-upsell-timer .cd{background:#0a1a2c;border:1px solid rgba(255,255,255,.12);border-radius:10px;padding:8px 12px;min-width:56px;text-align:center}
-.pr-upsell-timer .cd b{font-family:'Montserrat',sans-serif;font-weight:900;font-size:1.4rem;color:var(--lime);display:block;line-height:1}
-.pr-upsell-timer .cd span{font-size:.65rem;text-transform:uppercase;letter-spacing:.5px;color:var(--muted-d)}
-.pr-upsell-why{background:rgba(255,255,255,.04);border-radius:12px;padding:12px 14px;margin-bottom:16px}
-.pr-upsell-why h4{font-family:'Montserrat',sans-serif;font-weight:800;font-size:.82rem;text-transform:uppercase;letter-spacing:.5px;color:var(--lime);margin-bottom:8px}
-.pr-upsell-why ul{list-style:none;padding:0;margin:0;display:grid;gap:6px}
-.pr-upsell-why li{display:flex;gap:8px;font-size:.88rem;color:#fff;line-height:1.4}
-.pr-upsell-why li::before{content:"✓";color:var(--lime);font-weight:900;flex-shrink:0}
-.pr-upsell .btn-full{display:block;width:fit-content;min-width:220px;max-width:100%;padding:10px 16px;font-size:.8rem;margin:0 auto 8px}
-.pr-upsell-decline{display:block;width:fit-content;max-width:100%;text-align:center;background:none;color:var(--muted-d);font-size:.78rem;padding:8px 16px;margin:0 auto;text-decoration:underline;text-underline-offset:2px}
+.pr-upsell-card{position:relative;width:100%;max-width:470px;color:#fff;border-radius:24px;padding:24px 22px 22px;max-height:92vh;overflow-y:auto;font-family:'Inter',system-ui,Arial,sans-serif;text-align:center;background:linear-gradient(165deg,#0e243b 0%,#0a1a2c 55%,#08131f 100%);animation:prUpsellIn .45s cubic-bezier(.2,.9,.3,1.2) both,prUpsellGlow 3.4s ease-in-out infinite}
+.pr-upsell-card::before{content:"";position:absolute;inset:0;border-radius:24px;padding:1px;background:linear-gradient(150deg,rgba(194,245,60,.65),rgba(194,245,60,.05) 45%,rgba(255,77,77,.35));-webkit-mask:linear-gradient(#000 0 0) content-box,linear-gradient(#000 0 0);-webkit-mask-composite:xor;mask-composite:exclude;pointer-events:none}
+.pr-upsell-shine{position:absolute;top:0;left:0;height:100%;width:42%;background:linear-gradient(90deg,transparent,rgba(255,255,255,.12),transparent);animation:prUpsellShine 4.2s ease-in-out infinite;animation-delay:1.2s;pointer-events:none}
+.pr-upsell-close{position:absolute;top:12px;right:12px;width:34px;height:34px;border-radius:50%;background:rgba(255,255,255,.08);color:#fff;font-size:22px;line-height:1;display:flex;align-items:center;justify-content:center;transition:transform .18s,background .18s;z-index:3;border:1px solid rgba(255,255,255,.1)}
+.pr-upsell-close:hover{background:rgba(255,77,77,.25);transform:rotate(90deg) scale(1.08)}
+.pr-upsell-live{display:inline-flex;align-items:center;gap:7px;background:rgba(255,77,77,.12);border:1px solid rgba(255,77,77,.35);color:#fff;font-family:'Montserrat',sans-serif;font-weight:700;font-size:.66rem;letter-spacing:.5px;text-transform:uppercase;padding:5px 12px;border-radius:999px;margin-bottom:12px}
+.pr-upsell-live .dot{width:8px;height:8px;border-radius:50%;background:var(--red);animation:prLiveDot 1.6s ease-in-out infinite}
+.pr-upsell-live b{color:#fff;font-weight:900}
+.pr-upsell-title{font-family:'Montserrat',sans-serif;font-weight:900;font-size:clamp(1.2rem,4.6vw,1.55rem);line-height:1.12;text-transform:uppercase;letter-spacing:-.4px;margin-bottom:8px}
+.pr-upsell-title span{color:var(--lime);position:relative;white-space:nowrap}
+.pr-upsell-sub{font-size:.9rem;color:var(--muted-d);margin-bottom:14px;line-height:1.45}
+.pr-upsell-sub b{color:#fff}
+.pr-upsell-prices{position:relative;display:flex;align-items:center;justify-content:center;gap:12px;background:radial-gradient(120% 120% at 50% 0%,rgba(194,245,60,.12),rgba(194,245,60,.03) 60%,transparent);border:1px solid rgba(194,245,60,.28);border-radius:16px;padding:14px 12px;margin-bottom:12px;flex-wrap:wrap;overflow:hidden}
+.pr-upsell-prices .old{font-family:'Montserrat',sans-serif;font-weight:700;font-size:1.05rem;text-decoration:line-through;text-decoration-color:var(--red);text-decoration-thickness:2px;color:var(--muted-d)}
+.pr-upsell-prices .arr{color:var(--lime);font-size:1.1rem;font-weight:900}
+.pr-upsell-prices .new{font-family:'Montserrat',sans-serif;font-weight:900;font-size:2.1rem;color:var(--lime);line-height:1;animation:prDropBounce .6s cubic-bezier(.2,.9,.3,1.2) both;text-shadow:0 0 26px rgba(194,245,60,.45)}
+.pr-upsell-prices .save{width:100%;text-align:center;font-size:.78rem;color:#fff;margin-top:6px;letter-spacing:.3px}
+.pr-upsell-prices .save b{color:var(--lime);font-weight:900}
+.pr-upsell-timer-wrap{display:flex;flex-direction:column;align-items:center;gap:8px;margin-bottom:14px}
+.pr-upsell-timer{display:flex;gap:8px;justify-content:center}
+.pr-upsell-timer .cd{position:relative;background:rgba(255,255,255,.05);border:1px solid rgba(194,245,60,.28);border-radius:12px;padding:7px 12px;min-width:62px;text-align:center;overflow:hidden}
+.pr-upsell-timer .cd::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(194,245,60,.08),transparent);pointer-events:none}
+.pr-upsell-timer .cd b{font-family:'Montserrat',sans-serif;font-weight:900;font-size:1.55rem;color:var(--lime);display:block;line-height:1;text-shadow:0 0 18px rgba(194,245,60,.4)}
+.pr-upsell-timer .cd span{font-size:.62rem;text-transform:uppercase;letter-spacing:.6px;color:var(--muted-d)}
+.pr-upsell-timer-wrap .lab{font-size:.68rem;text-transform:uppercase;letter-spacing:.8px;color:var(--red);font-family:'Montserrat',sans-serif;font-weight:800}
+.pr-upsell-bar{height:5px;border-radius:999px;background:rgba(255,255,255,.08);overflow:hidden;margin-top:2px;width:100%;max-width:220px}
+.pr-upsell-bar i{display:block;height:100%;border-radius:999px;background:linear-gradient(90deg,var(--lime),var(--lime-deep));box-shadow:0 0 14px rgba(194,245,60,.6);transition:width 1s linear}
+.pr-upsell-why{background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.06);border-radius:14px;padding:13px 14px;margin-bottom:16px}
+.pr-upsell-why h4{font-family:'Montserrat',sans-serif;font-weight:800;font-size:.78rem;text-transform:uppercase;letter-spacing:.6px;color:var(--lime);margin-bottom:10px;display:flex;align-items:center;gap:7px;justify-content:center}
+.pr-upsell-why h4::before{content:"★";color:var(--lime)}
+.pr-upsell-why ul{list-style:none;padding:0;margin:0;display:grid;gap:8px}
+.pr-upsell-why li{display:flex;gap:9px;align-items:flex-start;font-size:.86rem;color:#fff;line-height:1.4;transition:transform .18s ease,color .18s ease}
+.pr-upsell-why li:hover{transform:translateX(3px);color:#fff}
+.pr-upsell-why li::before{content:"✓";display:grid;place-items:center;width:18px;height:18px;flex-shrink:0;border-radius:50%;background:rgba(194,245,60,.16);color:var(--lime);font-weight:900;font-size:.66rem;margin-top:1px}
+.pr-upsell-why li b{color:var(--lime);font-weight:800}
+.pr-upsell .btn-full{display:inline-flex;align-items:center;justify-content:center;gap:8px;width:fit-content;min-width:240px;max-width:100%;padding:13px 22px;font-size:.82rem;margin:0 auto 9px;animation:prBtnPulse 2.2s ease-in-out infinite}
+.pr-upsell .btn-full:hover{filter:brightness(1.06)}
+.pr-upsell-decline{display:block;width:fit-content;max-width:100%;text-align:center;background:none;color:var(--muted-d);font-size:.76rem;padding:8px 16px;margin:0 auto;transition:color .18s}
 .pr-upsell-decline:hover{color:#fff}
 @keyframes prBadgePulse{0%,100%{transform:scale(1)}50%{transform:scale(1.06)}}
 `;
@@ -615,20 +635,26 @@ export const pageHtml = String.raw`<div class="pr">
 
 <div class="pr-upsell" id="prUpsell" role="dialog" aria-modal="true" aria-labelledby="prUpsellTitle">
   <div class="pr-upsell-card">
+    <div class="pr-upsell-shine"></div>
     <button class="pr-upsell-close" id="prUpsellClose" aria-label="Cerrar">×</button>
-    <span class="pr-upsell-tag">🔥 Oferta exclusiva · Solo ahora</span>
+    <span class="pr-upsell-live"><span class="dot"></span> <b id="prUpsellView">8</b> personas viendo esta oferta</span>
     <h3 class="pr-upsell-title" id="prUpsellTitle">¡Espera! Lleva el <span>Acceso Completo</span> con descuento</h3>
     <p class="pr-upsell-sub">Por muy poco más te llevas los <b>6 Bonos Exclusivos</b> y el acceso vitalicio.</p>
 
     <div class="pr-upsell-prices">
       <span class="old">$9,90</span>
+      <span class="arr">→</span>
       <span class="new">$7,90</span>
-      <span class="save">Ahorras <b>$2,00 USD</b> extra en esta oferta única</span>
+      <span class="save">Ahorras <b>$2,00 USD</b> extra · oferta única</span>
     </div>
 
-    <div class="pr-upsell-timer" aria-live="polite">
-      <div class="cd"><b id="prUpsellM">10</b><span>Min</span></div>
-      <div class="cd"><b id="prUpsellS">00</b><span>Seg</span></div>
+    <div class="pr-upsell-timer-wrap">
+      <div class="pr-upsell-timer" aria-live="polite">
+        <div class="cd"><b id="prUpsellM">10</b><span>Min</span></div>
+        <div class="cd"><b id="prUpsellS">00</b><span>Seg</span></div>
+      </div>
+      <span class="lab">⏳ La oferta expira en</span>
+      <div class="pr-upsell-bar"><i id="prUpsellBar" style="width:100%"></i></div>
     </div>
 
     <div class="pr-upsell-why">
@@ -792,9 +818,13 @@ export function initPage(root: HTMLElement): () => void {
   const upsellDecline = root.querySelector<HTMLAnchorElement>("#prUpsellDecline");
   const upsellMin = root.querySelector<HTMLElement>("#prUpsellM");
   const upsellSec = root.querySelector<HTMLElement>("#prUpsellS");
+  const upsellBar = root.querySelector<HTMLElement>("#prUpsellBar");
+  const upsellView = root.querySelector<HTMLElement>("#prUpsellView");
   const basicBtn = root.querySelector<HTMLButtonElement>("#basicBtn");
   let upsellTimer: number | null = null;
+  let upsellViewTimer: number | null = null;
   let upsellEnd = 0;
+  let upsellTotal = 10 * 60 * 1000;
   let upsellShown = false;
 
   const stopUpsellTimer = () => {
@@ -809,7 +839,25 @@ export function initPage(root: HTMLElement): () => void {
     const ss = Math.floor((diff % 60000) / 1000);
     if (upsellMin) upsellMin.textContent = mm < 10 ? "0" + mm : "" + mm;
     if (upsellSec) upsellSec.textContent = ss < 10 ? "0" + ss : "" + ss;
+    if (upsellBar) upsellBar.style.width = `${(diff / upsellTotal) * 100}%`;
     if (diff <= 0) stopUpsellTimer();
+  };
+  const stopUpsellView = () => {
+    if (upsellViewTimer !== null) {
+      clearInterval(upsellViewTimer);
+      upsellViewTimer = null;
+    }
+  };
+  const startUpsellView = () => {
+    if (!upsellView) return;
+    let v = 8;
+    upsellView.textContent = String(v);
+    stopUpsellView();
+    upsellViewTimer = window.setInterval(() => {
+      v = Math.max(4, Math.min(16, v + (Math.floor(Math.random() * 3) - 1)));
+      upsellView.textContent = String(v);
+    }, 2200);
+    timers.push(upsellViewTimer);
   };
   const openUpsell = () => {
     if (!upsell) return;
@@ -819,6 +867,7 @@ export function initPage(root: HTMLElement): () => void {
       upsellShown = true;
     }
     renderUpsell();
+    startUpsellView();
     stopUpsellTimer();
     upsellTimer = window.setInterval(renderUpsell, 1000);
     timers.push(upsellTimer);
@@ -827,6 +876,7 @@ export function initPage(root: HTMLElement): () => void {
   const closeUpsell = () => {
     if (!upsell) return;
     upsell.classList.remove("show");
+    stopUpsellView();
     document.body.style.overflow = "";
   };
 
