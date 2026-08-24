@@ -38,7 +38,7 @@ body{background:var(--navy);overflow-x:hidden}
 .pr .btn:active{animation-play-state:paused;transform:translateY(0) scale(.99)}
 @media (prefers-reduced-motion:reduce){.pr .btn{animation:none}}
 .pr .btn .arr{font-weight:900}
-.pr .eyebrow{display:inline-flex;align-items:center;gap:8px;font-family:'Montserrat',sans-serif;font-weight:800;font-size:.74rem;letter-spacing:.6px;text-transform:uppercase;padding:8px 16px;border-radius:999px}
+.pr .eyebrow{display:inline-flex;align-items:center;gap:8px;font-family:'Montserrat',sans-serif;font-weight:800;font-size:.66rem;letter-spacing:.6px;text-transform:uppercase;padding:6px 13px;border-radius:999px}
 .pr .reveal{opacity:0;transform:translateY(26px);transition:opacity .6s ease,transform .6s ease}
 .pr .reveal.in{opacity:1;transform:none}
 
