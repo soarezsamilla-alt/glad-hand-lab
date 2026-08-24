@@ -876,6 +876,7 @@ export function initPage(root: HTMLElement): () => void {
   const closeUpsell = () => {
     if (!upsell) return;
     upsell.classList.remove("show");
+    stopUpsellView();
     document.body.style.overflow = "";
   };
 
