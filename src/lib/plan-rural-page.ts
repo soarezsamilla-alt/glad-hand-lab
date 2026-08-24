@@ -33,7 +33,7 @@ body{background:var(--navy);overflow-x:hidden}
 .pr .lime-text{color:var(--lime)}
 .pr .lime-ul{color:#fff;border-bottom:4px solid var(--lime);padding-bottom:3px;display:inline-block;line-height:1}
 @keyframes prBtnPulse{0%,100%{transform:scale(1);box-shadow:0 14px 30px -10px rgba(169,230,0,.55)}50%{transform:scale(1.03);box-shadow:0 18px 36px -10px rgba(169,230,0,.75)}}
-.pr .btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;font-family:'Montserrat',sans-serif;font-weight:800;text-transform:uppercase;letter-spacing:.4px;font-size:clamp(.92rem,2vw,1.05rem);background:var(--lime);color:#0a1a2c;padding:19px 40px;border-radius:999px;box-shadow:0 14px 30px -10px rgba(169,230,0,.55);transition:transform .18s ease,box-shadow .18s ease,filter .18s ease;text-align:center;animation:prBtnPulse 2.4s ease-in-out infinite;will-change:transform}
+.pr .btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;font-family:'Montserrat',sans-serif;font-weight:800;text-transform:uppercase;letter-spacing:.4px;font-size:clamp(.78rem,1.7vw,.9rem);background:var(--lime);color:#0a1a2c;padding:14px 28px;border-radius:999px;box-shadow:0 14px 30px -10px rgba(169,230,0,.55);transition:transform .18s ease,box-shadow .18s ease,filter .18s ease;text-align:center;animation:prBtnPulse 2.4s ease-in-out infinite;will-change:transform}
 .pr .btn:hover{animation-play-state:paused;transform:translateY(-2px) scale(1.03);filter:brightness(1.04);box-shadow:0 20px 38px -12px rgba(169,230,0,.7)}
 .pr .btn:active{animation-play-state:paused;transform:translateY(0) scale(.99)}
 @media (prefers-reduced-motion:reduce){.pr .btn{animation:none}}
