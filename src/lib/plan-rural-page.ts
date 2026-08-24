@@ -398,25 +398,6 @@ export const pageHtml = String.raw`<div class="pr">
 </section>
 
 <section class="sec sec--navy">
-  <div class="wrap reveal" style="text-align:center">
-    <span class="eyebrow" style="background:#0e2a1a;color:var(--lime)">
-      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="4"/></svg> Resultado Inmediato
-    </span>
-    <h2 class="sec-title" style="margin-top:16px">Vas a <span class="lime-text">ver resultados al instante</span></h2>
-    <p class="sec-sub">Imagina mirar tu terreno y <b style="color:#fff">saber exactamente qué hacer</b> en cada parte.</p>
-    <div class="split" style="text-align:left">
-      <div class="split-img"><img src="https://www.image2url.com/r2/default/images/1782948649831-c8d0ed2e-6149-4bb8-8cf2-a8027feb68f5.jpeg" alt="Productor viendo resultados inmediatos con Plan Rural" loading="lazy" width="1024" height="768"></div>
-      <ul class="check-list">
-        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6"><path d="M20 6 9 17l-5-5"/></svg> Planificas todo en pocos días</li>
-        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6"><path d="M20 6 9 17l-5-5"/></svg> Organizas tu propiedad con claridad</li>
-        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6"><path d="M20 6 9 17l-5-5"/></svg> Creas nuevas fuentes de ingresos</li>
-        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6"><path d="M20 6 9 17l-5-5"/></svg> Dejas de depender de prueba y error</li>
-      </ul>
-    </div>
-  </div>
-</section>
-
-<section class="sec sec--navy">
   <div class="reveal">
     <div class="kit-flag">
       <span class="eyebrow" style="background:var(--lime);color:#1a1a1a">
