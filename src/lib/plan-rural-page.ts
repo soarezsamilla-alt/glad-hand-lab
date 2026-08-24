@@ -54,7 +54,7 @@ body{background:var(--navy);overflow-x:hidden}
 .pr .hero-text b{color:#fff}
 .pr .hero-mock{max-width:520px;margin:32px auto 0;animation:prBonusPulse 3s ease-in-out infinite;will-change:transform}
 @media (prefers-reduced-motion: reduce){.pr .hero-mock{animation:none}}
-.pr .notify-pill{display:inline-flex;align-items:center;gap:9px;margin:26px auto 0;background:transparent;border:1px solid var(--navy-border);padding:13px 22px;border-radius:999px;color:#dfe7ef;font-size:.92rem;font-weight:500}
+.pr .notify-pill{display:inline-flex;align-items:center;gap:9px;margin:26px auto 0;background:transparent;border:1px solid var(--navy-border);padding:10px 18px;border-radius:999px;color:#dfe7ef;font-size:.82rem;font-weight:500}
 .pr .hero .btn{margin-top:26px}
 .pr .trust-line{margin-top:16px;color:var(--muted-d);font-size:.8rem;letter-spacing:.5px;text-transform:uppercase;font-weight:600}
 
