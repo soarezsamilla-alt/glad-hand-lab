@@ -169,7 +169,7 @@ body{background:var(--navy);overflow-x:hidden}
 .pr .price-list{list-style:none;text-align:left;display:flex;flex-direction:column;gap:8px;margin:6px 0 14px}
 .pr .price-list li{display:flex;gap:10px;align-items:flex-start;font-size:.9rem;font-weight:600;color:#34414f}
 .pr .price-list li svg{width:17px;height:17px;flex:none;margin-top:2px;color:var(--green)}
-.pr .price-card .btn{width:100%}
+.pr .price-card .btn{width:100%;padding:11px 18px;font-size:clamp(.72rem,1.5vw,.82rem)}
 .pr .price-warn{color:var(--red);font-family:'Montserrat',sans-serif;font-weight:800;font-size:.72rem;text-transform:uppercase;margin-top:14px;line-height:1.3}
 .pr .price-safe{font-size:.74rem;color:#8b97a3;margin-top:6px}
 
