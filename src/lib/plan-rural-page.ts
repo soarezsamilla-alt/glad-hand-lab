@@ -152,7 +152,7 @@ body{background:var(--navy);overflow-x:hidden}
 .pr .cd-box b{font-family:'Montserrat',sans-serif;font-weight:900;font-size:1.5rem;display:block;line-height:1;color:var(--lime)}
 .pr .cd-box span{font-size:.6rem;letter-spacing:1px;text-transform:uppercase;color:#aeb9c6}
 .pr .price-single{max-width:460px;margin:28px auto 0}
-.pr .price-card{border:2px solid var(--lime);border-radius:22px;padding:34px 28px;text-align:center;color:var(--ink);position:relative;background:linear-gradient(180deg,#f4ffe2,#fff 30%);box-shadow:0 30px 60px -30px rgba(120,180,20,.5)}
+.pr .price-card{border:2px solid var(--lime);border-radius:22px;padding:22px 24px;text-align:center;color:var(--ink);position:relative;background:linear-gradient(180deg,#f4ffe2,#fff 30%);box-shadow:0 30px 60px -30px rgba(120,180,20,.5)}
 .pr .price-card .btn{display:inline-flex;margin-left:auto;margin-right:auto}
 .pr .best-tag{position:absolute;top:-15px;left:50%;transform:translateX(-50%);background:var(--ink);color:var(--lime);font-family:'Montserrat',sans-serif;font-weight:800;font-size:.64rem;letter-spacing:.5px;padding:7px 18px;border-radius:999px;text-transform:uppercase;white-space:nowrap}
 .pr .price-card h3{font-family:'Montserrat',sans-serif;font-weight:800;text-transform:uppercase;font-size:1.35rem;color:var(--ink);margin-bottom:6px}
@@ -161,12 +161,12 @@ body{background:var(--navy);overflow-x:hidden}
 .pr .scarcity-badge{display:flex;width:max-content;max-width:100%;align-items:center;justify-content:center;gap:5px;background:#fff4e5;color:#b25d00;border:1px solid #ffd8a8;border-radius:999px;padding:5px 11px;font-family:'Montserrat',sans-serif;font-weight:800;font-size:.6rem;letter-spacing:.3px;text-transform:uppercase;margin:6px auto 20px;box-shadow:0 3px 10px -6px rgba(178,93,0,.35);animation:scarcitySoftPulse 2.5s ease-in-out infinite;will-change:box-shadow,opacity}
 .pr .scarcity-badge .scarcity-ico{font-size:.75rem;line-height:1;animation:scarcitySoftPulse 2.5s ease-in-out infinite}
 @media (prefers-reduced-motion: reduce){.pr .scarcity-badge,.pr .scarcity-badge .scarcity-ico{animation:none}}
-.pr .price-now{font-family:'Montserrat',sans-serif;font-weight:900;font-size:clamp(2.4rem,6vw,3rem);color:var(--ink);line-height:1;margin:2px 0 4px}
-.pr .price-tagline{font-size:.8rem;color:#6f8a1c;font-weight:800;text-transform:uppercase;letter-spacing:.3px;margin-bottom:16px}
-.pr .price-mock{width:min(100%,360px);margin:10px auto 18px;border-radius:10px;overflow:hidden;animation:prBonusPulse 3s ease-in-out infinite;will-change:transform}
+.pr .price-now{font-family:'Montserrat',sans-serif;font-weight:900;font-size:clamp(2.1rem,5.4vw,2.6rem);color:var(--ink);line-height:1;margin:2px 0 4px}
+.pr .price-tagline{font-size:.74rem;color:#6f8a1c;font-weight:800;text-transform:uppercase;letter-spacing:.3px;margin-bottom:12px}
+.pr .price-mock{width:min(100%,280px);margin:6px auto 12px;border-radius:10px;overflow:hidden;animation:prBonusPulse 3s ease-in-out infinite;will-change:transform}
 @media (prefers-reduced-motion: reduce){.pr .price-mock{animation:none}}
-.pr .price-mock img{width:100%}
-.pr .price-list{list-style:none;text-align:left;display:flex;flex-direction:column;gap:11px;margin:8px 0 20px}
+.pr .price-mock img{width:100%;max-height:300px;object-fit:contain}
+.pr .price-list{list-style:none;text-align:left;display:flex;flex-direction:column;gap:8px;margin:6px 0 14px}
 .pr .price-list li{display:flex;gap:10px;align-items:flex-start;font-size:.9rem;font-weight:600;color:#34414f}
 .pr .price-list li svg{width:17px;height:17px;flex:none;margin-top:2px;color:var(--green)}
 .pr .price-card .btn{width:100%}
