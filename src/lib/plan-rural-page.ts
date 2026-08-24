@@ -50,7 +50,7 @@ body{background:var(--navy);overflow-x:hidden}
 .pr .hero .badge-top{margin-bottom:18px;background:rgba(194,245,60,.12);color:var(--lime);border:1px solid rgba(194,245,60,.3)}
 .pr .hero h1{font-family:'Montserrat',sans-serif;font-weight:800;font-size:clamp(1.6rem,4.9vw,2.75rem);line-height:1.12;letter-spacing:-1px;max-width:920px;margin:0 auto}
 .pr .hero h1 .sub-line{display:block;color:var(--lime);margin-top:8px}
-.pr .hero-text{max-width:600px;margin:26px auto 0;color:var(--muted-d);font-size:clamp(1rem,2.6vw,1.15rem)}
+.pr .hero-text{max-width:600px;margin:26px auto 0;color:var(--muted-d);font-size:clamp(.88rem,2.3vw,1rem)}
 .pr .hero-text b{color:#fff}
 .pr .hero-mock{max-width:520px;margin:32px auto 0;animation:prBonusPulse 3s ease-in-out infinite;will-change:transform}
 @media (prefers-reduced-motion: reduce){.pr .hero-mock{animation:none}}
