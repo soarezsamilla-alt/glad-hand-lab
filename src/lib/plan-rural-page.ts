@@ -33,7 +33,7 @@ body{background:var(--navy);overflow-x:hidden}
 .pr .lime-text{color:var(--lime)}
 .pr .lime-ul{color:#fff;border-bottom:4px solid var(--lime);padding-bottom:3px;display:inline-block;line-height:1}
 @keyframes prBtnPulse{0%,100%{transform:scale(1);box-shadow:0 14px 30px -10px rgba(169,230,0,.55)}50%{transform:scale(1.03);box-shadow:0 18px 36px -10px rgba(169,230,0,.75)}}
-.pr .btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;font-family:'Montserrat',sans-serif;font-weight:800;text-transform:uppercase;letter-spacing:.4px;font-size:clamp(.92rem,2vw,1.05rem);background:var(--lime);color:#0a1a2c;padding:19px 40px;border-radius:999px;box-shadow:0 14px 30px -10px rgba(169,230,0,.55);transition:transform .18s ease,box-shadow .18s ease,filter .18s ease;text-align:center;animation:prBtnPulse 2.4s ease-in-out infinite;will-change:transform}
+.pr .btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;font-family:'Montserrat',sans-serif;font-weight:800;text-transform:uppercase;letter-spacing:.4px;font-size:clamp(.78rem,1.7vw,.9rem);background:var(--lime);color:#0a1a2c;padding:14px 28px;border-radius:999px;box-shadow:0 14px 30px -10px rgba(169,230,0,.55);transition:transform .18s ease,box-shadow .18s ease,filter .18s ease;text-align:center;animation:prBtnPulse 2.4s ease-in-out infinite;will-change:transform}
 .pr .btn:hover{animation-play-state:paused;transform:translateY(-2px) scale(1.03);filter:brightness(1.04);box-shadow:0 20px 38px -12px rgba(169,230,0,.7)}
 .pr .btn:active{animation-play-state:paused;transform:translateY(0) scale(.99)}
 @media (prefers-reduced-motion:reduce){.pr .btn{animation:none}}
@@ -208,7 +208,7 @@ body{background:var(--navy);overflow-x:hidden}
 .pr .instagram-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-bottom:22px}
 .pr .instagram-grid img{width:100%;aspect-ratio:1/1.25;object-fit:cover;border-radius:12px;background:#1a2c42;transition:transform .2s ease}
 .pr .instagram-grid img:hover{transform:scale(1.02)}
-.pr .instagram-btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;width:auto;min-width:220px;max-width:100%;margin:0 auto;font-family:'Montserrat',sans-serif;font-weight:800;text-transform:uppercase;letter-spacing:.4px;font-size:.78rem;background:linear-gradient(90deg,#f3d250,#c2f53c);color:#0a1a2c;padding:12px 22px;border-radius:999px;box-shadow:0 10px 24px -12px rgba(194,245,60,.4);transition:transform .18s ease,filter .18s ease;animation:instagramPulse 2.6s ease-in-out infinite}
+.pr .instagram-btn{display:inline-flex;align-items:center;justify-content:center;gap:7px;width:auto;min-width:190px;max-width:100%;margin:0 auto;font-family:'Montserrat',sans-serif;font-weight:800;text-transform:uppercase;letter-spacing:.4px;font-size:.7rem;background:linear-gradient(90deg,#f3d250,#c2f53c);color:#0a1a2c;padding:9px 18px;border-radius:999px;box-shadow:0 10px 24px -12px rgba(194,245,60,.4);transition:transform .18s ease,filter .18s ease;animation:instagramPulse 2.6s ease-in-out infinite}
 .pr .instagram-btn:hover{transform:translateY(-2px);filter:brightness(1.05);animation-play-state:paused}
 .pr .instagram-btn svg{width:16px;height:16px;flex:none}
 .pr .instagram-help{color:var(--muted-d);font-size:.78rem;margin-top:12px}
@@ -251,7 +251,7 @@ body{background:var(--navy);overflow-x:hidden}
 @media(max-width:560px){
   .pr .grid-4,.pr .steps-grid,.pr .bonus-grid{grid-template-columns:1fr;max-width:360px;margin-left:auto;margin-right:auto}
   .pr .guarantee{flex-direction:column;text-align:center}
-  .pr .btn{padding:17px 26px;width:100%;max-width:340px}
+  .pr .btn{padding:13px 20px;width:100%;max-width:320px}
   .pr .creator-stats{gap:18px;justify-content:center}
 }
 @media(prefers-reduced-motion:reduce){
@@ -285,7 +285,7 @@ body{background:var(--navy);overflow-x:hidden}
 .pr-upsell-why ul{list-style:none;padding:0;margin:0;display:grid;gap:6px}
 .pr-upsell-why li{display:flex;gap:8px;font-size:.88rem;color:#fff;line-height:1.4}
 .pr-upsell-why li::before{content:"✓";color:var(--lime);font-weight:900;flex-shrink:0}
-.pr-upsell .btn-full{display:block;width:fit-content;min-width:280px;max-width:100%;padding:16px 20px;font-size:.95rem;margin:0 auto 8px}
+.pr-upsell .btn-full{display:block;width:fit-content;min-width:260px;max-width:100%;padding:13px 18px;font-size:.88rem;margin:0 auto 8px}
 .pr-upsell-decline{display:block;width:fit-content;max-width:100%;text-align:center;background:none;color:var(--muted-d);font-size:.78rem;padding:8px 16px;margin:0 auto;text-decoration:underline;text-underline-offset:2px}
 .pr-upsell-decline:hover{color:#fff}
 @keyframes prBadgePulse{0%,100%{transform:scale(1)}50%{transform:scale(1.06)}}
