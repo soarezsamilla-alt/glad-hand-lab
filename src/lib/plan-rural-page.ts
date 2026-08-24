@@ -839,7 +839,25 @@ export function initPage(root: HTMLElement): () => void {
     const ss = Math.floor((diff % 60000) / 1000);
     if (upsellMin) upsellMin.textContent = mm < 10 ? "0" + mm : "" + mm;
     if (upsellSec) upsellSec.textContent = ss < 10 ? "0" + ss : "" + ss;
+    if (upsellBar) upsellBar.style.width = `${(diff / upsellTotal) * 100}%`;
     if (diff <= 0) stopUpsellTimer();
+  };
+  const stopUpsellView = () => {
+    if (upsellViewTimer !== null) {
+      clearInterval(upsellViewTimer);
+      upsellViewTimer = null;
+    }
+  };
+  const startUpsellView = () => {
+    if (!upsellView) return;
+    let v = 8;
+    upsellView.textContent = String(v);
+    stopUpsellView();
+    upsellViewTimer = window.setInterval(() => {
+      v = Math.max(4, Math.min(16, v + (Math.floor(Math.random() * 3) - 1)));
+      upsellView.textContent = String(v);
+    }, 2200);
+    timers.push(upsellViewTimer);
   };
   const openUpsell = () => {
     if (!upsell) return;
