@@ -285,7 +285,7 @@ body{background:var(--navy);overflow-x:hidden}
 .pr-upsell-why ul{list-style:none;padding:0;margin:0;display:grid;gap:6px}
 .pr-upsell-why li{display:flex;gap:8px;font-size:.88rem;color:#fff;line-height:1.4}
 .pr-upsell-why li::before{content:"✓";color:var(--lime);font-weight:900;flex-shrink:0}
-.pr-upsell .btn-full{display:block;width:fit-content;min-width:260px;max-width:100%;padding:13px 18px;font-size:.88rem;margin:0 auto 8px}
+.pr-upsell .btn-full{display:block;width:fit-content;min-width:220px;max-width:100%;padding:10px 16px;font-size:.8rem;margin:0 auto 8px}
 .pr-upsell-decline{display:block;width:fit-content;max-width:100%;text-align:center;background:none;color:var(--muted-d);font-size:.78rem;padding:8px 16px;margin:0 auto;text-decoration:underline;text-underline-offset:2px}
 .pr-upsell-decline:hover{color:#fff}
 @keyframes prBadgePulse{0%,100%{transform:scale(1)}50%{transform:scale(1.06)}}
