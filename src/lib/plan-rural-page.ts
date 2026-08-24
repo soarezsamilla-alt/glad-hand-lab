@@ -635,20 +635,26 @@ export const pageHtml = String.raw`<div class="pr">
 
 <div class="pr-upsell" id="prUpsell" role="dialog" aria-modal="true" aria-labelledby="prUpsellTitle">
   <div class="pr-upsell-card">
+    <div class="pr-upsell-shine"></div>
     <button class="pr-upsell-close" id="prUpsellClose" aria-label="Cerrar">×</button>
-    <span class="pr-upsell-tag">🔥 Oferta exclusiva · Solo ahora</span>
+    <span class="pr-upsell-live"><span class="dot"></span> <b id="prUpsellView">8</b> personas viendo esta oferta</span>
     <h3 class="pr-upsell-title" id="prUpsellTitle">¡Espera! Lleva el <span>Acceso Completo</span> con descuento</h3>
     <p class="pr-upsell-sub">Por muy poco más te llevas los <b>6 Bonos Exclusivos</b> y el acceso vitalicio.</p>
 
     <div class="pr-upsell-prices">
       <span class="old">$9,90</span>
+      <span class="arr">→</span>
       <span class="new">$7,90</span>
-      <span class="save">Ahorras <b>$2,00 USD</b> extra en esta oferta única</span>
+      <span class="save">Ahorras <b>$2,00 USD</b> extra · oferta única</span>
     </div>
 
-    <div class="pr-upsell-timer" aria-live="polite">
-      <div class="cd"><b id="prUpsellM">10</b><span>Min</span></div>
-      <div class="cd"><b id="prUpsellS">00</b><span>Seg</span></div>
+    <div class="pr-upsell-timer-wrap">
+      <div class="pr-upsell-timer" aria-live="polite">
+        <div class="cd"><b id="prUpsellM">10</b><span>Min</span></div>
+        <div class="cd"><b id="prUpsellS">00</b><span>Seg</span></div>
+      </div>
+      <span class="lab">⏳ La oferta expira en</span>
+      <div class="pr-upsell-bar"><i id="prUpsellBar" style="width:100%"></i></div>
     </div>
 
     <div class="pr-upsell-why">
