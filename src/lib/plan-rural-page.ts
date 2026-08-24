@@ -251,7 +251,7 @@ body{background:var(--navy);overflow-x:hidden}
 @media(max-width:560px){
   .pr .grid-4,.pr .steps-grid,.pr .bonus-grid{grid-template-columns:1fr;max-width:360px;margin-left:auto;margin-right:auto}
   .pr .guarantee{flex-direction:column;text-align:center}
-  .pr .btn{padding:17px 26px;width:100%;max-width:340px}
+  .pr .btn{padding:13px 20px;width:100%;max-width:320px}
   .pr .creator-stats{gap:18px;justify-content:center}
 }
 @media(prefers-reduced-motion:reduce){
