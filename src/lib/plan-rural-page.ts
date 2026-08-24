@@ -165,8 +165,8 @@ body{background:var(--navy);overflow-x:hidden}
 .pr .price-tagline{font-size:.74rem;color:#6f8a1c;font-weight:800;text-transform:uppercase;letter-spacing:.3px;margin-bottom:12px}
 .pr .price-mock{width:min(100%,280px);margin:6px auto 12px;border-radius:10px;overflow:hidden;animation:prBonusPulse 3s ease-in-out infinite;will-change:transform}
 @media (prefers-reduced-motion: reduce){.pr .price-mock{animation:none}}
-.pr .price-mock img{width:100%}
-.pr .price-list{list-style:none;text-align:left;display:flex;flex-direction:column;gap:11px;margin:8px 0 20px}
+.pr .price-mock img{width:100%;max-height:300px;object-fit:contain}
+.pr .price-list{list-style:none;text-align:left;display:flex;flex-direction:column;gap:8px;margin:6px 0 14px}
 .pr .price-list li{display:flex;gap:10px;align-items:flex-start;font-size:.9rem;font-weight:600;color:#34414f}
 .pr .price-list li svg{width:17px;height:17px;flex:none;margin-top:2px;color:var(--green)}
 .pr .price-card .btn{width:100%}
