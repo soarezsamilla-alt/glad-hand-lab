@@ -56,7 +56,7 @@ body{background:var(--navy);overflow-x:hidden}
 @media (prefers-reduced-motion: reduce){.pr .hero-mock{animation:none}}
 .pr .notify-pill{display:inline-flex;align-items:center;gap:9px;margin:26px auto 0;background:transparent;border:1px solid var(--navy-border);padding:10px 18px;border-radius:999px;color:#dfe7ef;font-size:.82rem;font-weight:500}
 .pr .hero .btn{margin-top:26px}
-.pr .trust-line{margin-top:16px;color:var(--muted-d);font-size:.8rem;letter-spacing:.5px;text-transform:uppercase;font-weight:600}
+.pr .trust-line{margin-top:16px;color:var(--muted-d);font-size:.72rem;letter-spacing:.5px;text-transform:uppercase;font-weight:600}
 
 .pr .grid-4{display:grid;grid-template-columns:repeat(2,1fr);gap:20px;margin-top:46px;max-width:900px;margin-left:auto;margin-right:auto}
 .pr .feat-card{background:var(--navy-card);border:1px solid var(--navy-border);border-radius:var(--radius);padding:30px 22px;text-align:center;transition:transform .2s ease,border-color .2s ease}
