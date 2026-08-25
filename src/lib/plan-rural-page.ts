@@ -84,8 +84,8 @@ body{background:var(--navy);overflow-x:hidden}
 .pr .carousel--sample .img-card img{width:auto;max-width:min(100%,420px);height:auto;max-height:55vh;aspect-ratio:auto;object-fit:contain;display:block;margin:0 auto;background:transparent}
 .pr .carousel--testi .img-card img{max-width:min(100%,560px);max-height:60vh}
 .pr .carousel--mini .carousel-track{overflow:hidden;gap:14px;scroll-snap-type:none;width:max-content;animation:prMarquee 55s linear infinite}
-.pr .carousel--mini .img-card{flex:0 0 240px;width:240px}
-.pr .carousel--mini .img-card img{width:100%;max-width:none;height:auto;max-height:38vh;object-fit:contain;border-radius:10px;border:1px solid #cfd6dd;box-shadow:0 6px 18px rgba(0,0,0,.18)}
+.pr .carousel--mini .img-card{flex:0 0 175px;width:175px}
+.pr .carousel--mini .img-card img{width:100%;max-width:none;height:auto;max-height:55vh;object-fit:contain;background:#fff;border-radius:10px;border:1px solid #e2e6ea;box-shadow:0 6px 18px rgba(0,0,0,.18)}
 @keyframes prMarquee{from{transform:translateX(0)}to{transform:translateX(-50%)}}
 
 .pr .ba{max-width:920px;margin:42px auto 0;position:relative;border-radius:18px;overflow:hidden;box-shadow:var(--shadow-card);aspect-ratio:16/9;background:#1a2c42}
