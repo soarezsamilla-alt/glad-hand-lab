@@ -477,7 +477,7 @@ export const pageHtml = String.raw`<div class="pr">
 <section class="sec sec--white" style="padding-top:0">
   <div class="wrap reveal">
     <h2 class="sec-title" style="font-size:1.7rem">📖 Más muestras del <span class="mark">material</span></h2>
-    <p class="sec-sub" style="font-size:.95rem">Otra mirada a los proyectos que vas a recibir.</p>
+    <p class="sec-sub" style="font-size:.95rem">Ten en tus manos la mayor biblioteca de planos de fincas y casas de campo de América Latina.</p>
     <div class="carousel carousel--sample carousel--mini" data-carousel data-autoplay="3500">
       <button class="cbtn cprev" data-prev aria-label="Anterior"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="m15 18-6-6 6-6"/></svg></button>
       <div class="carousel-track" data-track>
