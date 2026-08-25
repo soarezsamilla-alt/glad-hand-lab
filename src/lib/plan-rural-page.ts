@@ -509,7 +509,7 @@ export const pageHtml = String.raw`<div class="pr">
 
 <section class="sec sec--white">
   <div class="wrap reveal">
-    <h2 class="sec-title">Quienes compraron, <span class="mark">recomiendan</span></h2>
+    <h2 class="sec-title">Deja de buscar proyectos dispersos por ahí</h2>
     <p class="sec-sub">Resultados reales y comentarios de productores que ya usan Plan Rural.</p>
     <div class="carousel carousel--sample carousel--testi" data-carousel data-autoplay="4000">
       <button class="cbtn cprev" data-prev aria-label="Anterior"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="m15 18-6-6 6-6"/></svg></button>
