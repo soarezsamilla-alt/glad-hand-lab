@@ -277,9 +277,6 @@ body{background:var(--navy);overflow-x:hidden}
 .pr-upsell-shine{position:absolute;top:0;left:0;height:100%;width:42%;background:linear-gradient(90deg,transparent,rgba(255,255,255,.12),transparent);animation:prUpsellShine 4.2s ease-in-out infinite;animation-delay:1.2s;pointer-events:none}
 .pr-upsell-close{position:absolute;top:12px;right:12px;width:34px;height:34px;border-radius:50%;background:rgba(255,255,255,.08);color:#fff;font-size:22px;line-height:1;display:flex;align-items:center;justify-content:center;transition:transform .18s,background .18s;z-index:3;border:1px solid rgba(255,255,255,.1)}
 .pr-upsell-close:hover{background:rgba(255,77,77,.25);transform:rotate(90deg) scale(1.08)}
-.pr-upsell-live{display:inline-flex;align-items:center;gap:7px;background:rgba(255,77,77,.12);border:1px solid rgba(255,77,77,.35);color:#fff;font-family:'Montserrat',sans-serif;font-weight:700;font-size:.66rem;letter-spacing:.5px;text-transform:uppercase;padding:5px 12px;border-radius:999px;margin-bottom:12px}
-.pr-upsell-live .dot{width:8px;height:8px;border-radius:50%;background:var(--red);animation:prLiveDot 1.6s ease-in-out infinite}
-.pr-upsell-live b{color:#fff;font-weight:900}
 .pr-upsell-title{font-family:'Montserrat',sans-serif;font-weight:900;font-size:clamp(1.2rem,4.6vw,1.55rem);line-height:1.12;text-transform:uppercase;letter-spacing:-.4px;margin-bottom:8px}
 .pr-upsell-title span{color:var(--lime);position:relative;white-space:nowrap}
 .pr-upsell-sub{font-size:.9rem;color:var(--muted-d);margin-bottom:14px;line-height:1.45}
