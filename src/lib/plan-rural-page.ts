@@ -83,9 +83,11 @@ body{background:var(--navy);overflow-x:hidden}
 .pr .carousel--sample .img-card{flex:0 0 100%;width:100%;background:transparent;border:none;box-shadow:none;border-radius:0;display:flex;align-items:center;justify-content:center;scroll-snap-align:center}
 .pr .carousel--sample .img-card img{width:auto;max-width:min(100%,420px);height:auto;max-height:55vh;aspect-ratio:auto;object-fit:contain;display:block;margin:0 auto;background:transparent}
 .pr .carousel--testi .img-card img{max-width:min(100%,560px);max-height:60vh}
-.pr .carousel--mini .carousel-track{overflow:hidden;gap:14px}
-.pr .carousel--mini .img-card{flex:0 0 248px;width:248px}
-.pr .carousel--mini .img-card img{width:100%;max-width:none;height:auto;max-height:50vh;object-fit:cover;border-radius:10px;border:1px solid #cfd6dd;box-shadow:0 6px 18px rgba(0,0,0,.18)}
+.pr .carousel--mini .carousel-track{overflow:hidden;gap:14px;width:max-content;animation:prMarquee 50s linear infinite}
+.pr .carousel--mini:hover .carousel-track{animation-play-state:paused}
+.pr .carousel--mini .img-card{flex:0 0 300px;width:300px}
+.pr .carousel--mini .img-card img{width:100%;max-width:none;height:auto;max-height:42vh;object-fit:cover;border-radius:10px;border:1px solid #cfd6dd;box-shadow:0 6px 18px rgba(0,0,0,.18)}
+@keyframes prMarquee{from{transform:translateX(0)}to{transform:translateX(-50%)}}
 
 .pr .ba{max-width:920px;margin:42px auto 0;position:relative;border-radius:18px;overflow:hidden;box-shadow:var(--shadow-card);aspect-ratio:16/9;background:#1a2c42}
 .pr .ba img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:0}
