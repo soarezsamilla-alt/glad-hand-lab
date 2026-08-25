@@ -702,7 +702,6 @@ export const pageHtml = String.raw`<div class="pr">
   <div class="pr-upsell-card">
     <div class="pr-upsell-shine"></div>
     <button class="pr-upsell-close" id="prUpsellClose" aria-label="Cerrar">×</button>
-    <span class="pr-upsell-live"><span class="dot"></span> <b id="prUpsellView">8</b> personas viendo esta oferta</span>
     <h3 class="pr-upsell-title" id="prUpsellTitle">¡Espera! Lleva el <span>Acceso Completo</span> con descuento</h3>
     <p class="pr-upsell-sub">Por muy poco más te llevas los <b>6 Bonos Exclusivos</b> y el acceso vitalicio.</p>
 
