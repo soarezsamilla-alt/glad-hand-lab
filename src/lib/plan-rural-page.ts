@@ -477,7 +477,7 @@ export const pageHtml = String.raw`<div class="pr">
   </div>
 </section>
 
-<section class="sec sec--white" style="padding-top:0;margin-top:40px">
+<section class="sec sec--white" style="padding-top:64px">
   <div class="wrap reveal">
     <h2 class="sec-title" style="font-size:1.7rem">📖 Más muestras del <span class="mark">material</span></h2>
     <p class="sec-sub" style="font-size:.95rem">Ten en tus manos la mayor biblioteca de planos de fincas y casas de campo de América Latina.</p>
