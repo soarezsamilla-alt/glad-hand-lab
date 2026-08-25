@@ -474,6 +474,39 @@ export const pageHtml = String.raw`<div class="pr">
   </div>
 </section>
 
+<section class="sec sec--white" style="padding-top:0">
+  <div class="wrap reveal">
+    <h2 class="sec-title" style="font-size:1.7rem">📖 Más muestras del <span class="mark">material</span></h2>
+    <p class="sec-sub" style="font-size:.95rem">Otra mirada a los proyectos que vas a recibir.</p>
+    <div class="carousel carousel--sample carousel--mini" data-carousel data-autoplay="3500">
+      <button class="cbtn cprev" data-prev aria-label="Anterior"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="m15 18-6-6 6-6"/></svg></button>
+      <div class="carousel-track" data-track>
+        <div class="img-card"><img src="https://www.image2url.com/r2/default/images/1787614392047-4821c7dd-1488-4eb0-99fa-ce1fcd5f19b0.blob" alt="Muestra 01"></div>
+        <div class="img-card"><img src="https://www.image2url.com/r2/default/images/1787614453546-b340a624-9f85-4a5f-a44e-7e8eeb41cbbb.blob" alt="Muestra 02"></div>
+        <div class="img-card"><img src="https://www.image2url.com/r2/default/images/1787614596304-58685e65-b967-4a95-aa9f-b989c14a0155.blob" alt="Muestra 03"></div>
+        <div class="img-card"><img src="https://www.image2url.com/r2/default/images/1787614614406-0994f27f-435c-43d3-841f-a0b3b70212ed.blob" alt="Muestra 04"></div>
+        <div class="img-card"><img src="https://www.image2url.com/r2/default/images/1787614518673-28d1a696-353c-495f-8ed1-efef0764039c.blob" alt="Muestra 05"></div>
+        <div class="img-card"><img src="https://www.image2url.com/r2/default/images/1787614635821-64ed6a8e-6adf-4d06-b877-c4eeedaab4bb.blob" alt="Muestra 06"></div>
+        <div class="img-card"><img src="https://www.image2url.com/r2/default/images/1787615107620-c280fa9f-bba1-473d-8750-696bdda3a562.blob" alt="Muestra 07"></div>
+        <div class="img-card"><img src="https://www.image2url.com/r2/default/images/1787615125310-50789fd1-6705-45e4-a52a-f2272ab7ac07.blob" alt="Muestra 08"></div>
+        <div class="img-card"><img src="https://www.image2url.com/r2/default/images/1787615176515-d8abc6a9-0636-4fee-b972-43b29b617b91.blob" alt="Muestra 09"></div>
+        <div class="img-card"><img src="https://www.image2url.com/r2/default/images/1787615199130-1e2c72a1-c064-4d18-80aa-704ab95b0ede.blob" alt="Muestra 10"></div>
+        <div class="img-card"><img src="https://www.image2url.com/r2/default/images/1787615222898-f6ebf14c-30a3-4f85-9d0d-200539435e2e.blob" alt="Muestra 11"></div>
+        <div class="img-card"><img src="https://www.image2url.com/r2/default/images/1787615240727-408de878-d8f3-4cf8-96e9-6361d286e1d4.blob" alt="Muestra 12"></div>
+        <div class="img-card"><img src="https://www.image2url.com/r2/default/images/1787615461080-659fb206-9d90-4ad4-8eb5-c0d7b18e0e34.blob" alt="Muestra 13"></div>
+        <div class="img-card"><img src="https://www.image2url.com/r2/default/images/1787615528216-419c14f7-d9c4-4e47-8e67-46f89e8e99e4.blob" alt="Muestra 14"></div>
+        <div class="img-card"><img src="https://www.image2url.com/r2/default/images/1787615628345-50f9f7f4-011e-4d08-84e4-b40d76f41417.blob" alt="Muestra 15"></div>
+        <div class="img-card"><img src="https://www.image2url.com/r2/default/images/1787615653711-01c08634-4260-45f3-818e-3aa527ccd3c4.blob" alt="Muestra 16"></div>
+        <div class="img-card"><img src="https://www.image2url.com/r2/default/images/1787615756464-201a3c32-56b8-4c5b-9753-794e36da4d13.blob" alt="Muestra 17"></div>
+        <div class="img-card"><img src="https://www.image2url.com/r2/default/images/1787615768791-3f56e9c6-92ef-4464-9c3e-c7958687f2ed.blob" alt="Muestra 18"></div>
+        <div class="img-card"><img src="https://www.image2url.com/r2/default/images/1787615855258-5c95c02c-ea01-4dca-8b16-1e5f0f7c0d06.blob" alt="Muestra 19"></div>
+        <div class="img-card"><img src="https://www.image2url.com/r2/default/images/1787615883221-0b41caa4-b0b1-406d-bbf1-1586ce0366e7.blob" alt="Muestra 20"></div>
+      </div>
+      <button class="cbtn cnext" data-next aria-label="Siguiente"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="m9 18 6-6-6-6"/></svg></button>
+    </div>
+  </div>
+</section>
+
 <section class="sec sec--white">
   <div class="wrap reveal">
     <h2 class="sec-title">Quienes compraron, <span class="mark">recomiendan</span></h2>
