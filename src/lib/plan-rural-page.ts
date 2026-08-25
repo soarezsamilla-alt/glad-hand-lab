@@ -83,7 +83,7 @@ body{background:var(--navy);overflow-x:hidden}
 .pr .carousel--sample .img-card{flex:0 0 100%;width:100%;background:transparent;border:none;box-shadow:none;border-radius:0;display:flex;align-items:center;justify-content:center;scroll-snap-align:center}
 .pr .carousel--sample .img-card img{width:auto;max-width:min(100%,420px);height:auto;max-height:55vh;aspect-ratio:auto;object-fit:contain;display:block;margin:0 auto;background:transparent}
 .pr .carousel--testi .img-card img{max-width:min(100%,560px);max-height:60vh}
-.pr .carousel--mini .carousel-track{overflow:hidden;gap:14px;width:max-content;animation:prMarquee 50s linear infinite}
+.pr .carousel--mini .carousel-track{overflow:hidden;gap:14px;scroll-snap-type:none;width:max-content;animation:prMarquee 55s linear infinite}
 .pr .carousel--mini:hover .carousel-track{animation-play-state:paused}
 .pr .carousel--mini .img-card{flex:0 0 300px;width:300px}
 .pr .carousel--mini .img-card img{width:100%;max-width:none;height:auto;max-height:42vh;object-fit:cover;border-radius:10px;border:1px solid #cfd6dd;box-shadow:0 6px 18px rgba(0,0,0,.18)}
