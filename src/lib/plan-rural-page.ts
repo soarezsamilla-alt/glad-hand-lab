@@ -269,7 +269,6 @@ body{background:var(--navy);overflow-x:hidden}
 @keyframes prUpsellGlow{0%,100%{box-shadow:0 30px 60px -20px rgba(0,0,0,.65),0 0 0 1px rgba(194,245,60,.3),0 0 38px -6px rgba(194,245,60,.18)}50%{box-shadow:0 30px 60px -20px rgba(0,0,0,.65),0 0 0 1px rgba(194,245,60,.5),0 0 60px -4px rgba(194,245,60,.32)}}
 @keyframes prUpsellShine{0%{transform:translateX(-120%) skewX(-18deg)}100%{transform:translateX(220%) skewX(-18deg)}}
 @keyframes prDropBounce{0%{transform:scale(.6);opacity:0}60%{transform:scale(1.18);opacity:1}100%{transform:scale(1)}}
-@keyframes prLiveDot{0%,100%{box-shadow:0 0 0 0 rgba(255,77,77,.6)}70%{box-shadow:0 0 0 7px rgba(255,77,77,0)}}
 @keyframes prBarDrain{from{width:100%}to{width:0%}}
 .pr-upsell{position:fixed;inset:0;z-index:9999;display:none;align-items:center;justify-content:center;padding:16px;background:rgba(3,9,18,.78);backdrop-filter:blur(7px);-webkit-backdrop-filter:blur(7px);opacity:0;transition:opacity .28s ease}
 .pr-upsell.show{display:flex;opacity:1}
@@ -278,9 +277,6 @@ body{background:var(--navy);overflow-x:hidden}
 .pr-upsell-shine{position:absolute;top:0;left:0;height:100%;width:42%;background:linear-gradient(90deg,transparent,rgba(255,255,255,.12),transparent);animation:prUpsellShine 4.2s ease-in-out infinite;animation-delay:1.2s;pointer-events:none}
 .pr-upsell-close{position:absolute;top:12px;right:12px;width:34px;height:34px;border-radius:50%;background:rgba(255,255,255,.08);color:#fff;font-size:22px;line-height:1;display:flex;align-items:center;justify-content:center;transition:transform .18s,background .18s;z-index:3;border:1px solid rgba(255,255,255,.1)}
 .pr-upsell-close:hover{background:rgba(255,77,77,.25);transform:rotate(90deg) scale(1.08)}
-.pr-upsell-live{display:inline-flex;align-items:center;gap:7px;background:rgba(255,77,77,.12);border:1px solid rgba(255,77,77,.35);color:#fff;font-family:'Montserrat',sans-serif;font-weight:700;font-size:.66rem;letter-spacing:.5px;text-transform:uppercase;padding:5px 12px;border-radius:999px;margin-bottom:12px}
-.pr-upsell-live .dot{width:8px;height:8px;border-radius:50%;background:var(--red);animation:prLiveDot 1.6s ease-in-out infinite}
-.pr-upsell-live b{color:#fff;font-weight:900}
 .pr-upsell-title{font-family:'Montserrat',sans-serif;font-weight:900;font-size:clamp(1.2rem,4.6vw,1.55rem);line-height:1.12;text-transform:uppercase;letter-spacing:-.4px;margin-bottom:8px}
 .pr-upsell-title span{color:var(--lime);position:relative;white-space:nowrap}
 .pr-upsell-sub{font-size:.9rem;color:var(--muted-d);margin-bottom:14px;line-height:1.45}
@@ -702,7 +698,6 @@ export const pageHtml = String.raw`<div class="pr">
   <div class="pr-upsell-card">
     <div class="pr-upsell-shine"></div>
     <button class="pr-upsell-close" id="prUpsellClose" aria-label="Cerrar">×</button>
-    <span class="pr-upsell-live"><span class="dot"></span> <b id="prUpsellView">8</b> personas viendo esta oferta</span>
     <h3 class="pr-upsell-title" id="prUpsellTitle">¡Espera! Lleva el <span>Acceso Completo</span> con descuento</h3>
     <p class="pr-upsell-sub">Por muy poco más te llevas los <b>6 Bonos Exclusivos</b> y el acceso vitalicio.</p>
 
@@ -884,10 +879,8 @@ export function initPage(root: HTMLElement): () => void {
   const upsellMin = root.querySelector<HTMLElement>("#prUpsellM");
   const upsellSec = root.querySelector<HTMLElement>("#prUpsellS");
   const upsellBar = root.querySelector<HTMLElement>("#prUpsellBar");
-  const upsellView = root.querySelector<HTMLElement>("#prUpsellView");
   const basicBtn = root.querySelector<HTMLButtonElement>("#basicBtn");
   let upsellTimer: number | null = null;
-  let upsellViewTimer: number | null = null;
   let upsellEnd = 0;
   let upsellTotal = 10 * 60 * 1000;
   let upsellShown = false;
@@ -907,23 +900,6 @@ export function initPage(root: HTMLElement): () => void {
     if (upsellBar) upsellBar.style.width = `${(diff / upsellTotal) * 100}%`;
     if (diff <= 0) stopUpsellTimer();
   };
-  const stopUpsellView = () => {
-    if (upsellViewTimer !== null) {
-      clearInterval(upsellViewTimer);
-      upsellViewTimer = null;
-    }
-  };
-  const startUpsellView = () => {
-    if (!upsellView) return;
-    let v = 8;
-    upsellView.textContent = String(v);
-    stopUpsellView();
-    upsellViewTimer = window.setInterval(() => {
-      v = Math.max(4, Math.min(16, v + (Math.floor(Math.random() * 3) - 1)));
-      upsellView.textContent = String(v);
-    }, 2200);
-    timers.push(upsellViewTimer);
-  };
   const openUpsell = () => {
     if (!upsell) return;
     upsell.classList.add("show");
@@ -932,7 +908,6 @@ export function initPage(root: HTMLElement): () => void {
       upsellShown = true;
     }
     renderUpsell();
-    startUpsellView();
     stopUpsellTimer();
     upsellTimer = window.setInterval(renderUpsell, 1000);
     timers.push(upsellTimer);
@@ -941,7 +916,6 @@ export function initPage(root: HTMLElement): () => void {
   const closeUpsell = () => {
     if (!upsell) return;
     upsell.classList.remove("show");
-    stopUpsellView();
     document.body.style.overflow = "";
   };
 
