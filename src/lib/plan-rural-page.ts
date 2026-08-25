@@ -591,7 +591,7 @@ export const pageHtml = String.raw`<div class="pr">
         <p class="price-old">De $137 USD por</p>
         <p class="price-now">$9,90</p>
         <p class="price-tagline">Pago único · Acceso vitalicio + Bonos</p>
-        <div class="price-mock"><img src="https://www.image2url.com/r2/default/images/1787666930664-2c596f81-e9af-4f81-917b-de8a3b2316b4.png" alt="Acceso Completo"></div>
+        <div class="price-mock"><img src="https://www.image2url.com/r2/default/images/1787667570132-aa66b74b-5777-4beb-b0ba-9f9aa22ea638.png" alt="Acceso Completo"></div>
         <ul class="price-list">
           <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.8"><path d="M20 6 9 17l-5-5"/></svg> +120 proyectos completos</li>
           <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.8"><path d="M20 6 9 17l-5-5"/></svg> <b style="font-weight:700">Bono 1:</b> Construcciones Rurales</li>
