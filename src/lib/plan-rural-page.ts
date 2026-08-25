@@ -321,7 +321,7 @@ export const pageHtml = String.raw`<div class="pr">
 <header class="hero">
   <span class="eyebrow badge-top">Edición Premium 2026</span>
   <h1>
-    +120 Proyectos de Propiedades Rurales Productivas
+    +120 Proyectos de Fincas y Propiedades Rurales Productivas
     <span class="sub-line">que transforman tu tierra parada en una fuente de ingresos mensuales</span>
   </h1>
   <div class="hero-mock"><img src="https://www.image2url.com/r2/default/images/1787586665575-bf79986b-1865-4f4f-8a15-cba37e81b764.png" alt="Mockup del Pack Plan Rural"></div>
