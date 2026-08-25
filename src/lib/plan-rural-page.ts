@@ -904,23 +904,6 @@ export function initPage(root: HTMLElement): () => void {
     if (upsellBar) upsellBar.style.width = `${(diff / upsellTotal) * 100}%`;
     if (diff <= 0) stopUpsellTimer();
   };
-  const stopUpsellView = () => {
-    if (upsellViewTimer !== null) {
-      clearInterval(upsellViewTimer);
-      upsellViewTimer = null;
-    }
-  };
-  const startUpsellView = () => {
-    if (!upsellView) return;
-    let v = 8;
-    upsellView.textContent = String(v);
-    stopUpsellView();
-    upsellViewTimer = window.setInterval(() => {
-      v = Math.max(4, Math.min(16, v + (Math.floor(Math.random() * 3) - 1)));
-      upsellView.textContent = String(v);
-    }, 2200);
-    timers.push(upsellViewTimer);
-  };
   const openUpsell = () => {
     if (!upsell) return;
     upsell.classList.add("show");
