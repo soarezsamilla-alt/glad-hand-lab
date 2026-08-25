@@ -269,7 +269,6 @@ body{background:var(--navy);overflow-x:hidden}
 @keyframes prUpsellGlow{0%,100%{box-shadow:0 30px 60px -20px rgba(0,0,0,.65),0 0 0 1px rgba(194,245,60,.3),0 0 38px -6px rgba(194,245,60,.18)}50%{box-shadow:0 30px 60px -20px rgba(0,0,0,.65),0 0 0 1px rgba(194,245,60,.5),0 0 60px -4px rgba(194,245,60,.32)}}
 @keyframes prUpsellShine{0%{transform:translateX(-120%) skewX(-18deg)}100%{transform:translateX(220%) skewX(-18deg)}}
 @keyframes prDropBounce{0%{transform:scale(.6);opacity:0}60%{transform:scale(1.18);opacity:1}100%{transform:scale(1)}}
-@keyframes prLiveDot{0%,100%{box-shadow:0 0 0 0 rgba(255,77,77,.6)}70%{box-shadow:0 0 0 7px rgba(255,77,77,0)}}
 @keyframes prBarDrain{from{width:100%}to{width:0%}}
 .pr-upsell{position:fixed;inset:0;z-index:9999;display:none;align-items:center;justify-content:center;padding:16px;background:rgba(3,9,18,.78);backdrop-filter:blur(7px);-webkit-backdrop-filter:blur(7px);opacity:0;transition:opacity .28s ease}
 .pr-upsell.show{display:flex;opacity:1}
