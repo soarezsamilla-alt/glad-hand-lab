@@ -789,9 +789,14 @@ export function initPage(root: HTMLElement): () => void {
 
     const autoplayMs = Number(c.getAttribute("data-autoplay") || 0);
     if (autoplayMs > 0) {
+      // The testimonials carousel keeps auto-advancing even while hovered,
+      // so images visibly pass one after another without stopping.
+      const noPause = c.classList.contains("carousel--testi");
       let paused = false;
-      c.addEventListener("mouseenter", () => { paused = true; });
-      c.addEventListener("mouseleave", () => { paused = false; });
+      if (!noPause) {
+        c.addEventListener("mouseenter", () => { paused = true; });
+        c.addEventListener("mouseleave", () => { paused = false; });
+      }
       timers.push(window.setInterval(() => {
         if (paused) return;
         const s = step();
